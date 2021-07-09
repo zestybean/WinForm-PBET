@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBET-Mainline", "PBET-Mainline\PBET-Mainline.csproj", "{69EC1A25-3914-4E68-82CC-3190E3A782D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69EC1A25-3914-4E68-82CC-3190E3A782D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EC1A25-3914-4E68-82CC-3190E3A782D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EC1A25-3914-4E68-82CC-3190E3A782D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EC1A25-3914-4E68-82CC-3190E3A782D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2619B3B9-2F95-4894-97BC-15F99BB50709}
+	EndGlobalSection
+EndGlobal

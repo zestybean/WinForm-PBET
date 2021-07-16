@@ -4,9 +4,9 @@ C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\PBET-Mai
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\PBET-Mainline.exe
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\PBET-Mainline.pdb
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.AssemblyReference.cache
-C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.PBETMainline.resources
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.Properties.Resources.resources
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.GenerateResource.cache
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.CoreCompileInputs.cache
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.exe
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.pdb
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.mainForm.resources

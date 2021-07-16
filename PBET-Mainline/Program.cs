@@ -16,7 +16,7 @@ namespace PBET_Mainline
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PBETMainline());
+            Application.Run(new mainForm());
         }
     }
 }

@@ -15,6 +15,10 @@ namespace PBET_Mainline
 {
     public partial class mainForm : Form
     {
+        int mainGoal = 0;
+        int mainActual = 0;
+        int mainVariance = 0;
+
         public mainForm()
         {
             InitializeComponent();
@@ -22,7 +26,7 @@ namespace PBET_Mainline
 
         private void PBETMainline_Load(object sender, EventArgs e)
         {
-            
+            //ON LOAD
 
             
         }
@@ -44,9 +48,35 @@ namespace PBET_Mainline
             }
         }
 
+        private void calcTotalGoal()
+        {
+            mainGoal = 0;
+
+            mainGoal = Decimal.ToInt32(goalTf1.Value + goalTf2.Value);
+
+            totalGoalLbl.Text = mainGoal.ToString();
+        }
+
+        private void calcTotalActual()
+        {
+            mainActual = 0;
+
+            mainActual = Decimal.ToInt32(actTf1.Value + actTf2.Value);
+
+            totalActualLbl.Text = mainActual.ToString();
+
+            if(mainActual < mainGoal)
+            {
+                //totalActualLbl.ForeColor = Color.Red;
+                totalActualLbl.BackColor = Color.Red;
+            } else
+            {
+                totalActualLbl.BackColor = Color.Green;
+            }
+        }
+
         private void hrTf1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
             validateInput(sender, e);
         }
 
@@ -75,6 +105,9 @@ namespace PBET_Mainline
             }
         }
 
+
+
+
         private void subButton_Click(object sender, EventArgs e)
         {
             var user = System.Security.Principal.WindowsIdentity.GetCurrent();
@@ -86,6 +119,26 @@ namespace PBET_Mainline
             //SUBMIT TO EXCEL
             
             
+        }
+
+        private void goalTf1_ValueChanged(object sender, EventArgs e)
+        {   
+            calcTotalGoal();
+        }
+
+        private void goalTf2_ValueChanged(object sender, EventArgs e)
+        {
+            calcTotalGoal();
+        }
+
+        private void actTf1_ValueChanged(object sender, EventArgs e)
+        {
+            calcTotalActual();
+        }
+
+        private void actTf2_ValueChanged(object sender, EventArgs e)
+        {
+            calcTotalActual();
         }
     }
 }

@@ -90,18 +90,10 @@ namespace PBET_Mainline
             this.perfLbl = new System.Windows.Forms.Label();
             this.quaLbl = new System.Windows.Forms.Label();
             this.hrTf1 = new System.Windows.Forms.TextBox();
-            this.go1Tf = new System.Windows.Forms.TextBox();
             this.seq1Tf = new System.Windows.Forms.TextBox();
-            this.scrap1Tf = new System.Windows.Forms.TextBox();
-            this.down1Tf = new System.Windows.Forms.TextBox();
             this.com1Tf = new System.Windows.Forms.TextBox();
-            this.act1Tf = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
@@ -153,22 +145,6 @@ namespace PBET_Mainline
             this.hrLbl6 = new System.Windows.Forms.Label();
             this.hrLbl7 = new System.Windows.Forms.Label();
             this.hrLbl8 = new System.Windows.Forms.Label();
-            this.goLbl1 = new System.Windows.Forms.Label();
-            this.goLbl2 = new System.Windows.Forms.Label();
-            this.goLbl3 = new System.Windows.Forms.Label();
-            this.goLbl4 = new System.Windows.Forms.Label();
-            this.goLbl5 = new System.Windows.Forms.Label();
-            this.goLbl6 = new System.Windows.Forms.Label();
-            this.goLbl7 = new System.Windows.Forms.Label();
-            this.goLbl8 = new System.Windows.Forms.Label();
-            this.actLbl1 = new System.Windows.Forms.Label();
-            this.actLbl2 = new System.Windows.Forms.Label();
-            this.actLbl3 = new System.Windows.Forms.Label();
-            this.actLbl4 = new System.Windows.Forms.Label();
-            this.actLbl5 = new System.Windows.Forms.Label();
-            this.actLbl6 = new System.Windows.Forms.Label();
-            this.actLbl7 = new System.Windows.Forms.Label();
-            this.actLbl8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -215,8 +191,6 @@ namespace PBET_Mainline
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -231,8 +205,6 @@ namespace PBET_Mainline
             this.label54 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -247,8 +219,6 @@ namespace PBET_Mainline
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
             this.textBox73 = new System.Windows.Forms.TextBox();
             this.textBox75 = new System.Windows.Forms.TextBox();
@@ -263,8 +233,6 @@ namespace PBET_Mainline
             this.label81 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
             this.label86 = new System.Windows.Forms.Label();
             this.textBox81 = new System.Windows.Forms.TextBox();
             this.textBox83 = new System.Windows.Forms.TextBox();
@@ -423,6 +391,18 @@ namespace PBET_Mainline
             this.label160 = new System.Windows.Forms.Label();
             this.checkBox72 = new System.Windows.Forms.CheckBox();
             this.label161 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.label162 = new System.Windows.Forms.Label();
+            this.totalGoalLbl = new System.Windows.Forms.Label();
+            this.goalTf1 = new System.Windows.Forms.NumericUpDown();
+            this.actTf1 = new System.Windows.Forms.NumericUpDown();
+            this.actTf2 = new System.Windows.Forms.NumericUpDown();
+            this.goalTf2 = new System.Windows.Forms.NumericUpDown();
+            this.scrapTf1 = new System.Windows.Forms.NumericUpDown();
+            this.downTf1 = new System.Windows.Forms.NumericUpDown();
+            this.scrapTf2 = new System.Windows.Forms.NumericUpDown();
+            this.downTf2 = new System.Windows.Forms.NumericUpDown();
+            this.totalActualLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -448,6 +428,15 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.actTf2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goalTf2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scrapTf1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downTf1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scrapTf2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downTf2)).BeginInit();
             this.SuspendLayout();
             // 
             // pBETDBDataSet
@@ -724,7 +713,7 @@ namespace PBET_Mainline
             this.label9.BackColor = System.Drawing.SystemColors.Highlight;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(168, 148);
+            this.label9.Location = new System.Drawing.Point(142, 148);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 17);
             this.label9.TabIndex = 29;
@@ -736,7 +725,7 @@ namespace PBET_Mainline
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox11.Location = new System.Drawing.Point(134, 138);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox11.Size = new System.Drawing.Size(58, 39);
             this.pictureBox11.TabIndex = 28;
             this.pictureBox11.TabStop = false;
             // 
@@ -746,7 +735,7 @@ namespace PBET_Mainline
             this.label10.BackColor = System.Drawing.SystemColors.Highlight;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(392, 148);
+            this.label10.Location = new System.Drawing.Point(289, 148);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 17);
             this.label10.TabIndex = 31;
@@ -757,7 +746,7 @@ namespace PBET_Mainline
             this.pictureBox12.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Location = new System.Drawing.Point(372, 138);
+            this.pictureBox12.Location = new System.Drawing.Point(269, 138);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(113, 39);
             this.pictureBox12.TabIndex = 30;
@@ -769,7 +758,7 @@ namespace PBET_Mainline
             this.label11.BackColor = System.Drawing.SystemColors.Highlight;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(500, 148);
+            this.label11.Location = new System.Drawing.Point(396, 148);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(176, 17);
             this.label11.TabIndex = 33;
@@ -779,7 +768,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox13.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Location = new System.Drawing.Point(492, 138);
+            this.pictureBox13.Location = new System.Drawing.Point(388, 138);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(224, 39);
             this.pictureBox13.TabIndex = 32;
@@ -791,7 +780,7 @@ namespace PBET_Mainline
             this.label12.BackColor = System.Drawing.SystemColors.Highlight;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(724, 138);
+            this.label12.Location = new System.Drawing.Point(620, 138);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(50, 17);
             this.label12.TabIndex = 35;
@@ -801,7 +790,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox14.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Location = new System.Drawing.Point(723, 138);
+            this.pictureBox14.Location = new System.Drawing.Point(619, 138);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(51, 39);
             this.pictureBox14.TabIndex = 34;
@@ -813,7 +802,7 @@ namespace PBET_Mainline
             this.label13.BackColor = System.Drawing.SystemColors.Highlight;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(788, 138);
+            this.label13.Location = new System.Drawing.Point(684, 138);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(29, 17);
             this.label13.TabIndex = 37;
@@ -823,7 +812,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox15.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Location = new System.Drawing.Point(779, 138);
+            this.pictureBox15.Location = new System.Drawing.Point(675, 138);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(51, 39);
             this.pictureBox15.TabIndex = 36;
@@ -861,7 +850,7 @@ namespace PBET_Mainline
             this.label16.BackColor = System.Drawing.SystemColors.Highlight;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(275, 148);
+            this.label16.Location = new System.Drawing.Point(201, 148);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(53, 17);
             this.label16.TabIndex = 51;
@@ -871,9 +860,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox18.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox18.Location = new System.Drawing.Point(254, 138);
+            this.pictureBox18.Location = new System.Drawing.Point(198, 138);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox18.Size = new System.Drawing.Size(61, 39);
             this.pictureBox18.TabIndex = 50;
             this.pictureBox18.TabStop = false;
             // 
@@ -963,7 +952,7 @@ namespace PBET_Mainline
             this.label25.BackColor = System.Drawing.SystemColors.Highlight;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(43, 577);
+            this.label25.Location = new System.Drawing.Point(49, 624);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(40, 17);
             this.label25.TabIndex = 118;
@@ -973,9 +962,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox19.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox19.Location = new System.Drawing.Point(8, 567);
+            this.pictureBox19.Location = new System.Drawing.Point(8, 614);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox19.Size = new System.Drawing.Size(113, 32);
             this.pictureBox19.TabIndex = 117;
             this.pictureBox19.TabStop = false;
             // 
@@ -985,7 +974,7 @@ namespace PBET_Mainline
             this.label26.BackColor = System.Drawing.SystemColors.Highlight;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(141, 577);
+            this.label26.Location = new System.Drawing.Point(146, 624);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(86, 17);
             this.label26.TabIndex = 121;
@@ -995,9 +984,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox20.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox20.Location = new System.Drawing.Point(132, 567);
+            this.pictureBox20.Location = new System.Drawing.Point(132, 614);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox20.Size = new System.Drawing.Size(113, 32);
             this.pictureBox20.TabIndex = 120;
             this.pictureBox20.TabStop = false;
             // 
@@ -1007,7 +996,7 @@ namespace PBET_Mainline
             this.label27.BackColor = System.Drawing.SystemColors.Highlight;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(269, 577);
+            this.label27.Location = new System.Drawing.Point(275, 624);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(100, 17);
             this.label27.TabIndex = 124;
@@ -1017,9 +1006,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox21.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox21.Location = new System.Drawing.Point(252, 567);
+            this.pictureBox21.Location = new System.Drawing.Point(252, 614);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(152, 39);
+            this.pictureBox21.Size = new System.Drawing.Size(152, 32);
             this.pictureBox21.TabIndex = 123;
             this.pictureBox21.TabStop = false;
             // 
@@ -1029,7 +1018,7 @@ namespace PBET_Mainline
             this.label28.BackColor = System.Drawing.SystemColors.Highlight;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(433, 577);
+            this.label28.Location = new System.Drawing.Point(436, 624);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 17);
             this.label28.TabIndex = 127;
@@ -1039,9 +1028,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox22.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox22.Location = new System.Drawing.Point(412, 567);
+            this.pictureBox22.Location = new System.Drawing.Point(412, 614);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox22.Size = new System.Drawing.Size(113, 32);
             this.pictureBox22.TabIndex = 126;
             this.pictureBox22.TabStop = false;
             // 
@@ -1051,9 +1040,9 @@ namespace PBET_Mainline
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox23.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox23.Location = new System.Drawing.Point(532, 567);
+            this.pictureBox23.Location = new System.Drawing.Point(778, 567);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(922, 39);
+            this.pictureBox23.Size = new System.Drawing.Size(682, 39);
             this.pictureBox23.TabIndex = 129;
             this.pictureBox23.TabStop = false;
             // 
@@ -1061,7 +1050,7 @@ namespace PBET_Mainline
             // 
             this.oeeLbl.AutoSize = true;
             this.oeeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oeeLbl.Location = new System.Drawing.Point(27, 609);
+            this.oeeLbl.Location = new System.Drawing.Point(62, 644);
             this.oeeLbl.Name = "oeeLbl";
             this.oeeLbl.Size = new System.Drawing.Size(45, 29);
             this.oeeLbl.TabIndex = 130;
@@ -1072,7 +1061,7 @@ namespace PBET_Mainline
             // 
             this.avaiLbl.AutoSize = true;
             this.avaiLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avaiLbl.Location = new System.Drawing.Point(154, 609);
+            this.avaiLbl.Location = new System.Drawing.Point(154, 644);
             this.avaiLbl.Name = "avaiLbl";
             this.avaiLbl.Size = new System.Drawing.Size(78, 29);
             this.avaiLbl.TabIndex = 131;
@@ -1083,7 +1072,7 @@ namespace PBET_Mainline
             // 
             this.perfLbl.AutoSize = true;
             this.perfLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perfLbl.Location = new System.Drawing.Point(314, 609);
+            this.perfLbl.Location = new System.Drawing.Point(289, 644);
             this.perfLbl.Name = "perfLbl";
             this.perfLbl.Size = new System.Drawing.Size(78, 29);
             this.perfLbl.TabIndex = 132;
@@ -1094,7 +1083,7 @@ namespace PBET_Mainline
             // 
             this.quaLbl.AutoSize = true;
             this.quaLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quaLbl.Location = new System.Drawing.Point(434, 609);
+            this.quaLbl.Location = new System.Drawing.Point(462, 644);
             this.quaLbl.Name = "quaLbl";
             this.quaLbl.Size = new System.Drawing.Size(45, 29);
             this.quaLbl.TabIndex = 133;
@@ -1113,42 +1102,14 @@ namespace PBET_Mainline
             this.hrTf1.TextChanged += new System.EventHandler(this.hrTf1_TextChanged);
             this.hrTf1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hrTf1_KeyPress);
             // 
-            // go1Tf
-            // 
-            this.go1Tf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.go1Tf.Location = new System.Drawing.Point(134, 183);
-            this.go1Tf.MaxLength = 3;
-            this.go1Tf.Name = "go1Tf";
-            this.go1Tf.Size = new System.Drawing.Size(58, 26);
-            this.go1Tf.TabIndex = 43;
-            this.go1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // seq1Tf
             // 
             this.seq1Tf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seq1Tf.Location = new System.Drawing.Point(492, 183);
+            this.seq1Tf.Location = new System.Drawing.Point(388, 183);
             this.seq1Tf.Name = "seq1Tf";
             this.seq1Tf.Size = new System.Drawing.Size(223, 26);
             this.seq1Tf.TabIndex = 45;
             this.seq1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // scrap1Tf
-            // 
-            this.scrap1Tf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrap1Tf.Location = new System.Drawing.Point(723, 183);
-            this.scrap1Tf.Name = "scrap1Tf";
-            this.scrap1Tf.Size = new System.Drawing.Size(50, 26);
-            this.scrap1Tf.TabIndex = 46;
-            this.scrap1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // down1Tf
-            // 
-            this.down1Tf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.down1Tf.Location = new System.Drawing.Point(779, 183);
-            this.down1Tf.Name = "down1Tf";
-            this.down1Tf.Size = new System.Drawing.Size(50, 26);
-            this.down1Tf.TabIndex = 47;
-            this.down1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // com1Tf
             // 
@@ -1161,24 +1122,6 @@ namespace PBET_Mainline
             this.com1Tf.TabIndex = 48;
             this.com1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // act1Tf
-            // 
-            this.act1Tf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.act1Tf.Location = new System.Drawing.Point(252, 183);
-            this.act1Tf.Name = "act1Tf";
-            this.act1Tf.Size = new System.Drawing.Size(58, 26);
-            this.act1Tf.TabIndex = 44;
-            this.act1Tf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(252, 215);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(58, 26);
-            this.textBox14.TabIndex = 136;
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // textBox16
             // 
             this.textBox16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1190,41 +1133,14 @@ namespace PBET_Mainline
             this.textBox16.TabIndex = 140;
             this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox17
-            // 
-            this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(779, 215);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(50, 26);
-            this.textBox17.TabIndex = 139;
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(723, 215);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(50, 26);
-            this.textBox18.TabIndex = 138;
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // textBox19
             // 
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(492, 215);
+            this.textBox19.Location = new System.Drawing.Point(388, 215);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(223, 26);
             this.textBox19.TabIndex = 137;
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(134, 215);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(58, 26);
-            this.textBox20.TabIndex = 135;
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox21
             // 
@@ -1238,7 +1154,7 @@ namespace PBET_Mainline
             // textBox22
             // 
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(252, 247);
+            this.textBox22.Location = new System.Drawing.Point(198, 247);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(58, 26);
             this.textBox22.TabIndex = 144;
@@ -1258,7 +1174,7 @@ namespace PBET_Mainline
             // textBox25
             // 
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(779, 247);
+            this.textBox25.Location = new System.Drawing.Point(675, 247);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(50, 26);
             this.textBox25.TabIndex = 147;
@@ -1267,7 +1183,7 @@ namespace PBET_Mainline
             // textBox26
             // 
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(723, 247);
+            this.textBox26.Location = new System.Drawing.Point(619, 247);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(50, 26);
             this.textBox26.TabIndex = 146;
@@ -1276,7 +1192,7 @@ namespace PBET_Mainline
             // textBox27
             // 
             this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(492, 247);
+            this.textBox27.Location = new System.Drawing.Point(388, 247);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(223, 26);
             this.textBox27.TabIndex = 145;
@@ -1303,7 +1219,7 @@ namespace PBET_Mainline
             // textBox30
             // 
             this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(252, 279);
+            this.textBox30.Location = new System.Drawing.Point(198, 279);
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(58, 26);
             this.textBox30.TabIndex = 152;
@@ -1323,7 +1239,7 @@ namespace PBET_Mainline
             // textBox33
             // 
             this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(779, 279);
+            this.textBox33.Location = new System.Drawing.Point(675, 279);
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(50, 26);
             this.textBox33.TabIndex = 155;
@@ -1332,7 +1248,7 @@ namespace PBET_Mainline
             // textBox34
             // 
             this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(723, 279);
+            this.textBox34.Location = new System.Drawing.Point(619, 279);
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(50, 26);
             this.textBox34.TabIndex = 154;
@@ -1341,7 +1257,7 @@ namespace PBET_Mainline
             // textBox35
             // 
             this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(492, 279);
+            this.textBox35.Location = new System.Drawing.Point(388, 279);
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(223, 26);
             this.textBox35.TabIndex = 153;
@@ -1368,7 +1284,7 @@ namespace PBET_Mainline
             // textBox38
             // 
             this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(252, 311);
+            this.textBox38.Location = new System.Drawing.Point(198, 311);
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(58, 26);
             this.textBox38.TabIndex = 160;
@@ -1388,7 +1304,7 @@ namespace PBET_Mainline
             // textBox41
             // 
             this.textBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(779, 311);
+            this.textBox41.Location = new System.Drawing.Point(675, 311);
             this.textBox41.Name = "textBox41";
             this.textBox41.Size = new System.Drawing.Size(50, 26);
             this.textBox41.TabIndex = 163;
@@ -1397,7 +1313,7 @@ namespace PBET_Mainline
             // textBox42
             // 
             this.textBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(723, 311);
+            this.textBox42.Location = new System.Drawing.Point(619, 311);
             this.textBox42.Name = "textBox42";
             this.textBox42.Size = new System.Drawing.Size(50, 26);
             this.textBox42.TabIndex = 162;
@@ -1406,7 +1322,7 @@ namespace PBET_Mainline
             // textBox43
             // 
             this.textBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(492, 311);
+            this.textBox43.Location = new System.Drawing.Point(388, 311);
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(223, 26);
             this.textBox43.TabIndex = 161;
@@ -1433,7 +1349,7 @@ namespace PBET_Mainline
             // textBox46
             // 
             this.textBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox46.Location = new System.Drawing.Point(252, 343);
+            this.textBox46.Location = new System.Drawing.Point(198, 343);
             this.textBox46.Name = "textBox46";
             this.textBox46.Size = new System.Drawing.Size(58, 26);
             this.textBox46.TabIndex = 168;
@@ -1453,7 +1369,7 @@ namespace PBET_Mainline
             // textBox49
             // 
             this.textBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox49.Location = new System.Drawing.Point(779, 343);
+            this.textBox49.Location = new System.Drawing.Point(675, 343);
             this.textBox49.Name = "textBox49";
             this.textBox49.Size = new System.Drawing.Size(50, 26);
             this.textBox49.TabIndex = 171;
@@ -1462,7 +1378,7 @@ namespace PBET_Mainline
             // textBox50
             // 
             this.textBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox50.Location = new System.Drawing.Point(723, 343);
+            this.textBox50.Location = new System.Drawing.Point(619, 343);
             this.textBox50.Name = "textBox50";
             this.textBox50.Size = new System.Drawing.Size(50, 26);
             this.textBox50.TabIndex = 170;
@@ -1471,7 +1387,7 @@ namespace PBET_Mainline
             // textBox51
             // 
             this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox51.Location = new System.Drawing.Point(492, 343);
+            this.textBox51.Location = new System.Drawing.Point(388, 343);
             this.textBox51.Name = "textBox51";
             this.textBox51.Size = new System.Drawing.Size(223, 26);
             this.textBox51.TabIndex = 169;
@@ -1498,7 +1414,7 @@ namespace PBET_Mainline
             // textBox54
             // 
             this.textBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox54.Location = new System.Drawing.Point(252, 375);
+            this.textBox54.Location = new System.Drawing.Point(198, 375);
             this.textBox54.Name = "textBox54";
             this.textBox54.Size = new System.Drawing.Size(58, 26);
             this.textBox54.TabIndex = 176;
@@ -1518,7 +1434,7 @@ namespace PBET_Mainline
             // textBox57
             // 
             this.textBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox57.Location = new System.Drawing.Point(779, 375);
+            this.textBox57.Location = new System.Drawing.Point(675, 375);
             this.textBox57.Name = "textBox57";
             this.textBox57.Size = new System.Drawing.Size(50, 26);
             this.textBox57.TabIndex = 179;
@@ -1527,7 +1443,7 @@ namespace PBET_Mainline
             // textBox58
             // 
             this.textBox58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox58.Location = new System.Drawing.Point(723, 375);
+            this.textBox58.Location = new System.Drawing.Point(619, 375);
             this.textBox58.Name = "textBox58";
             this.textBox58.Size = new System.Drawing.Size(50, 26);
             this.textBox58.TabIndex = 178;
@@ -1536,7 +1452,7 @@ namespace PBET_Mainline
             // textBox59
             // 
             this.textBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox59.Location = new System.Drawing.Point(492, 375);
+            this.textBox59.Location = new System.Drawing.Point(388, 375);
             this.textBox59.Name = "textBox59";
             this.textBox59.Size = new System.Drawing.Size(223, 26);
             this.textBox59.TabIndex = 177;
@@ -1563,7 +1479,7 @@ namespace PBET_Mainline
             // textBox62
             // 
             this.textBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox62.Location = new System.Drawing.Point(252, 407);
+            this.textBox62.Location = new System.Drawing.Point(198, 407);
             this.textBox62.Name = "textBox62";
             this.textBox62.Size = new System.Drawing.Size(58, 26);
             this.textBox62.TabIndex = 184;
@@ -1583,7 +1499,7 @@ namespace PBET_Mainline
             // textBox65
             // 
             this.textBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox65.Location = new System.Drawing.Point(779, 407);
+            this.textBox65.Location = new System.Drawing.Point(675, 407);
             this.textBox65.Name = "textBox65";
             this.textBox65.Size = new System.Drawing.Size(50, 26);
             this.textBox65.TabIndex = 187;
@@ -1592,7 +1508,7 @@ namespace PBET_Mainline
             // textBox66
             // 
             this.textBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox66.Location = new System.Drawing.Point(723, 407);
+            this.textBox66.Location = new System.Drawing.Point(619, 407);
             this.textBox66.Name = "textBox66";
             this.textBox66.Size = new System.Drawing.Size(50, 26);
             this.textBox66.TabIndex = 186;
@@ -1601,7 +1517,7 @@ namespace PBET_Mainline
             // textBox67
             // 
             this.textBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox67.Location = new System.Drawing.Point(492, 407);
+            this.textBox67.Location = new System.Drawing.Point(388, 407);
             this.textBox67.Name = "textBox67";
             this.textBox67.Size = new System.Drawing.Size(223, 26);
             this.textBox67.TabIndex = 185;
@@ -1721,203 +1637,11 @@ namespace PBET_Mainline
             this.hrLbl8.TabIndex = 197;
             this.hrLbl8.Text = "0";
             // 
-            // goLbl1
-            // 
-            this.goLbl1.AutoSize = true;
-            this.goLbl1.BackColor = System.Drawing.Color.White;
-            this.goLbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl1.Location = new System.Drawing.Point(199, 186);
-            this.goLbl1.Name = "goLbl1";
-            this.goLbl1.Size = new System.Drawing.Size(21, 22);
-            this.goLbl1.TabIndex = 198;
-            this.goLbl1.Text = "0";
-            // 
-            // goLbl2
-            // 
-            this.goLbl2.AutoSize = true;
-            this.goLbl2.BackColor = System.Drawing.Color.White;
-            this.goLbl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl2.Location = new System.Drawing.Point(199, 218);
-            this.goLbl2.Name = "goLbl2";
-            this.goLbl2.Size = new System.Drawing.Size(21, 22);
-            this.goLbl2.TabIndex = 199;
-            this.goLbl2.Text = "0";
-            // 
-            // goLbl3
-            // 
-            this.goLbl3.AutoSize = true;
-            this.goLbl3.BackColor = System.Drawing.Color.White;
-            this.goLbl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl3.Location = new System.Drawing.Point(199, 250);
-            this.goLbl3.Name = "goLbl3";
-            this.goLbl3.Size = new System.Drawing.Size(21, 22);
-            this.goLbl3.TabIndex = 200;
-            this.goLbl3.Text = "0";
-            // 
-            // goLbl4
-            // 
-            this.goLbl4.AutoSize = true;
-            this.goLbl4.BackColor = System.Drawing.Color.White;
-            this.goLbl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl4.Location = new System.Drawing.Point(199, 282);
-            this.goLbl4.Name = "goLbl4";
-            this.goLbl4.Size = new System.Drawing.Size(21, 22);
-            this.goLbl4.TabIndex = 201;
-            this.goLbl4.Text = "0";
-            // 
-            // goLbl5
-            // 
-            this.goLbl5.AutoSize = true;
-            this.goLbl5.BackColor = System.Drawing.Color.White;
-            this.goLbl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl5.Location = new System.Drawing.Point(199, 314);
-            this.goLbl5.Name = "goLbl5";
-            this.goLbl5.Size = new System.Drawing.Size(21, 22);
-            this.goLbl5.TabIndex = 202;
-            this.goLbl5.Text = "0";
-            // 
-            // goLbl6
-            // 
-            this.goLbl6.AutoSize = true;
-            this.goLbl6.BackColor = System.Drawing.Color.White;
-            this.goLbl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl6.Location = new System.Drawing.Point(199, 346);
-            this.goLbl6.Name = "goLbl6";
-            this.goLbl6.Size = new System.Drawing.Size(21, 22);
-            this.goLbl6.TabIndex = 203;
-            this.goLbl6.Text = "0";
-            // 
-            // goLbl7
-            // 
-            this.goLbl7.AutoSize = true;
-            this.goLbl7.BackColor = System.Drawing.Color.White;
-            this.goLbl7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl7.Location = new System.Drawing.Point(199, 378);
-            this.goLbl7.Name = "goLbl7";
-            this.goLbl7.Size = new System.Drawing.Size(21, 22);
-            this.goLbl7.TabIndex = 204;
-            this.goLbl7.Text = "0";
-            // 
-            // goLbl8
-            // 
-            this.goLbl8.AutoSize = true;
-            this.goLbl8.BackColor = System.Drawing.Color.White;
-            this.goLbl8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.goLbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goLbl8.Location = new System.Drawing.Point(199, 410);
-            this.goLbl8.Name = "goLbl8";
-            this.goLbl8.Size = new System.Drawing.Size(21, 22);
-            this.goLbl8.TabIndex = 205;
-            this.goLbl8.Text = "0";
-            // 
-            // actLbl1
-            // 
-            this.actLbl1.AutoSize = true;
-            this.actLbl1.BackColor = System.Drawing.Color.White;
-            this.actLbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl1.Location = new System.Drawing.Point(316, 187);
-            this.actLbl1.Name = "actLbl1";
-            this.actLbl1.Size = new System.Drawing.Size(21, 22);
-            this.actLbl1.TabIndex = 206;
-            this.actLbl1.Text = "0";
-            // 
-            // actLbl2
-            // 
-            this.actLbl2.AutoSize = true;
-            this.actLbl2.BackColor = System.Drawing.Color.White;
-            this.actLbl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl2.Location = new System.Drawing.Point(315, 219);
-            this.actLbl2.Name = "actLbl2";
-            this.actLbl2.Size = new System.Drawing.Size(21, 22);
-            this.actLbl2.TabIndex = 207;
-            this.actLbl2.Text = "0";
-            // 
-            // actLbl3
-            // 
-            this.actLbl3.AutoSize = true;
-            this.actLbl3.BackColor = System.Drawing.Color.White;
-            this.actLbl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl3.Location = new System.Drawing.Point(315, 251);
-            this.actLbl3.Name = "actLbl3";
-            this.actLbl3.Size = new System.Drawing.Size(21, 22);
-            this.actLbl3.TabIndex = 208;
-            this.actLbl3.Text = "0";
-            // 
-            // actLbl4
-            // 
-            this.actLbl4.AutoSize = true;
-            this.actLbl4.BackColor = System.Drawing.Color.White;
-            this.actLbl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl4.Location = new System.Drawing.Point(315, 283);
-            this.actLbl4.Name = "actLbl4";
-            this.actLbl4.Size = new System.Drawing.Size(21, 22);
-            this.actLbl4.TabIndex = 209;
-            this.actLbl4.Text = "0";
-            // 
-            // actLbl5
-            // 
-            this.actLbl5.AutoSize = true;
-            this.actLbl5.BackColor = System.Drawing.Color.White;
-            this.actLbl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl5.Location = new System.Drawing.Point(315, 315);
-            this.actLbl5.Name = "actLbl5";
-            this.actLbl5.Size = new System.Drawing.Size(21, 22);
-            this.actLbl5.TabIndex = 210;
-            this.actLbl5.Text = "0";
-            // 
-            // actLbl6
-            // 
-            this.actLbl6.AutoSize = true;
-            this.actLbl6.BackColor = System.Drawing.Color.White;
-            this.actLbl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl6.Location = new System.Drawing.Point(315, 347);
-            this.actLbl6.Name = "actLbl6";
-            this.actLbl6.Size = new System.Drawing.Size(21, 22);
-            this.actLbl6.TabIndex = 211;
-            this.actLbl6.Text = "0";
-            // 
-            // actLbl7
-            // 
-            this.actLbl7.AutoSize = true;
-            this.actLbl7.BackColor = System.Drawing.Color.White;
-            this.actLbl7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl7.Location = new System.Drawing.Point(316, 379);
-            this.actLbl7.Name = "actLbl7";
-            this.actLbl7.Size = new System.Drawing.Size(21, 22);
-            this.actLbl7.TabIndex = 212;
-            this.actLbl7.Text = "0";
-            // 
-            // actLbl8
-            // 
-            this.actLbl8.AutoSize = true;
-            this.actLbl8.BackColor = System.Drawing.Color.White;
-            this.actLbl8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.actLbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actLbl8.Location = new System.Drawing.Point(315, 411);
-            this.actLbl8.Name = "actLbl8";
-            this.actLbl8.Size = new System.Drawing.Size(21, 22);
-            this.actLbl8.TabIndex = 213;
-            this.actLbl8.Text = "0";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(370, 186);
+            this.label1.Location = new System.Drawing.Point(267, 186);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 214;
@@ -1927,7 +1651,7 @@ namespace PBET_Mainline
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(463, 186);
+            this.label29.Location = new System.Drawing.Point(360, 186);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(19, 20);
             this.label29.TabIndex = 215;
@@ -1937,7 +1661,7 @@ namespace PBET_Mainline
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(418, 186);
+            this.label30.Location = new System.Drawing.Point(315, 186);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(14, 20);
             this.label30.TabIndex = 216;
@@ -1947,7 +1671,7 @@ namespace PBET_Mainline
             // 
             this.varLbl1_1.AutoSize = true;
             this.varLbl1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl1_1.Location = new System.Drawing.Point(399, 186);
+            this.varLbl1_1.Location = new System.Drawing.Point(296, 186);
             this.varLbl1_1.Name = "varLbl1_1";
             this.varLbl1_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl1_1.TabIndex = 217;
@@ -1957,7 +1681,7 @@ namespace PBET_Mainline
             // 
             this.varLbl1_2.AutoSize = true;
             this.varLbl1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl1_2.Location = new System.Drawing.Point(428, 186);
+            this.varLbl1_2.Location = new System.Drawing.Point(325, 186);
             this.varLbl1_2.Name = "varLbl1_2";
             this.varLbl1_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl1_2.TabIndex = 218;
@@ -1967,7 +1691,7 @@ namespace PBET_Mainline
             // 
             this.varLbl2_2.AutoSize = true;
             this.varLbl2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl2_2.Location = new System.Drawing.Point(428, 218);
+            this.varLbl2_2.Location = new System.Drawing.Point(325, 218);
             this.varLbl2_2.Name = "varLbl2_2";
             this.varLbl2_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl2_2.TabIndex = 223;
@@ -1977,7 +1701,7 @@ namespace PBET_Mainline
             // 
             this.varLbl2_1.AutoSize = true;
             this.varLbl2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl2_1.Location = new System.Drawing.Point(399, 218);
+            this.varLbl2_1.Location = new System.Drawing.Point(296, 218);
             this.varLbl2_1.Name = "varLbl2_1";
             this.varLbl2_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl2_1.TabIndex = 222;
@@ -1987,7 +1711,7 @@ namespace PBET_Mainline
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(418, 218);
+            this.label35.Location = new System.Drawing.Point(315, 218);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(14, 20);
             this.label35.TabIndex = 221;
@@ -1997,7 +1721,7 @@ namespace PBET_Mainline
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(463, 218);
+            this.label36.Location = new System.Drawing.Point(360, 218);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(19, 20);
             this.label36.TabIndex = 220;
@@ -2007,7 +1731,7 @@ namespace PBET_Mainline
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(370, 218);
+            this.label37.Location = new System.Drawing.Point(267, 218);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(19, 20);
             this.label37.TabIndex = 219;
@@ -2017,7 +1741,7 @@ namespace PBET_Mainline
             // 
             this.varLbl3_2.AutoSize = true;
             this.varLbl3_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl3_2.Location = new System.Drawing.Point(428, 250);
+            this.varLbl3_2.Location = new System.Drawing.Point(325, 250);
             this.varLbl3_2.Name = "varLbl3_2";
             this.varLbl3_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl3_2.TabIndex = 228;
@@ -2027,7 +1751,7 @@ namespace PBET_Mainline
             // 
             this.varLbl3_1.AutoSize = true;
             this.varLbl3_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl3_1.Location = new System.Drawing.Point(399, 250);
+            this.varLbl3_1.Location = new System.Drawing.Point(296, 250);
             this.varLbl3_1.Name = "varLbl3_1";
             this.varLbl3_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl3_1.TabIndex = 227;
@@ -2037,7 +1761,7 @@ namespace PBET_Mainline
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(418, 250);
+            this.label40.Location = new System.Drawing.Point(315, 250);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(14, 20);
             this.label40.TabIndex = 226;
@@ -2047,7 +1771,7 @@ namespace PBET_Mainline
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(463, 250);
+            this.label41.Location = new System.Drawing.Point(360, 250);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(19, 20);
             this.label41.TabIndex = 225;
@@ -2057,7 +1781,7 @@ namespace PBET_Mainline
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(370, 250);
+            this.label42.Location = new System.Drawing.Point(267, 250);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(19, 20);
             this.label42.TabIndex = 224;
@@ -2067,7 +1791,7 @@ namespace PBET_Mainline
             // 
             this.varLbl4_2.AutoSize = true;
             this.varLbl4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl4_2.Location = new System.Drawing.Point(428, 282);
+            this.varLbl4_2.Location = new System.Drawing.Point(325, 282);
             this.varLbl4_2.Name = "varLbl4_2";
             this.varLbl4_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl4_2.TabIndex = 233;
@@ -2077,7 +1801,7 @@ namespace PBET_Mainline
             // 
             this.varLbl4_1.AutoSize = true;
             this.varLbl4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl4_1.Location = new System.Drawing.Point(399, 282);
+            this.varLbl4_1.Location = new System.Drawing.Point(296, 282);
             this.varLbl4_1.Name = "varLbl4_1";
             this.varLbl4_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl4_1.TabIndex = 232;
@@ -2087,7 +1811,7 @@ namespace PBET_Mainline
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(418, 282);
+            this.label45.Location = new System.Drawing.Point(315, 282);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(14, 20);
             this.label45.TabIndex = 231;
@@ -2097,7 +1821,7 @@ namespace PBET_Mainline
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(463, 282);
+            this.label46.Location = new System.Drawing.Point(360, 282);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(19, 20);
             this.label46.TabIndex = 230;
@@ -2107,7 +1831,7 @@ namespace PBET_Mainline
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(370, 282);
+            this.label47.Location = new System.Drawing.Point(267, 282);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(19, 20);
             this.label47.TabIndex = 229;
@@ -2117,7 +1841,7 @@ namespace PBET_Mainline
             // 
             this.varLbl5_2.AutoSize = true;
             this.varLbl5_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl5_2.Location = new System.Drawing.Point(428, 314);
+            this.varLbl5_2.Location = new System.Drawing.Point(325, 314);
             this.varLbl5_2.Name = "varLbl5_2";
             this.varLbl5_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl5_2.TabIndex = 238;
@@ -2127,7 +1851,7 @@ namespace PBET_Mainline
             // 
             this.varLbl5_1.AutoSize = true;
             this.varLbl5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl5_1.Location = new System.Drawing.Point(399, 314);
+            this.varLbl5_1.Location = new System.Drawing.Point(296, 314);
             this.varLbl5_1.Name = "varLbl5_1";
             this.varLbl5_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl5_1.TabIndex = 237;
@@ -2137,7 +1861,7 @@ namespace PBET_Mainline
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(418, 314);
+            this.label50.Location = new System.Drawing.Point(315, 314);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(14, 20);
             this.label50.TabIndex = 236;
@@ -2147,7 +1871,7 @@ namespace PBET_Mainline
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(463, 314);
+            this.label51.Location = new System.Drawing.Point(360, 314);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(19, 20);
             this.label51.TabIndex = 235;
@@ -2157,7 +1881,7 @@ namespace PBET_Mainline
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(370, 314);
+            this.label52.Location = new System.Drawing.Point(267, 314);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(19, 20);
             this.label52.TabIndex = 234;
@@ -2167,7 +1891,7 @@ namespace PBET_Mainline
             // 
             this.varLbl6_2.AutoSize = true;
             this.varLbl6_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl6_2.Location = new System.Drawing.Point(428, 346);
+            this.varLbl6_2.Location = new System.Drawing.Point(325, 346);
             this.varLbl6_2.Name = "varLbl6_2";
             this.varLbl6_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl6_2.TabIndex = 243;
@@ -2177,7 +1901,7 @@ namespace PBET_Mainline
             // 
             this.varLbl6_1.AutoSize = true;
             this.varLbl6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl6_1.Location = new System.Drawing.Point(399, 346);
+            this.varLbl6_1.Location = new System.Drawing.Point(296, 346);
             this.varLbl6_1.Name = "varLbl6_1";
             this.varLbl6_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl6_1.TabIndex = 242;
@@ -2187,7 +1911,7 @@ namespace PBET_Mainline
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(418, 346);
+            this.label55.Location = new System.Drawing.Point(315, 346);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(14, 20);
             this.label55.TabIndex = 241;
@@ -2197,7 +1921,7 @@ namespace PBET_Mainline
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(463, 346);
+            this.label56.Location = new System.Drawing.Point(360, 346);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(19, 20);
             this.label56.TabIndex = 240;
@@ -2207,7 +1931,7 @@ namespace PBET_Mainline
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(370, 346);
+            this.label57.Location = new System.Drawing.Point(267, 346);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(19, 20);
             this.label57.TabIndex = 239;
@@ -2217,7 +1941,7 @@ namespace PBET_Mainline
             // 
             this.varLbl7_2.AutoSize = true;
             this.varLbl7_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl7_2.Location = new System.Drawing.Point(428, 378);
+            this.varLbl7_2.Location = new System.Drawing.Point(325, 378);
             this.varLbl7_2.Name = "varLbl7_2";
             this.varLbl7_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl7_2.TabIndex = 248;
@@ -2227,7 +1951,7 @@ namespace PBET_Mainline
             // 
             this.varLbl7_1.AutoSize = true;
             this.varLbl7_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl7_1.Location = new System.Drawing.Point(399, 378);
+            this.varLbl7_1.Location = new System.Drawing.Point(296, 378);
             this.varLbl7_1.Name = "varLbl7_1";
             this.varLbl7_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl7_1.TabIndex = 247;
@@ -2237,7 +1961,7 @@ namespace PBET_Mainline
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(418, 378);
+            this.label60.Location = new System.Drawing.Point(315, 378);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(14, 20);
             this.label60.TabIndex = 246;
@@ -2247,7 +1971,7 @@ namespace PBET_Mainline
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(463, 378);
+            this.label61.Location = new System.Drawing.Point(360, 378);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(19, 20);
             this.label61.TabIndex = 245;
@@ -2257,7 +1981,7 @@ namespace PBET_Mainline
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(370, 378);
+            this.label62.Location = new System.Drawing.Point(267, 378);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(19, 20);
             this.label62.TabIndex = 244;
@@ -2267,7 +1991,7 @@ namespace PBET_Mainline
             // 
             this.varLbl8_2.AutoSize = true;
             this.varLbl8_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl8_2.Location = new System.Drawing.Point(428, 410);
+            this.varLbl8_2.Location = new System.Drawing.Point(325, 410);
             this.varLbl8_2.Name = "varLbl8_2";
             this.varLbl8_2.Size = new System.Drawing.Size(19, 20);
             this.varLbl8_2.TabIndex = 253;
@@ -2277,7 +2001,7 @@ namespace PBET_Mainline
             // 
             this.varLbl8_1.AutoSize = true;
             this.varLbl8_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl8_1.Location = new System.Drawing.Point(399, 410);
+            this.varLbl8_1.Location = new System.Drawing.Point(296, 410);
             this.varLbl8_1.Name = "varLbl8_1";
             this.varLbl8_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl8_1.TabIndex = 252;
@@ -2287,7 +2011,7 @@ namespace PBET_Mainline
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(418, 410);
+            this.label65.Location = new System.Drawing.Point(315, 410);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(14, 20);
             this.label65.TabIndex = 251;
@@ -2297,7 +2021,7 @@ namespace PBET_Mainline
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(463, 410);
+            this.label66.Location = new System.Drawing.Point(360, 410);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(19, 20);
             this.label66.TabIndex = 250;
@@ -2307,7 +2031,7 @@ namespace PBET_Mainline
             // 
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(370, 410);
+            this.label67.Location = new System.Drawing.Point(267, 410);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(19, 20);
             this.label67.TabIndex = 249;
@@ -2332,7 +2056,7 @@ namespace PBET_Mainline
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(428, 442);
+            this.label31.Location = new System.Drawing.Point(325, 442);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(19, 20);
             this.label31.TabIndex = 271;
@@ -2342,7 +2066,7 @@ namespace PBET_Mainline
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(399, 442);
+            this.label32.Location = new System.Drawing.Point(296, 442);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(19, 20);
             this.label32.TabIndex = 270;
@@ -2352,7 +2076,7 @@ namespace PBET_Mainline
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(418, 442);
+            this.label33.Location = new System.Drawing.Point(315, 442);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(14, 20);
             this.label33.TabIndex = 269;
@@ -2362,7 +2086,7 @@ namespace PBET_Mainline
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(463, 442);
+            this.label34.Location = new System.Drawing.Point(360, 442);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(19, 20);
             this.label34.TabIndex = 268;
@@ -2372,35 +2096,11 @@ namespace PBET_Mainline
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(370, 442);
+            this.label38.Location = new System.Drawing.Point(267, 442);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(19, 20);
             this.label38.TabIndex = 267;
             this.label38.Text = "±";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.White;
-            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(316, 443);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(21, 22);
-            this.label39.TabIndex = 266;
-            this.label39.Text = "0";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.White;
-            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(199, 442);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(21, 22);
-            this.label43.TabIndex = 265;
-            this.label43.Text = "0";
             // 
             // label44
             // 
@@ -2417,7 +2117,7 @@ namespace PBET_Mainline
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(252, 439);
+            this.textBox1.Location = new System.Drawing.Point(198, 439);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(58, 26);
             this.textBox1.TabIndex = 258;
@@ -2437,7 +2137,7 @@ namespace PBET_Mainline
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(779, 439);
+            this.textBox4.Location = new System.Drawing.Point(675, 439);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(50, 26);
             this.textBox4.TabIndex = 261;
@@ -2446,7 +2146,7 @@ namespace PBET_Mainline
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(723, 439);
+            this.textBox5.Location = new System.Drawing.Point(619, 439);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(50, 26);
             this.textBox5.TabIndex = 260;
@@ -2455,7 +2155,7 @@ namespace PBET_Mainline
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(492, 439);
+            this.textBox6.Location = new System.Drawing.Point(388, 439);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(223, 26);
             this.textBox6.TabIndex = 259;
@@ -2493,7 +2193,7 @@ namespace PBET_Mainline
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(428, 474);
+            this.label49.Location = new System.Drawing.Point(325, 474);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(19, 20);
             this.label49.TabIndex = 288;
@@ -2503,7 +2203,7 @@ namespace PBET_Mainline
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(399, 474);
+            this.label53.Location = new System.Drawing.Point(296, 474);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(19, 20);
             this.label53.TabIndex = 287;
@@ -2513,7 +2213,7 @@ namespace PBET_Mainline
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(418, 474);
+            this.label54.Location = new System.Drawing.Point(315, 474);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(14, 20);
             this.label54.TabIndex = 286;
@@ -2523,7 +2223,7 @@ namespace PBET_Mainline
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(463, 474);
+            this.label58.Location = new System.Drawing.Point(360, 474);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(19, 20);
             this.label58.TabIndex = 285;
@@ -2533,35 +2233,11 @@ namespace PBET_Mainline
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(370, 474);
+            this.label59.Location = new System.Drawing.Point(267, 474);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(19, 20);
             this.label59.TabIndex = 284;
             this.label59.Text = "±";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.BackColor = System.Drawing.Color.White;
-            this.label63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(315, 475);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(21, 22);
-            this.label63.TabIndex = 283;
-            this.label63.Text = "0";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.BackColor = System.Drawing.Color.White;
-            this.label64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(199, 474);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(21, 22);
-            this.label64.TabIndex = 282;
-            this.label64.Text = "0";
             // 
             // label68
             // 
@@ -2578,7 +2254,7 @@ namespace PBET_Mainline
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(252, 471);
+            this.textBox9.Location = new System.Drawing.Point(198, 471);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(58, 26);
             this.textBox9.TabIndex = 275;
@@ -2598,7 +2274,7 @@ namespace PBET_Mainline
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(779, 471);
+            this.textBox12.Location = new System.Drawing.Point(675, 471);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(50, 26);
             this.textBox12.TabIndex = 278;
@@ -2607,7 +2283,7 @@ namespace PBET_Mainline
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(723, 471);
+            this.textBox13.Location = new System.Drawing.Point(619, 471);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(50, 26);
             this.textBox13.TabIndex = 277;
@@ -2616,7 +2292,7 @@ namespace PBET_Mainline
             // textBox70
             // 
             this.textBox70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox70.Location = new System.Drawing.Point(492, 471);
+            this.textBox70.Location = new System.Drawing.Point(388, 471);
             this.textBox70.Name = "textBox70";
             this.textBox70.Size = new System.Drawing.Size(223, 26);
             this.textBox70.TabIndex = 276;
@@ -2655,7 +2331,7 @@ namespace PBET_Mainline
             // 
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(428, 506);
+            this.label70.Location = new System.Drawing.Point(325, 506);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(19, 20);
             this.label70.TabIndex = 305;
@@ -2665,7 +2341,7 @@ namespace PBET_Mainline
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(399, 506);
+            this.label71.Location = new System.Drawing.Point(296, 506);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(19, 20);
             this.label71.TabIndex = 304;
@@ -2675,7 +2351,7 @@ namespace PBET_Mainline
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(418, 506);
+            this.label72.Location = new System.Drawing.Point(315, 506);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(14, 20);
             this.label72.TabIndex = 303;
@@ -2685,7 +2361,7 @@ namespace PBET_Mainline
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(463, 506);
+            this.label73.Location = new System.Drawing.Point(360, 506);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(19, 20);
             this.label73.TabIndex = 302;
@@ -2695,35 +2371,11 @@ namespace PBET_Mainline
             // 
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(370, 506);
+            this.label74.Location = new System.Drawing.Point(267, 506);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(19, 20);
             this.label74.TabIndex = 301;
             this.label74.Text = "±";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.BackColor = System.Drawing.Color.White;
-            this.label75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(315, 507);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(21, 22);
-            this.label75.TabIndex = 300;
-            this.label75.Text = "0";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.BackColor = System.Drawing.Color.White;
-            this.label76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(199, 506);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(21, 22);
-            this.label76.TabIndex = 299;
-            this.label76.Text = "0";
             // 
             // label77
             // 
@@ -2740,7 +2392,7 @@ namespace PBET_Mainline
             // textBox73
             // 
             this.textBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox73.Location = new System.Drawing.Point(252, 503);
+            this.textBox73.Location = new System.Drawing.Point(198, 503);
             this.textBox73.Name = "textBox73";
             this.textBox73.Size = new System.Drawing.Size(58, 26);
             this.textBox73.TabIndex = 292;
@@ -2760,7 +2412,7 @@ namespace PBET_Mainline
             // textBox76
             // 
             this.textBox76.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox76.Location = new System.Drawing.Point(779, 503);
+            this.textBox76.Location = new System.Drawing.Point(675, 503);
             this.textBox76.Name = "textBox76";
             this.textBox76.Size = new System.Drawing.Size(50, 26);
             this.textBox76.TabIndex = 295;
@@ -2769,7 +2421,7 @@ namespace PBET_Mainline
             // textBox77
             // 
             this.textBox77.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox77.Location = new System.Drawing.Point(723, 503);
+            this.textBox77.Location = new System.Drawing.Point(619, 503);
             this.textBox77.Name = "textBox77";
             this.textBox77.Size = new System.Drawing.Size(50, 26);
             this.textBox77.TabIndex = 294;
@@ -2778,7 +2430,7 @@ namespace PBET_Mainline
             // textBox78
             // 
             this.textBox78.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox78.Location = new System.Drawing.Point(492, 503);
+            this.textBox78.Location = new System.Drawing.Point(388, 503);
             this.textBox78.Name = "textBox78";
             this.textBox78.Size = new System.Drawing.Size(223, 26);
             this.textBox78.TabIndex = 293;
@@ -2816,7 +2468,7 @@ namespace PBET_Mainline
             // 
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.Location = new System.Drawing.Point(428, 538);
+            this.label79.Location = new System.Drawing.Point(325, 538);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(19, 20);
             this.label79.TabIndex = 322;
@@ -2826,7 +2478,7 @@ namespace PBET_Mainline
             // 
             this.label80.AutoSize = true;
             this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.Location = new System.Drawing.Point(399, 538);
+            this.label80.Location = new System.Drawing.Point(296, 538);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(19, 20);
             this.label80.TabIndex = 321;
@@ -2836,7 +2488,7 @@ namespace PBET_Mainline
             // 
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(418, 538);
+            this.label81.Location = new System.Drawing.Point(315, 538);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(14, 20);
             this.label81.TabIndex = 320;
@@ -2846,7 +2498,7 @@ namespace PBET_Mainline
             // 
             this.label82.AutoSize = true;
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.Location = new System.Drawing.Point(463, 538);
+            this.label82.Location = new System.Drawing.Point(360, 538);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(19, 20);
             this.label82.TabIndex = 319;
@@ -2856,35 +2508,11 @@ namespace PBET_Mainline
             // 
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.Location = new System.Drawing.Point(370, 538);
+            this.label83.Location = new System.Drawing.Point(267, 538);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(19, 20);
             this.label83.TabIndex = 318;
             this.label83.Text = "±";
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.BackColor = System.Drawing.Color.White;
-            this.label84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.Location = new System.Drawing.Point(315, 539);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(21, 22);
-            this.label84.TabIndex = 317;
-            this.label84.Text = "0";
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.BackColor = System.Drawing.Color.White;
-            this.label85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.Location = new System.Drawing.Point(199, 538);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(21, 22);
-            this.label85.TabIndex = 316;
-            this.label85.Text = "0";
             // 
             // label86
             // 
@@ -2901,7 +2529,7 @@ namespace PBET_Mainline
             // textBox81
             // 
             this.textBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox81.Location = new System.Drawing.Point(252, 535);
+            this.textBox81.Location = new System.Drawing.Point(198, 535);
             this.textBox81.Name = "textBox81";
             this.textBox81.Size = new System.Drawing.Size(58, 26);
             this.textBox81.TabIndex = 309;
@@ -2921,7 +2549,7 @@ namespace PBET_Mainline
             // textBox84
             // 
             this.textBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox84.Location = new System.Drawing.Point(779, 535);
+            this.textBox84.Location = new System.Drawing.Point(675, 535);
             this.textBox84.Name = "textBox84";
             this.textBox84.Size = new System.Drawing.Size(50, 26);
             this.textBox84.TabIndex = 312;
@@ -2930,7 +2558,7 @@ namespace PBET_Mainline
             // textBox85
             // 
             this.textBox85.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox85.Location = new System.Drawing.Point(723, 535);
+            this.textBox85.Location = new System.Drawing.Point(619, 535);
             this.textBox85.Name = "textBox85";
             this.textBox85.Size = new System.Drawing.Size(50, 26);
             this.textBox85.TabIndex = 311;
@@ -2939,7 +2567,7 @@ namespace PBET_Mainline
             // textBox86
             // 
             this.textBox86.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox86.Location = new System.Drawing.Point(492, 535);
+            this.textBox86.Location = new System.Drawing.Point(388, 535);
             this.textBox86.Name = "textBox86";
             this.textBox86.Size = new System.Drawing.Size(223, 26);
             this.textBox86.TabIndex = 310;
@@ -3001,7 +2629,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox17.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox17.Location = new System.Drawing.Point(837, 138);
+            this.pictureBox17.Location = new System.Drawing.Point(778, 138);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(270, 39);
             this.pictureBox17.TabIndex = 323;
@@ -3013,7 +2641,7 @@ namespace PBET_Mainline
             this.label15.BackColor = System.Drawing.SystemColors.Highlight;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(731, 155);
+            this.label15.Location = new System.Drawing.Point(627, 155);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(33, 17);
             this.label15.TabIndex = 336;
@@ -3025,7 +2653,7 @@ namespace PBET_Mainline
             this.label88.BackColor = System.Drawing.SystemColors.Highlight;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Location = new System.Drawing.Point(788, 155);
+            this.label88.Location = new System.Drawing.Point(684, 155);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(41, 17);
             this.label88.TabIndex = 337;
@@ -3039,7 +2667,7 @@ namespace PBET_Mainline
             this.label89.BackColor = System.Drawing.SystemColors.Highlight;
             this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label89.ForeColor = System.Drawing.Color.White;
-            this.label89.Location = new System.Drawing.Point(875, 148);
+            this.label89.Location = new System.Drawing.Point(816, 148);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(199, 17);
             this.label89.TabIndex = 338;
@@ -3048,7 +2676,7 @@ namespace PBET_Mainline
             // label90
             // 
             this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(838, 182);
+            this.label90.Location = new System.Drawing.Point(779, 179);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(35, 13);
             this.label90.TabIndex = 339;
@@ -3057,7 +2685,7 @@ namespace PBET_Mainline
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(841, 198);
+            this.checkBox1.Location = new System.Drawing.Point(782, 195);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 340;
@@ -3066,7 +2694,7 @@ namespace PBET_Mainline
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(882, 198);
+            this.checkBox2.Location = new System.Drawing.Point(823, 195);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 342;
@@ -3075,7 +2703,7 @@ namespace PBET_Mainline
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(879, 182);
+            this.label91.Location = new System.Drawing.Point(820, 179);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(40, 13);
             this.label91.TabIndex = 341;
@@ -3084,7 +2712,7 @@ namespace PBET_Mainline
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(922, 198);
+            this.checkBox3.Location = new System.Drawing.Point(863, 195);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 344;
@@ -3093,7 +2721,7 @@ namespace PBET_Mainline
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(919, 182);
+            this.label92.Location = new System.Drawing.Point(860, 179);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(47, 13);
             this.label92.TabIndex = 343;
@@ -3102,7 +2730,7 @@ namespace PBET_Mainline
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(966, 198);
+            this.checkBox4.Location = new System.Drawing.Point(907, 195);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 346;
@@ -3111,7 +2739,7 @@ namespace PBET_Mainline
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(963, 182);
+            this.label93.Location = new System.Drawing.Point(904, 179);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(44, 13);
             this.label93.TabIndex = 345;
@@ -3120,7 +2748,7 @@ namespace PBET_Mainline
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(1060, 198);
+            this.checkBox6.Location = new System.Drawing.Point(1001, 195);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 350;
@@ -3129,7 +2757,7 @@ namespace PBET_Mainline
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(1057, 182);
+            this.label95.Location = new System.Drawing.Point(998, 179);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(50, 13);
             this.label95.TabIndex = 349;
@@ -3138,7 +2766,7 @@ namespace PBET_Mainline
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(1011, 198);
+            this.checkBox5.Location = new System.Drawing.Point(952, 195);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 352;
@@ -3147,7 +2775,7 @@ namespace PBET_Mainline
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(1008, 182);
+            this.label94.Location = new System.Drawing.Point(949, 179);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(50, 13);
             this.label94.TabIndex = 351;
@@ -3156,7 +2784,7 @@ namespace PBET_Mainline
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(1011, 231);
+            this.checkBox7.Location = new System.Drawing.Point(952, 228);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 364;
@@ -3165,7 +2793,7 @@ namespace PBET_Mainline
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(1008, 215);
+            this.label96.Location = new System.Drawing.Point(949, 212);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(50, 13);
             this.label96.TabIndex = 363;
@@ -3174,7 +2802,7 @@ namespace PBET_Mainline
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(1060, 231);
+            this.checkBox8.Location = new System.Drawing.Point(1001, 228);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(15, 14);
             this.checkBox8.TabIndex = 362;
@@ -3183,7 +2811,7 @@ namespace PBET_Mainline
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(1057, 215);
+            this.label97.Location = new System.Drawing.Point(998, 212);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(50, 13);
             this.label97.TabIndex = 361;
@@ -3192,7 +2820,7 @@ namespace PBET_Mainline
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(966, 231);
+            this.checkBox9.Location = new System.Drawing.Point(907, 228);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(15, 14);
             this.checkBox9.TabIndex = 360;
@@ -3201,7 +2829,7 @@ namespace PBET_Mainline
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(963, 215);
+            this.label98.Location = new System.Drawing.Point(904, 212);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(44, 13);
             this.label98.TabIndex = 359;
@@ -3210,7 +2838,7 @@ namespace PBET_Mainline
             // checkBox10
             // 
             this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(922, 231);
+            this.checkBox10.Location = new System.Drawing.Point(863, 228);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(15, 14);
             this.checkBox10.TabIndex = 358;
@@ -3219,7 +2847,7 @@ namespace PBET_Mainline
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(919, 215);
+            this.label99.Location = new System.Drawing.Point(860, 212);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(47, 13);
             this.label99.TabIndex = 357;
@@ -3228,7 +2856,7 @@ namespace PBET_Mainline
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(882, 231);
+            this.checkBox11.Location = new System.Drawing.Point(823, 228);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(15, 14);
             this.checkBox11.TabIndex = 356;
@@ -3237,7 +2865,7 @@ namespace PBET_Mainline
             // label100
             // 
             this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(879, 215);
+            this.label100.Location = new System.Drawing.Point(820, 212);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(40, 13);
             this.label100.TabIndex = 355;
@@ -3246,7 +2874,7 @@ namespace PBET_Mainline
             // checkBox12
             // 
             this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(841, 231);
+            this.checkBox12.Location = new System.Drawing.Point(782, 228);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(15, 14);
             this.checkBox12.TabIndex = 354;
@@ -3255,7 +2883,7 @@ namespace PBET_Mainline
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(838, 215);
+            this.label101.Location = new System.Drawing.Point(779, 212);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(35, 13);
             this.label101.TabIndex = 353;
@@ -3264,7 +2892,7 @@ namespace PBET_Mainline
             // checkBox13
             // 
             this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(1011, 263);
+            this.checkBox13.Location = new System.Drawing.Point(952, 260);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(15, 14);
             this.checkBox13.TabIndex = 376;
@@ -3273,7 +2901,7 @@ namespace PBET_Mainline
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(1008, 247);
+            this.label102.Location = new System.Drawing.Point(949, 244);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(50, 13);
             this.label102.TabIndex = 375;
@@ -3282,7 +2910,7 @@ namespace PBET_Mainline
             // checkBox14
             // 
             this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(1060, 263);
+            this.checkBox14.Location = new System.Drawing.Point(1001, 260);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(15, 14);
             this.checkBox14.TabIndex = 374;
@@ -3291,7 +2919,7 @@ namespace PBET_Mainline
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(1057, 247);
+            this.label103.Location = new System.Drawing.Point(998, 244);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(50, 13);
             this.label103.TabIndex = 373;
@@ -3300,7 +2928,7 @@ namespace PBET_Mainline
             // checkBox15
             // 
             this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(966, 263);
+            this.checkBox15.Location = new System.Drawing.Point(907, 260);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(15, 14);
             this.checkBox15.TabIndex = 372;
@@ -3309,7 +2937,7 @@ namespace PBET_Mainline
             // label104
             // 
             this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(963, 247);
+            this.label104.Location = new System.Drawing.Point(904, 244);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(44, 13);
             this.label104.TabIndex = 371;
@@ -3318,7 +2946,7 @@ namespace PBET_Mainline
             // checkBox16
             // 
             this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(922, 263);
+            this.checkBox16.Location = new System.Drawing.Point(863, 260);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(15, 14);
             this.checkBox16.TabIndex = 370;
@@ -3327,7 +2955,7 @@ namespace PBET_Mainline
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(919, 247);
+            this.label105.Location = new System.Drawing.Point(860, 244);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(47, 13);
             this.label105.TabIndex = 369;
@@ -3336,7 +2964,7 @@ namespace PBET_Mainline
             // checkBox17
             // 
             this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(882, 263);
+            this.checkBox17.Location = new System.Drawing.Point(823, 260);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(15, 14);
             this.checkBox17.TabIndex = 368;
@@ -3345,7 +2973,7 @@ namespace PBET_Mainline
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(879, 247);
+            this.label106.Location = new System.Drawing.Point(820, 244);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(40, 13);
             this.label106.TabIndex = 367;
@@ -3354,7 +2982,7 @@ namespace PBET_Mainline
             // checkBox18
             // 
             this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(841, 263);
+            this.checkBox18.Location = new System.Drawing.Point(782, 260);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(15, 14);
             this.checkBox18.TabIndex = 366;
@@ -3363,7 +2991,7 @@ namespace PBET_Mainline
             // label107
             // 
             this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(838, 247);
+            this.label107.Location = new System.Drawing.Point(779, 244);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(35, 13);
             this.label107.TabIndex = 365;
@@ -3372,7 +3000,7 @@ namespace PBET_Mainline
             // checkBox19
             // 
             this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(1011, 295);
+            this.checkBox19.Location = new System.Drawing.Point(952, 292);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(15, 14);
             this.checkBox19.TabIndex = 388;
@@ -3381,7 +3009,7 @@ namespace PBET_Mainline
             // label108
             // 
             this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(1008, 279);
+            this.label108.Location = new System.Drawing.Point(949, 276);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(50, 13);
             this.label108.TabIndex = 387;
@@ -3390,7 +3018,7 @@ namespace PBET_Mainline
             // checkBox20
             // 
             this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(1060, 295);
+            this.checkBox20.Location = new System.Drawing.Point(1001, 292);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(15, 14);
             this.checkBox20.TabIndex = 386;
@@ -3399,7 +3027,7 @@ namespace PBET_Mainline
             // label109
             // 
             this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(1057, 279);
+            this.label109.Location = new System.Drawing.Point(998, 276);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(50, 13);
             this.label109.TabIndex = 385;
@@ -3408,7 +3036,7 @@ namespace PBET_Mainline
             // checkBox21
             // 
             this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(966, 295);
+            this.checkBox21.Location = new System.Drawing.Point(907, 292);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(15, 14);
             this.checkBox21.TabIndex = 384;
@@ -3417,7 +3045,7 @@ namespace PBET_Mainline
             // label110
             // 
             this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(963, 279);
+            this.label110.Location = new System.Drawing.Point(904, 276);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(44, 13);
             this.label110.TabIndex = 383;
@@ -3426,7 +3054,7 @@ namespace PBET_Mainline
             // checkBox22
             // 
             this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(922, 295);
+            this.checkBox22.Location = new System.Drawing.Point(863, 292);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(15, 14);
             this.checkBox22.TabIndex = 382;
@@ -3435,7 +3063,7 @@ namespace PBET_Mainline
             // label111
             // 
             this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(919, 279);
+            this.label111.Location = new System.Drawing.Point(860, 276);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(47, 13);
             this.label111.TabIndex = 381;
@@ -3444,7 +3072,7 @@ namespace PBET_Mainline
             // checkBox23
             // 
             this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(882, 295);
+            this.checkBox23.Location = new System.Drawing.Point(823, 292);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(15, 14);
             this.checkBox23.TabIndex = 380;
@@ -3453,7 +3081,7 @@ namespace PBET_Mainline
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(879, 279);
+            this.label112.Location = new System.Drawing.Point(820, 276);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(40, 13);
             this.label112.TabIndex = 379;
@@ -3462,7 +3090,7 @@ namespace PBET_Mainline
             // checkBox24
             // 
             this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(841, 295);
+            this.checkBox24.Location = new System.Drawing.Point(782, 292);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(15, 14);
             this.checkBox24.TabIndex = 378;
@@ -3471,7 +3099,7 @@ namespace PBET_Mainline
             // label113
             // 
             this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(838, 279);
+            this.label113.Location = new System.Drawing.Point(779, 276);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(35, 13);
             this.label113.TabIndex = 377;
@@ -3480,7 +3108,7 @@ namespace PBET_Mainline
             // checkBox25
             // 
             this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(1011, 327);
+            this.checkBox25.Location = new System.Drawing.Point(952, 324);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(15, 14);
             this.checkBox25.TabIndex = 400;
@@ -3489,7 +3117,7 @@ namespace PBET_Mainline
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(1008, 311);
+            this.label114.Location = new System.Drawing.Point(949, 308);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(50, 13);
             this.label114.TabIndex = 399;
@@ -3498,7 +3126,7 @@ namespace PBET_Mainline
             // checkBox26
             // 
             this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(1060, 327);
+            this.checkBox26.Location = new System.Drawing.Point(1001, 324);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(15, 14);
             this.checkBox26.TabIndex = 398;
@@ -3507,7 +3135,7 @@ namespace PBET_Mainline
             // label115
             // 
             this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(1057, 311);
+            this.label115.Location = new System.Drawing.Point(998, 308);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(50, 13);
             this.label115.TabIndex = 397;
@@ -3516,7 +3144,7 @@ namespace PBET_Mainline
             // checkBox27
             // 
             this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(966, 327);
+            this.checkBox27.Location = new System.Drawing.Point(907, 324);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(15, 14);
             this.checkBox27.TabIndex = 396;
@@ -3525,7 +3153,7 @@ namespace PBET_Mainline
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(963, 311);
+            this.label116.Location = new System.Drawing.Point(904, 308);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(44, 13);
             this.label116.TabIndex = 395;
@@ -3534,7 +3162,7 @@ namespace PBET_Mainline
             // checkBox28
             // 
             this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(922, 327);
+            this.checkBox28.Location = new System.Drawing.Point(863, 324);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(15, 14);
             this.checkBox28.TabIndex = 394;
@@ -3543,7 +3171,7 @@ namespace PBET_Mainline
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(919, 311);
+            this.label117.Location = new System.Drawing.Point(860, 308);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(47, 13);
             this.label117.TabIndex = 393;
@@ -3552,7 +3180,7 @@ namespace PBET_Mainline
             // checkBox29
             // 
             this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(882, 327);
+            this.checkBox29.Location = new System.Drawing.Point(823, 324);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(15, 14);
             this.checkBox29.TabIndex = 392;
@@ -3561,7 +3189,7 @@ namespace PBET_Mainline
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(879, 311);
+            this.label118.Location = new System.Drawing.Point(820, 308);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(40, 13);
             this.label118.TabIndex = 391;
@@ -3570,7 +3198,7 @@ namespace PBET_Mainline
             // checkBox30
             // 
             this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(841, 327);
+            this.checkBox30.Location = new System.Drawing.Point(782, 324);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(15, 14);
             this.checkBox30.TabIndex = 390;
@@ -3579,7 +3207,7 @@ namespace PBET_Mainline
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(838, 311);
+            this.label119.Location = new System.Drawing.Point(779, 308);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(35, 13);
             this.label119.TabIndex = 389;
@@ -3588,7 +3216,7 @@ namespace PBET_Mainline
             // checkBox31
             // 
             this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(1011, 359);
+            this.checkBox31.Location = new System.Drawing.Point(952, 356);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(15, 14);
             this.checkBox31.TabIndex = 412;
@@ -3597,7 +3225,7 @@ namespace PBET_Mainline
             // label120
             // 
             this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(1008, 343);
+            this.label120.Location = new System.Drawing.Point(949, 340);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(50, 13);
             this.label120.TabIndex = 411;
@@ -3606,7 +3234,7 @@ namespace PBET_Mainline
             // checkBox32
             // 
             this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(1060, 359);
+            this.checkBox32.Location = new System.Drawing.Point(1001, 356);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(15, 14);
             this.checkBox32.TabIndex = 410;
@@ -3615,7 +3243,7 @@ namespace PBET_Mainline
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(1057, 343);
+            this.label121.Location = new System.Drawing.Point(998, 340);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(50, 13);
             this.label121.TabIndex = 409;
@@ -3624,7 +3252,7 @@ namespace PBET_Mainline
             // checkBox33
             // 
             this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(966, 359);
+            this.checkBox33.Location = new System.Drawing.Point(907, 356);
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(15, 14);
             this.checkBox33.TabIndex = 408;
@@ -3633,7 +3261,7 @@ namespace PBET_Mainline
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(963, 343);
+            this.label122.Location = new System.Drawing.Point(904, 340);
             this.label122.Name = "label122";
             this.label122.Size = new System.Drawing.Size(44, 13);
             this.label122.TabIndex = 407;
@@ -3642,7 +3270,7 @@ namespace PBET_Mainline
             // checkBox34
             // 
             this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(922, 359);
+            this.checkBox34.Location = new System.Drawing.Point(863, 356);
             this.checkBox34.Name = "checkBox34";
             this.checkBox34.Size = new System.Drawing.Size(15, 14);
             this.checkBox34.TabIndex = 406;
@@ -3651,7 +3279,7 @@ namespace PBET_Mainline
             // label123
             // 
             this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(919, 343);
+            this.label123.Location = new System.Drawing.Point(860, 340);
             this.label123.Name = "label123";
             this.label123.Size = new System.Drawing.Size(47, 13);
             this.label123.TabIndex = 405;
@@ -3660,7 +3288,7 @@ namespace PBET_Mainline
             // checkBox35
             // 
             this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(882, 359);
+            this.checkBox35.Location = new System.Drawing.Point(823, 356);
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(15, 14);
             this.checkBox35.TabIndex = 404;
@@ -3669,7 +3297,7 @@ namespace PBET_Mainline
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.Location = new System.Drawing.Point(879, 343);
+            this.label124.Location = new System.Drawing.Point(820, 340);
             this.label124.Name = "label124";
             this.label124.Size = new System.Drawing.Size(40, 13);
             this.label124.TabIndex = 403;
@@ -3678,7 +3306,7 @@ namespace PBET_Mainline
             // checkBox36
             // 
             this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(841, 359);
+            this.checkBox36.Location = new System.Drawing.Point(782, 356);
             this.checkBox36.Name = "checkBox36";
             this.checkBox36.Size = new System.Drawing.Size(15, 14);
             this.checkBox36.TabIndex = 402;
@@ -3687,7 +3315,7 @@ namespace PBET_Mainline
             // label125
             // 
             this.label125.AutoSize = true;
-            this.label125.Location = new System.Drawing.Point(838, 343);
+            this.label125.Location = new System.Drawing.Point(779, 340);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(35, 13);
             this.label125.TabIndex = 401;
@@ -3696,7 +3324,7 @@ namespace PBET_Mainline
             // checkBox37
             // 
             this.checkBox37.AutoSize = true;
-            this.checkBox37.Location = new System.Drawing.Point(1011, 391);
+            this.checkBox37.Location = new System.Drawing.Point(952, 388);
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(15, 14);
             this.checkBox37.TabIndex = 424;
@@ -3705,7 +3333,7 @@ namespace PBET_Mainline
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.Location = new System.Drawing.Point(1008, 375);
+            this.label126.Location = new System.Drawing.Point(949, 372);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(50, 13);
             this.label126.TabIndex = 423;
@@ -3714,7 +3342,7 @@ namespace PBET_Mainline
             // checkBox38
             // 
             this.checkBox38.AutoSize = true;
-            this.checkBox38.Location = new System.Drawing.Point(1060, 391);
+            this.checkBox38.Location = new System.Drawing.Point(1001, 388);
             this.checkBox38.Name = "checkBox38";
             this.checkBox38.Size = new System.Drawing.Size(15, 14);
             this.checkBox38.TabIndex = 422;
@@ -3723,7 +3351,7 @@ namespace PBET_Mainline
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.Location = new System.Drawing.Point(1057, 375);
+            this.label127.Location = new System.Drawing.Point(998, 372);
             this.label127.Name = "label127";
             this.label127.Size = new System.Drawing.Size(50, 13);
             this.label127.TabIndex = 421;
@@ -3732,7 +3360,7 @@ namespace PBET_Mainline
             // checkBox39
             // 
             this.checkBox39.AutoSize = true;
-            this.checkBox39.Location = new System.Drawing.Point(966, 391);
+            this.checkBox39.Location = new System.Drawing.Point(907, 388);
             this.checkBox39.Name = "checkBox39";
             this.checkBox39.Size = new System.Drawing.Size(15, 14);
             this.checkBox39.TabIndex = 420;
@@ -3741,7 +3369,7 @@ namespace PBET_Mainline
             // label128
             // 
             this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(963, 375);
+            this.label128.Location = new System.Drawing.Point(904, 372);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(44, 13);
             this.label128.TabIndex = 419;
@@ -3750,7 +3378,7 @@ namespace PBET_Mainline
             // checkBox40
             // 
             this.checkBox40.AutoSize = true;
-            this.checkBox40.Location = new System.Drawing.Point(922, 391);
+            this.checkBox40.Location = new System.Drawing.Point(863, 388);
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(15, 14);
             this.checkBox40.TabIndex = 418;
@@ -3759,7 +3387,7 @@ namespace PBET_Mainline
             // label129
             // 
             this.label129.AutoSize = true;
-            this.label129.Location = new System.Drawing.Point(919, 375);
+            this.label129.Location = new System.Drawing.Point(860, 372);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(47, 13);
             this.label129.TabIndex = 417;
@@ -3768,7 +3396,7 @@ namespace PBET_Mainline
             // checkBox41
             // 
             this.checkBox41.AutoSize = true;
-            this.checkBox41.Location = new System.Drawing.Point(882, 391);
+            this.checkBox41.Location = new System.Drawing.Point(823, 388);
             this.checkBox41.Name = "checkBox41";
             this.checkBox41.Size = new System.Drawing.Size(15, 14);
             this.checkBox41.TabIndex = 416;
@@ -3777,7 +3405,7 @@ namespace PBET_Mainline
             // label130
             // 
             this.label130.AutoSize = true;
-            this.label130.Location = new System.Drawing.Point(879, 375);
+            this.label130.Location = new System.Drawing.Point(820, 372);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(40, 13);
             this.label130.TabIndex = 415;
@@ -3786,7 +3414,7 @@ namespace PBET_Mainline
             // checkBox42
             // 
             this.checkBox42.AutoSize = true;
-            this.checkBox42.Location = new System.Drawing.Point(841, 391);
+            this.checkBox42.Location = new System.Drawing.Point(782, 388);
             this.checkBox42.Name = "checkBox42";
             this.checkBox42.Size = new System.Drawing.Size(15, 14);
             this.checkBox42.TabIndex = 414;
@@ -3795,7 +3423,7 @@ namespace PBET_Mainline
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Location = new System.Drawing.Point(838, 375);
+            this.label131.Location = new System.Drawing.Point(779, 372);
             this.label131.Name = "label131";
             this.label131.Size = new System.Drawing.Size(35, 13);
             this.label131.TabIndex = 413;
@@ -3804,7 +3432,7 @@ namespace PBET_Mainline
             // checkBox43
             // 
             this.checkBox43.AutoSize = true;
-            this.checkBox43.Location = new System.Drawing.Point(1011, 423);
+            this.checkBox43.Location = new System.Drawing.Point(952, 420);
             this.checkBox43.Name = "checkBox43";
             this.checkBox43.Size = new System.Drawing.Size(15, 14);
             this.checkBox43.TabIndex = 436;
@@ -3813,7 +3441,7 @@ namespace PBET_Mainline
             // label132
             // 
             this.label132.AutoSize = true;
-            this.label132.Location = new System.Drawing.Point(1008, 407);
+            this.label132.Location = new System.Drawing.Point(949, 404);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(50, 13);
             this.label132.TabIndex = 435;
@@ -3822,7 +3450,7 @@ namespace PBET_Mainline
             // checkBox44
             // 
             this.checkBox44.AutoSize = true;
-            this.checkBox44.Location = new System.Drawing.Point(1060, 423);
+            this.checkBox44.Location = new System.Drawing.Point(1001, 420);
             this.checkBox44.Name = "checkBox44";
             this.checkBox44.Size = new System.Drawing.Size(15, 14);
             this.checkBox44.TabIndex = 434;
@@ -3831,7 +3459,7 @@ namespace PBET_Mainline
             // label133
             // 
             this.label133.AutoSize = true;
-            this.label133.Location = new System.Drawing.Point(1057, 407);
+            this.label133.Location = new System.Drawing.Point(998, 404);
             this.label133.Name = "label133";
             this.label133.Size = new System.Drawing.Size(50, 13);
             this.label133.TabIndex = 433;
@@ -3840,7 +3468,7 @@ namespace PBET_Mainline
             // checkBox45
             // 
             this.checkBox45.AutoSize = true;
-            this.checkBox45.Location = new System.Drawing.Point(966, 423);
+            this.checkBox45.Location = new System.Drawing.Point(907, 420);
             this.checkBox45.Name = "checkBox45";
             this.checkBox45.Size = new System.Drawing.Size(15, 14);
             this.checkBox45.TabIndex = 432;
@@ -3849,7 +3477,7 @@ namespace PBET_Mainline
             // label134
             // 
             this.label134.AutoSize = true;
-            this.label134.Location = new System.Drawing.Point(963, 407);
+            this.label134.Location = new System.Drawing.Point(904, 404);
             this.label134.Name = "label134";
             this.label134.Size = new System.Drawing.Size(44, 13);
             this.label134.TabIndex = 431;
@@ -3858,7 +3486,7 @@ namespace PBET_Mainline
             // checkBox46
             // 
             this.checkBox46.AutoSize = true;
-            this.checkBox46.Location = new System.Drawing.Point(922, 423);
+            this.checkBox46.Location = new System.Drawing.Point(863, 420);
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.Size = new System.Drawing.Size(15, 14);
             this.checkBox46.TabIndex = 430;
@@ -3867,7 +3495,7 @@ namespace PBET_Mainline
             // label135
             // 
             this.label135.AutoSize = true;
-            this.label135.Location = new System.Drawing.Point(919, 407);
+            this.label135.Location = new System.Drawing.Point(860, 404);
             this.label135.Name = "label135";
             this.label135.Size = new System.Drawing.Size(47, 13);
             this.label135.TabIndex = 429;
@@ -3876,7 +3504,7 @@ namespace PBET_Mainline
             // checkBox47
             // 
             this.checkBox47.AutoSize = true;
-            this.checkBox47.Location = new System.Drawing.Point(882, 423);
+            this.checkBox47.Location = new System.Drawing.Point(823, 420);
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(15, 14);
             this.checkBox47.TabIndex = 428;
@@ -3885,7 +3513,7 @@ namespace PBET_Mainline
             // label136
             // 
             this.label136.AutoSize = true;
-            this.label136.Location = new System.Drawing.Point(879, 407);
+            this.label136.Location = new System.Drawing.Point(820, 404);
             this.label136.Name = "label136";
             this.label136.Size = new System.Drawing.Size(40, 13);
             this.label136.TabIndex = 427;
@@ -3894,7 +3522,7 @@ namespace PBET_Mainline
             // checkBox48
             // 
             this.checkBox48.AutoSize = true;
-            this.checkBox48.Location = new System.Drawing.Point(841, 423);
+            this.checkBox48.Location = new System.Drawing.Point(782, 420);
             this.checkBox48.Name = "checkBox48";
             this.checkBox48.Size = new System.Drawing.Size(15, 14);
             this.checkBox48.TabIndex = 426;
@@ -3903,7 +3531,7 @@ namespace PBET_Mainline
             // label137
             // 
             this.label137.AutoSize = true;
-            this.label137.Location = new System.Drawing.Point(838, 407);
+            this.label137.Location = new System.Drawing.Point(779, 404);
             this.label137.Name = "label137";
             this.label137.Size = new System.Drawing.Size(35, 13);
             this.label137.TabIndex = 425;
@@ -3912,7 +3540,7 @@ namespace PBET_Mainline
             // checkBox49
             // 
             this.checkBox49.AutoSize = true;
-            this.checkBox49.Location = new System.Drawing.Point(1011, 455);
+            this.checkBox49.Location = new System.Drawing.Point(952, 452);
             this.checkBox49.Name = "checkBox49";
             this.checkBox49.Size = new System.Drawing.Size(15, 14);
             this.checkBox49.TabIndex = 448;
@@ -3921,7 +3549,7 @@ namespace PBET_Mainline
             // label138
             // 
             this.label138.AutoSize = true;
-            this.label138.Location = new System.Drawing.Point(1008, 439);
+            this.label138.Location = new System.Drawing.Point(949, 436);
             this.label138.Name = "label138";
             this.label138.Size = new System.Drawing.Size(50, 13);
             this.label138.TabIndex = 447;
@@ -3930,7 +3558,7 @@ namespace PBET_Mainline
             // checkBox50
             // 
             this.checkBox50.AutoSize = true;
-            this.checkBox50.Location = new System.Drawing.Point(1060, 455);
+            this.checkBox50.Location = new System.Drawing.Point(1001, 452);
             this.checkBox50.Name = "checkBox50";
             this.checkBox50.Size = new System.Drawing.Size(15, 14);
             this.checkBox50.TabIndex = 446;
@@ -3939,7 +3567,7 @@ namespace PBET_Mainline
             // label139
             // 
             this.label139.AutoSize = true;
-            this.label139.Location = new System.Drawing.Point(1057, 439);
+            this.label139.Location = new System.Drawing.Point(998, 436);
             this.label139.Name = "label139";
             this.label139.Size = new System.Drawing.Size(50, 13);
             this.label139.TabIndex = 445;
@@ -3948,7 +3576,7 @@ namespace PBET_Mainline
             // checkBox51
             // 
             this.checkBox51.AutoSize = true;
-            this.checkBox51.Location = new System.Drawing.Point(966, 455);
+            this.checkBox51.Location = new System.Drawing.Point(907, 452);
             this.checkBox51.Name = "checkBox51";
             this.checkBox51.Size = new System.Drawing.Size(15, 14);
             this.checkBox51.TabIndex = 444;
@@ -3957,7 +3585,7 @@ namespace PBET_Mainline
             // label140
             // 
             this.label140.AutoSize = true;
-            this.label140.Location = new System.Drawing.Point(963, 439);
+            this.label140.Location = new System.Drawing.Point(904, 436);
             this.label140.Name = "label140";
             this.label140.Size = new System.Drawing.Size(44, 13);
             this.label140.TabIndex = 443;
@@ -3966,7 +3594,7 @@ namespace PBET_Mainline
             // checkBox52
             // 
             this.checkBox52.AutoSize = true;
-            this.checkBox52.Location = new System.Drawing.Point(922, 455);
+            this.checkBox52.Location = new System.Drawing.Point(863, 452);
             this.checkBox52.Name = "checkBox52";
             this.checkBox52.Size = new System.Drawing.Size(15, 14);
             this.checkBox52.TabIndex = 442;
@@ -3975,7 +3603,7 @@ namespace PBET_Mainline
             // label141
             // 
             this.label141.AutoSize = true;
-            this.label141.Location = new System.Drawing.Point(919, 439);
+            this.label141.Location = new System.Drawing.Point(860, 436);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(47, 13);
             this.label141.TabIndex = 441;
@@ -3984,7 +3612,7 @@ namespace PBET_Mainline
             // checkBox53
             // 
             this.checkBox53.AutoSize = true;
-            this.checkBox53.Location = new System.Drawing.Point(882, 455);
+            this.checkBox53.Location = new System.Drawing.Point(823, 452);
             this.checkBox53.Name = "checkBox53";
             this.checkBox53.Size = new System.Drawing.Size(15, 14);
             this.checkBox53.TabIndex = 440;
@@ -3993,7 +3621,7 @@ namespace PBET_Mainline
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(879, 439);
+            this.label142.Location = new System.Drawing.Point(820, 436);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(40, 13);
             this.label142.TabIndex = 439;
@@ -4002,7 +3630,7 @@ namespace PBET_Mainline
             // checkBox54
             // 
             this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(841, 455);
+            this.checkBox54.Location = new System.Drawing.Point(782, 452);
             this.checkBox54.Name = "checkBox54";
             this.checkBox54.Size = new System.Drawing.Size(15, 14);
             this.checkBox54.TabIndex = 438;
@@ -4011,7 +3639,7 @@ namespace PBET_Mainline
             // label143
             // 
             this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(838, 439);
+            this.label143.Location = new System.Drawing.Point(779, 436);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(35, 13);
             this.label143.TabIndex = 437;
@@ -4020,7 +3648,7 @@ namespace PBET_Mainline
             // checkBox55
             // 
             this.checkBox55.AutoSize = true;
-            this.checkBox55.Location = new System.Drawing.Point(1011, 488);
+            this.checkBox55.Location = new System.Drawing.Point(952, 485);
             this.checkBox55.Name = "checkBox55";
             this.checkBox55.Size = new System.Drawing.Size(15, 14);
             this.checkBox55.TabIndex = 460;
@@ -4029,7 +3657,7 @@ namespace PBET_Mainline
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1008, 472);
+            this.label144.Location = new System.Drawing.Point(949, 469);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(50, 13);
             this.label144.TabIndex = 459;
@@ -4038,7 +3666,7 @@ namespace PBET_Mainline
             // checkBox56
             // 
             this.checkBox56.AutoSize = true;
-            this.checkBox56.Location = new System.Drawing.Point(1060, 488);
+            this.checkBox56.Location = new System.Drawing.Point(1001, 485);
             this.checkBox56.Name = "checkBox56";
             this.checkBox56.Size = new System.Drawing.Size(15, 14);
             this.checkBox56.TabIndex = 458;
@@ -4047,7 +3675,7 @@ namespace PBET_Mainline
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1057, 472);
+            this.label145.Location = new System.Drawing.Point(998, 469);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(50, 13);
             this.label145.TabIndex = 457;
@@ -4056,7 +3684,7 @@ namespace PBET_Mainline
             // checkBox57
             // 
             this.checkBox57.AutoSize = true;
-            this.checkBox57.Location = new System.Drawing.Point(966, 488);
+            this.checkBox57.Location = new System.Drawing.Point(907, 485);
             this.checkBox57.Name = "checkBox57";
             this.checkBox57.Size = new System.Drawing.Size(15, 14);
             this.checkBox57.TabIndex = 456;
@@ -4065,7 +3693,7 @@ namespace PBET_Mainline
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(963, 472);
+            this.label146.Location = new System.Drawing.Point(904, 469);
             this.label146.Name = "label146";
             this.label146.Size = new System.Drawing.Size(44, 13);
             this.label146.TabIndex = 455;
@@ -4074,7 +3702,7 @@ namespace PBET_Mainline
             // checkBox58
             // 
             this.checkBox58.AutoSize = true;
-            this.checkBox58.Location = new System.Drawing.Point(922, 488);
+            this.checkBox58.Location = new System.Drawing.Point(863, 485);
             this.checkBox58.Name = "checkBox58";
             this.checkBox58.Size = new System.Drawing.Size(15, 14);
             this.checkBox58.TabIndex = 454;
@@ -4083,7 +3711,7 @@ namespace PBET_Mainline
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(919, 472);
+            this.label147.Location = new System.Drawing.Point(860, 469);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(47, 13);
             this.label147.TabIndex = 453;
@@ -4092,7 +3720,7 @@ namespace PBET_Mainline
             // checkBox59
             // 
             this.checkBox59.AutoSize = true;
-            this.checkBox59.Location = new System.Drawing.Point(882, 488);
+            this.checkBox59.Location = new System.Drawing.Point(823, 485);
             this.checkBox59.Name = "checkBox59";
             this.checkBox59.Size = new System.Drawing.Size(15, 14);
             this.checkBox59.TabIndex = 452;
@@ -4101,7 +3729,7 @@ namespace PBET_Mainline
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(879, 472);
+            this.label148.Location = new System.Drawing.Point(820, 469);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(40, 13);
             this.label148.TabIndex = 451;
@@ -4110,7 +3738,7 @@ namespace PBET_Mainline
             // checkBox60
             // 
             this.checkBox60.AutoSize = true;
-            this.checkBox60.Location = new System.Drawing.Point(841, 488);
+            this.checkBox60.Location = new System.Drawing.Point(782, 485);
             this.checkBox60.Name = "checkBox60";
             this.checkBox60.Size = new System.Drawing.Size(15, 14);
             this.checkBox60.TabIndex = 450;
@@ -4119,7 +3747,7 @@ namespace PBET_Mainline
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(838, 472);
+            this.label149.Location = new System.Drawing.Point(779, 469);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(35, 13);
             this.label149.TabIndex = 449;
@@ -4128,7 +3756,7 @@ namespace PBET_Mainline
             // checkBox61
             // 
             this.checkBox61.AutoSize = true;
-            this.checkBox61.Location = new System.Drawing.Point(1011, 519);
+            this.checkBox61.Location = new System.Drawing.Point(952, 516);
             this.checkBox61.Name = "checkBox61";
             this.checkBox61.Size = new System.Drawing.Size(15, 14);
             this.checkBox61.TabIndex = 472;
@@ -4137,7 +3765,7 @@ namespace PBET_Mainline
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(1008, 503);
+            this.label150.Location = new System.Drawing.Point(949, 500);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(50, 13);
             this.label150.TabIndex = 471;
@@ -4146,7 +3774,7 @@ namespace PBET_Mainline
             // checkBox62
             // 
             this.checkBox62.AutoSize = true;
-            this.checkBox62.Location = new System.Drawing.Point(1060, 519);
+            this.checkBox62.Location = new System.Drawing.Point(1001, 516);
             this.checkBox62.Name = "checkBox62";
             this.checkBox62.Size = new System.Drawing.Size(15, 14);
             this.checkBox62.TabIndex = 470;
@@ -4155,7 +3783,7 @@ namespace PBET_Mainline
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(1057, 503);
+            this.label151.Location = new System.Drawing.Point(998, 500);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(50, 13);
             this.label151.TabIndex = 469;
@@ -4164,7 +3792,7 @@ namespace PBET_Mainline
             // checkBox63
             // 
             this.checkBox63.AutoSize = true;
-            this.checkBox63.Location = new System.Drawing.Point(966, 519);
+            this.checkBox63.Location = new System.Drawing.Point(907, 516);
             this.checkBox63.Name = "checkBox63";
             this.checkBox63.Size = new System.Drawing.Size(15, 14);
             this.checkBox63.TabIndex = 468;
@@ -4173,7 +3801,7 @@ namespace PBET_Mainline
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(963, 503);
+            this.label152.Location = new System.Drawing.Point(904, 500);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(44, 13);
             this.label152.TabIndex = 467;
@@ -4182,7 +3810,7 @@ namespace PBET_Mainline
             // checkBox64
             // 
             this.checkBox64.AutoSize = true;
-            this.checkBox64.Location = new System.Drawing.Point(922, 519);
+            this.checkBox64.Location = new System.Drawing.Point(863, 516);
             this.checkBox64.Name = "checkBox64";
             this.checkBox64.Size = new System.Drawing.Size(15, 14);
             this.checkBox64.TabIndex = 466;
@@ -4191,7 +3819,7 @@ namespace PBET_Mainline
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(919, 503);
+            this.label153.Location = new System.Drawing.Point(860, 500);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(47, 13);
             this.label153.TabIndex = 465;
@@ -4200,7 +3828,7 @@ namespace PBET_Mainline
             // checkBox65
             // 
             this.checkBox65.AutoSize = true;
-            this.checkBox65.Location = new System.Drawing.Point(882, 519);
+            this.checkBox65.Location = new System.Drawing.Point(823, 516);
             this.checkBox65.Name = "checkBox65";
             this.checkBox65.Size = new System.Drawing.Size(15, 14);
             this.checkBox65.TabIndex = 464;
@@ -4209,7 +3837,7 @@ namespace PBET_Mainline
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(879, 503);
+            this.label154.Location = new System.Drawing.Point(820, 500);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(40, 13);
             this.label154.TabIndex = 463;
@@ -4218,7 +3846,7 @@ namespace PBET_Mainline
             // checkBox66
             // 
             this.checkBox66.AutoSize = true;
-            this.checkBox66.Location = new System.Drawing.Point(841, 519);
+            this.checkBox66.Location = new System.Drawing.Point(782, 516);
             this.checkBox66.Name = "checkBox66";
             this.checkBox66.Size = new System.Drawing.Size(15, 14);
             this.checkBox66.TabIndex = 462;
@@ -4227,7 +3855,7 @@ namespace PBET_Mainline
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Location = new System.Drawing.Point(838, 503);
+            this.label155.Location = new System.Drawing.Point(779, 500);
             this.label155.Name = "label155";
             this.label155.Size = new System.Drawing.Size(35, 13);
             this.label155.TabIndex = 461;
@@ -4236,7 +3864,7 @@ namespace PBET_Mainline
             // checkBox67
             // 
             this.checkBox67.AutoSize = true;
-            this.checkBox67.Location = new System.Drawing.Point(1011, 551);
+            this.checkBox67.Location = new System.Drawing.Point(952, 548);
             this.checkBox67.Name = "checkBox67";
             this.checkBox67.Size = new System.Drawing.Size(15, 14);
             this.checkBox67.TabIndex = 484;
@@ -4245,7 +3873,7 @@ namespace PBET_Mainline
             // label156
             // 
             this.label156.AutoSize = true;
-            this.label156.Location = new System.Drawing.Point(1008, 535);
+            this.label156.Location = new System.Drawing.Point(949, 532);
             this.label156.Name = "label156";
             this.label156.Size = new System.Drawing.Size(50, 13);
             this.label156.TabIndex = 483;
@@ -4254,7 +3882,7 @@ namespace PBET_Mainline
             // checkBox68
             // 
             this.checkBox68.AutoSize = true;
-            this.checkBox68.Location = new System.Drawing.Point(1060, 551);
+            this.checkBox68.Location = new System.Drawing.Point(1001, 548);
             this.checkBox68.Name = "checkBox68";
             this.checkBox68.Size = new System.Drawing.Size(15, 14);
             this.checkBox68.TabIndex = 482;
@@ -4263,7 +3891,7 @@ namespace PBET_Mainline
             // label157
             // 
             this.label157.AutoSize = true;
-            this.label157.Location = new System.Drawing.Point(1057, 535);
+            this.label157.Location = new System.Drawing.Point(998, 532);
             this.label157.Name = "label157";
             this.label157.Size = new System.Drawing.Size(50, 13);
             this.label157.TabIndex = 481;
@@ -4272,7 +3900,7 @@ namespace PBET_Mainline
             // checkBox69
             // 
             this.checkBox69.AutoSize = true;
-            this.checkBox69.Location = new System.Drawing.Point(966, 551);
+            this.checkBox69.Location = new System.Drawing.Point(907, 548);
             this.checkBox69.Name = "checkBox69";
             this.checkBox69.Size = new System.Drawing.Size(15, 14);
             this.checkBox69.TabIndex = 480;
@@ -4281,7 +3909,7 @@ namespace PBET_Mainline
             // label158
             // 
             this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(963, 535);
+            this.label158.Location = new System.Drawing.Point(904, 532);
             this.label158.Name = "label158";
             this.label158.Size = new System.Drawing.Size(44, 13);
             this.label158.TabIndex = 479;
@@ -4290,7 +3918,7 @@ namespace PBET_Mainline
             // checkBox70
             // 
             this.checkBox70.AutoSize = true;
-            this.checkBox70.Location = new System.Drawing.Point(922, 551);
+            this.checkBox70.Location = new System.Drawing.Point(863, 548);
             this.checkBox70.Name = "checkBox70";
             this.checkBox70.Size = new System.Drawing.Size(15, 14);
             this.checkBox70.TabIndex = 478;
@@ -4299,7 +3927,7 @@ namespace PBET_Mainline
             // label159
             // 
             this.label159.AutoSize = true;
-            this.label159.Location = new System.Drawing.Point(919, 535);
+            this.label159.Location = new System.Drawing.Point(860, 532);
             this.label159.Name = "label159";
             this.label159.Size = new System.Drawing.Size(47, 13);
             this.label159.TabIndex = 477;
@@ -4308,7 +3936,7 @@ namespace PBET_Mainline
             // checkBox71
             // 
             this.checkBox71.AutoSize = true;
-            this.checkBox71.Location = new System.Drawing.Point(882, 551);
+            this.checkBox71.Location = new System.Drawing.Point(823, 548);
             this.checkBox71.Name = "checkBox71";
             this.checkBox71.Size = new System.Drawing.Size(15, 14);
             this.checkBox71.TabIndex = 476;
@@ -4317,7 +3945,7 @@ namespace PBET_Mainline
             // label160
             // 
             this.label160.AutoSize = true;
-            this.label160.Location = new System.Drawing.Point(879, 535);
+            this.label160.Location = new System.Drawing.Point(820, 532);
             this.label160.Name = "label160";
             this.label160.Size = new System.Drawing.Size(40, 13);
             this.label160.TabIndex = 475;
@@ -4326,7 +3954,7 @@ namespace PBET_Mainline
             // checkBox72
             // 
             this.checkBox72.AutoSize = true;
-            this.checkBox72.Location = new System.Drawing.Point(841, 551);
+            this.checkBox72.Location = new System.Drawing.Point(782, 548);
             this.checkBox72.Name = "checkBox72";
             this.checkBox72.Size = new System.Drawing.Size(15, 14);
             this.checkBox72.TabIndex = 474;
@@ -4335,11 +3963,130 @@ namespace PBET_Mainline
             // label161
             // 
             this.label161.AutoSize = true;
-            this.label161.Location = new System.Drawing.Point(838, 535);
+            this.label161.Location = new System.Drawing.Point(779, 532);
             this.label161.Name = "label161";
             this.label161.Size = new System.Drawing.Size(35, 13);
             this.label161.TabIndex = 473;
             this.label161.Text = "Lead";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox24.Location = new System.Drawing.Point(8, 567);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(764, 39);
+            this.pictureBox24.TabIndex = 485;
+            this.pictureBox24.TabStop = false;
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label162.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label162.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label162.Location = new System.Drawing.Point(14, 577);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(63, 20);
+            this.label162.TabIndex = 486;
+            this.label162.Text = "Totals:";
+            this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // totalGoalLbl
+            // 
+            this.totalGoalLbl.AutoSize = true;
+            this.totalGoalLbl.BackColor = System.Drawing.SystemColors.Highlight;
+            this.totalGoalLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalGoalLbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.totalGoalLbl.Location = new System.Drawing.Point(155, 577);
+            this.totalGoalLbl.Name = "totalGoalLbl";
+            this.totalGoalLbl.Size = new System.Drawing.Size(19, 20);
+            this.totalGoalLbl.TabIndex = 487;
+            this.totalGoalLbl.Text = "0";
+            this.totalGoalLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // goalTf1
+            // 
+            this.goalTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goalTf1.Location = new System.Drawing.Point(134, 184);
+            this.goalTf1.Name = "goalTf1";
+            this.goalTf1.Size = new System.Drawing.Size(58, 26);
+            this.goalTf1.TabIndex = 43;
+            this.goalTf1.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            // 
+            // actTf1
+            // 
+            this.actTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.actTf1.Location = new System.Drawing.Point(198, 184);
+            this.actTf1.Name = "actTf1";
+            this.actTf1.Size = new System.Drawing.Size(61, 26);
+            this.actTf1.TabIndex = 44;
+            this.actTf1.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
+            // 
+            // actTf2
+            // 
+            this.actTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.actTf2.Location = new System.Drawing.Point(198, 216);
+            this.actTf2.Name = "actTf2";
+            this.actTf2.Size = new System.Drawing.Size(61, 26);
+            this.actTf2.TabIndex = 136;
+            this.actTf2.ValueChanged += new System.EventHandler(this.actTf2_ValueChanged);
+            // 
+            // goalTf2
+            // 
+            this.goalTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goalTf2.Location = new System.Drawing.Point(134, 216);
+            this.goalTf2.Name = "goalTf2";
+            this.goalTf2.Size = new System.Drawing.Size(58, 26);
+            this.goalTf2.TabIndex = 135;
+            this.goalTf2.ValueChanged += new System.EventHandler(this.goalTf2_ValueChanged);
+            // 
+            // scrapTf1
+            // 
+            this.scrapTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scrapTf1.Location = new System.Drawing.Point(619, 183);
+            this.scrapTf1.Name = "scrapTf1";
+            this.scrapTf1.Size = new System.Drawing.Size(51, 26);
+            this.scrapTf1.TabIndex = 46;
+            // 
+            // downTf1
+            // 
+            this.downTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.downTf1.Location = new System.Drawing.Point(674, 183);
+            this.downTf1.Name = "downTf1";
+            this.downTf1.Size = new System.Drawing.Size(51, 26);
+            this.downTf1.TabIndex = 47;
+            // 
+            // scrapTf2
+            // 
+            this.scrapTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scrapTf2.Location = new System.Drawing.Point(619, 215);
+            this.scrapTf2.Name = "scrapTf2";
+            this.scrapTf2.Size = new System.Drawing.Size(51, 26);
+            this.scrapTf2.TabIndex = 138;
+            // 
+            // downTf2
+            // 
+            this.downTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.downTf2.Location = new System.Drawing.Point(675, 215);
+            this.downTf2.Name = "downTf2";
+            this.downTf2.Size = new System.Drawing.Size(51, 26);
+            this.downTf2.TabIndex = 139;
+            // 
+            // totalActualLbl
+            // 
+            this.totalActualLbl.AutoSize = true;
+            this.totalActualLbl.BackColor = System.Drawing.SystemColors.Highlight;
+            this.totalActualLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalActualLbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.totalActualLbl.Location = new System.Drawing.Point(214, 577);
+            this.totalActualLbl.Name = "totalActualLbl";
+            this.totalActualLbl.Size = new System.Drawing.Size(19, 20);
+            this.totalActualLbl.TabIndex = 488;
+            this.totalActualLbl.Text = "0";
+            this.totalActualLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // mainForm
             // 
@@ -4348,6 +4095,18 @@ namespace PBET_Mainline
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1475, 681);
+            this.Controls.Add(this.totalActualLbl);
+            this.Controls.Add(this.downTf2);
+            this.Controls.Add(this.scrapTf2);
+            this.Controls.Add(this.downTf1);
+            this.Controls.Add(this.scrapTf1);
+            this.Controls.Add(this.actTf2);
+            this.Controls.Add(this.goalTf2);
+            this.Controls.Add(this.actTf1);
+            this.Controls.Add(this.goalTf1);
+            this.Controls.Add(this.totalGoalLbl);
+            this.Controls.Add(this.label162);
+            this.Controls.Add(this.pictureBox24);
             this.Controls.Add(this.checkBox67);
             this.Controls.Add(this.label156);
             this.Controls.Add(this.checkBox68);
@@ -4502,8 +4261,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.label81);
             this.Controls.Add(this.label82);
             this.Controls.Add(this.label83);
-            this.Controls.Add(this.label84);
-            this.Controls.Add(this.label85);
             this.Controls.Add(this.label86);
             this.Controls.Add(this.textBox81);
             this.Controls.Add(this.textBox83);
@@ -4518,8 +4275,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.label72);
             this.Controls.Add(this.label73);
             this.Controls.Add(this.label74);
-            this.Controls.Add(this.label75);
-            this.Controls.Add(this.label76);
             this.Controls.Add(this.label77);
             this.Controls.Add(this.textBox73);
             this.Controls.Add(this.textBox75);
@@ -4534,8 +4289,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.label54);
             this.Controls.Add(this.label58);
             this.Controls.Add(this.label59);
-            this.Controls.Add(this.label63);
-            this.Controls.Add(this.label64);
             this.Controls.Add(this.label68);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox11);
@@ -4550,8 +4303,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label38);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label43);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox3);
@@ -4602,22 +4353,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.actLbl8);
-            this.Controls.Add(this.actLbl7);
-            this.Controls.Add(this.actLbl6);
-            this.Controls.Add(this.actLbl5);
-            this.Controls.Add(this.actLbl4);
-            this.Controls.Add(this.actLbl3);
-            this.Controls.Add(this.actLbl2);
-            this.Controls.Add(this.actLbl1);
-            this.Controls.Add(this.goLbl8);
-            this.Controls.Add(this.goLbl7);
-            this.Controls.Add(this.goLbl6);
-            this.Controls.Add(this.goLbl5);
-            this.Controls.Add(this.goLbl4);
-            this.Controls.Add(this.goLbl3);
-            this.Controls.Add(this.goLbl2);
-            this.Controls.Add(this.goLbl1);
             this.Controls.Add(this.hrLbl8);
             this.Controls.Add(this.hrLbl7);
             this.Controls.Add(this.hrLbl6);
@@ -4668,17 +4403,9 @@ namespace PBET_Mainline
             this.Controls.Add(this.textBox27);
             this.Controls.Add(this.textBox28);
             this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
             this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox20);
             this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.quaLbl);
-            this.Controls.Add(this.perfLbl);
-            this.Controls.Add(this.avaiLbl);
-            this.Controls.Add(this.oeeLbl);
             this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.pictureBox22);
@@ -4696,14 +4423,10 @@ namespace PBET_Mainline
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.act1Tf);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.com1Tf);
-            this.Controls.Add(this.down1Tf);
-            this.Controls.Add(this.scrap1Tf);
             this.Controls.Add(this.seq1Tf);
-            this.Controls.Add(this.go1Tf);
             this.Controls.Add(this.hrTf1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.pictureBox16);
@@ -4741,6 +4464,10 @@ namespace PBET_Mainline
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pbTitle);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.quaLbl);
+            this.Controls.Add(this.perfLbl);
+            this.Controls.Add(this.avaiLbl);
+            this.Controls.Add(this.oeeLbl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "mainForm";
@@ -4771,6 +4498,15 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.actTf1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.actTf2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goalTf2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scrapTf1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downTf1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scrapTf2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downTf2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4839,18 +4575,10 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label perfLbl;
         private System.Windows.Forms.Label quaLbl;
         private System.Windows.Forms.TextBox hrTf1;
-        private System.Windows.Forms.TextBox go1Tf;
         private System.Windows.Forms.TextBox seq1Tf;
-        private System.Windows.Forms.TextBox scrap1Tf;
-        private System.Windows.Forms.TextBox down1Tf;
         private System.Windows.Forms.TextBox com1Tf;
-        private System.Windows.Forms.TextBox act1Tf;
-        private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.TextBox textBox24;
@@ -4902,22 +4630,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label hrLbl6;
         private System.Windows.Forms.Label hrLbl7;
         private System.Windows.Forms.Label hrLbl8;
-        private System.Windows.Forms.Label goLbl1;
-        private System.Windows.Forms.Label goLbl2;
-        private System.Windows.Forms.Label goLbl3;
-        private System.Windows.Forms.Label goLbl4;
-        private System.Windows.Forms.Label goLbl5;
-        private System.Windows.Forms.Label goLbl6;
-        private System.Windows.Forms.Label goLbl7;
-        private System.Windows.Forms.Label goLbl8;
-        private System.Windows.Forms.Label actLbl1;
-        private System.Windows.Forms.Label actLbl2;
-        private System.Windows.Forms.Label actLbl3;
-        private System.Windows.Forms.Label actLbl4;
-        private System.Windows.Forms.Label actLbl5;
-        private System.Windows.Forms.Label actLbl6;
-        private System.Windows.Forms.Label actLbl7;
-        private System.Windows.Forms.Label actLbl8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
@@ -4964,8 +4676,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;
@@ -4980,8 +4690,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox11;
@@ -4996,8 +4704,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.TextBox textBox73;
         private System.Windows.Forms.TextBox textBox75;
@@ -5012,8 +4718,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label label83;
-        private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.Label label85;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.TextBox textBox81;
         private System.Windows.Forms.TextBox textBox83;
@@ -5172,6 +4876,18 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label label160;
         private System.Windows.Forms.CheckBox checkBox72;
         private System.Windows.Forms.Label label161;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.Label totalGoalLbl;
+        private System.Windows.Forms.NumericUpDown goalTf1;
+        private System.Windows.Forms.NumericUpDown actTf1;
+        private System.Windows.Forms.NumericUpDown actTf2;
+        private System.Windows.Forms.NumericUpDown goalTf2;
+        private System.Windows.Forms.NumericUpDown scrapTf1;
+        private System.Windows.Forms.NumericUpDown downTf1;
+        private System.Windows.Forms.NumericUpDown scrapTf2;
+        private System.Windows.Forms.NumericUpDown downTf2;
+        private System.Windows.Forms.Label totalActualLbl;
     }
 }
 

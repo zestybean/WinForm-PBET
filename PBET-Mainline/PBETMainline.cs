@@ -68,7 +68,7 @@ namespace PBET_Mainline
         ///
         private void reCalcTotals()
         {
-            
+            calcTotalHour();
             calcTotalGoal();
             calcTotalActual();
             calcVariance();
@@ -122,11 +122,34 @@ namespace PBET_Mainline
             }
         }
 
+        private void sumHours()
+        {
+            mainHour = 0;
+            foreach (Control x in this.Controls)
+            {
+                if (x is TextBox)
+                {
+
+                    if ((x as TextBox).Text != string.Empty || (x as TextBox).Text != "")
+                    {
+                        mainHour += 1;
+                        reCalcTotals();
+                    }
+                }
+            }
+        }
+
+        private void calcTotalHour()
+        {
+            totalHoursLbl.Text = mainHour.ToString();
+        }
+
         private void calcTotalGoal()
         {
+            //RESET GOAL
             mainGoal = 0;
 
-            mainGoal = Decimal.ToInt32(goalTf1.Value + goalTf2.Value);
+            mainGoal = Decimal.ToInt32(goalTf1.Value + goalTf2.Value + goalTf3.Value + goalTf4.Value + goalTf5.Value + goalTf6.Value + goalTf7.Value + goalTf8.Value + goalTf9.Value + goalTf10.Value + goalTf11.Value + goalTf12.Value);
 
             totalGoalLbl.Text = mainGoal.ToString();
 
@@ -136,14 +159,40 @@ namespace PBET_Mainline
 
         private void calcTotalActual()
         {
+            //RESET ACTUAL
             mainActual = 0;
 
-            mainActual = Decimal.ToInt32(actTf1.Value + actTf2.Value);
+            mainActual = Decimal.ToInt32(actTf1.Value + actTf2.Value + actTf3.Value + actTf4.Value + actTf5.Value + actTf6.Value + actTf7.Value + actTf8.Value + actTf9.Value + actTf10.Value + actTf11.Value + actTf12.Value);
 
             totalActualLbl.Text = mainActual.ToString();
 
             bgColorChange();
             
+        }
+
+        private void calcTotalScrap()
+        {
+            //RESET SCRAP
+            mainScrap = 0;
+
+            mainScrap = Decimal.ToInt32(scrapTf1.Value + scrapTf2.Value + scrapTf3.Value + scrapTf4.Value + scrapTf5.Value + scrapTf6.Value + scrapTf7.Value + scrapTf8.Value + scrapTf9.Value + scrapTf10.Value + scrapTf11.Value + scrapTf12.Value);
+
+            totalScrapLbl.Text = mainScrap.ToString();
+
+            bgColorChange();
+
+        }
+
+        private void calcTotalDowntime()
+        {
+            //RESET DOWN
+            mainDowntime = 0;
+
+            mainDowntime = Decimal.ToInt32(downTf1.Value + downTf2.Value + downTf3.Value + downTf4.Value + downTf5.Value + downTf6.Value + downTf7.Value + downTf8.Value + downTf9.Value + downTf10.Value + downTf11.Value + downTf12.Value);
+
+            totalDtLbl.Text = mainDowntime.ToString();
+
+            bgColorChange();
         }
 
 
@@ -163,43 +212,67 @@ namespace PBET_Mainline
 
             mainVariance += hourVariance;
 
+            hourVariance = -1 * (Decimal.ToInt32(goalTf3.Value - actTf3.Value));
+            varLbl3_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf4.Value - actTf4.Value));
+            varLbl4_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf5.Value - actTf5.Value));
+            varLbl5_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf6.Value - actTf6.Value));
+            varLbl6_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf7.Value - actTf7.Value));
+            varLbl7_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf8.Value - actTf8.Value));
+            varLbl8_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf9.Value - actTf9.Value));
+            varLbl9_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf10.Value - actTf10.Value));
+            varLbl10_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf11.Value - actTf11.Value));
+            varLbl11_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
+            hourVariance = -1 * (Decimal.ToInt32(goalTf12.Value - actTf12.Value));
+            varLbl12_1.Text = hourVariance.ToString();
+
+            mainVariance += hourVariance;
+
             totalVarianceLbl.Text = mainVariance.ToString();
 
             bgColorChange();
         }
 
-        private void calcTotalScrap()
-        {
-            //RESET SCRAP
-            mainScrap = 0;
-
-            mainScrap = Decimal.ToInt32(scrapTf1.Value + scrapTf2.Value);
-
-            totalScrapLbl.Text = mainScrap.ToString();
-
-            bgColorChange();
-
-        }
-
-        private void calcTotalDowntime()
-        {
-            //RESET DOWN
-            mainDowntime = 0;
-
-            mainDowntime = Decimal.ToInt32(downTf1.Value + downTf2.Value);
-
-            totalDtLbl.Text = mainDowntime.ToString();
-
-            bgColorChange();
-        }
-
-        private void hrTf1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            validateInput(sender, e);
-        }
+        
 
         private void hrTf1_TextChanged(object sender, EventArgs e)
         {
+            sumHours();
+            
             //Reset label each time new input comes in
             hrLbl1.Text = "0";
             try
@@ -223,8 +296,313 @@ namespace PBET_Mainline
             }
         }
 
+        private void hrTf2_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
 
+            //Reset label each time new input comes in
+            hrLbl2.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf2.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
 
+                //Set label string
+                hrLbl2.Text = result.ToString();
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf3_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl3.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf3.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl3.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf4_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl4.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf4.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl4.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf5_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl5.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf5.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl5.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf6_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl6.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf6.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl6.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf7_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl7.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf7.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl7.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf8_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl8.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf8.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl8.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf9_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl9.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf9.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl9.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf10_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl10.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf10.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl10.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf11_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl11.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf11.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl11.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
+
+        private void hrTf12_TextChanged(object sender, EventArgs e)
+        {
+            sumHours();
+            //Reset label each time new input comes in
+            hrLbl12.Text = "0";
+            try
+            {
+                int result = Int32.Parse(hrTf12.Text);
+                //Handle 12th hour
+                if (result == 12)
+                {
+                    result -= 11;
+                }
+                else
+                {
+                    result += 1;
+                }
+
+                //Set label string
+                hrLbl12.Text = result.ToString();
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad parse.");
+            }
+        }
 
         private void subButton_Click(object sender, EventArgs e)
         {
@@ -239,44 +617,41 @@ namespace PBET_Mainline
             
         }
 
+        /// <summary>
+        /// GOALLLLLL
+        /// </summary>
+
         private void goalTf1_ValueChanged(object sender, EventArgs e)
         {
             reCalcTotals();
         }
 
-        private void goalTf2_ValueChanged(object sender, EventArgs e)
-        {
-            reCalcTotals();
-        }
+        /// <summary>
+        /// ACTUAL
+        /// </summary>
 
         private void actTf1_ValueChanged(object sender, EventArgs e)
         {
             reCalcTotals();
         }
-
-        private void actTf2_ValueChanged(object sender, EventArgs e)
-        {
-            reCalcTotals();
-        }
+        
+        /// <summary>
+        /// SCRAP
+        /// </summary>
 
         private void scrapTf1_ValueChanged(object sender, EventArgs e)
         {
             reCalcTotals();
         }
 
-        private void scrapTf2_ValueChanged(object sender, EventArgs e)
-        {
-            reCalcTotals();
-        }
+        /// <summary>
+        /// DOWNTIME
+        /// </summary>
 
         private void downTf1_ValueChanged(object sender, EventArgs e)
         {
             reCalcTotals();
         }
 
-        private void downTf2_ValueChanged(object sender, EventArgs e)
-        {
-            reCalcTotals();
-        }
     }
 }

@@ -1069,7 +1069,7 @@ namespace PBET_Mainline
             this.hrTf1.TabIndex = 42;
             this.hrTf1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.hrTf1.TextChanged += new System.EventHandler(this.hrTf1_TextChanged);
-            this.hrTf1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hrTf1_KeyPress);
+            this.hrTf1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // seqTf1
             // 
@@ -1119,6 +1119,8 @@ namespace PBET_Mainline
             this.hrTf2.Size = new System.Drawing.Size(40, 26);
             this.hrTf2.TabIndex = 134;
             this.hrTf2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf2.TextChanged += new System.EventHandler(this.hrTf2_TextChanged);
+            this.hrTf2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf3
             // 
@@ -1148,6 +1150,8 @@ namespace PBET_Mainline
             this.hrTf3.Size = new System.Drawing.Size(40, 26);
             this.hrTf3.TabIndex = 142;
             this.hrTf3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf3.TextChanged += new System.EventHandler(this.hrTf3_TextChanged);
+            this.hrTf3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf4
             // 
@@ -1177,6 +1181,8 @@ namespace PBET_Mainline
             this.hrTf4.Size = new System.Drawing.Size(40, 26);
             this.hrTf4.TabIndex = 150;
             this.hrTf4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf4.TextChanged += new System.EventHandler(this.hrTf4_TextChanged);
+            this.hrTf4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf5
             // 
@@ -1206,6 +1212,8 @@ namespace PBET_Mainline
             this.hrTf5.Size = new System.Drawing.Size(40, 26);
             this.hrTf5.TabIndex = 158;
             this.hrTf5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf5.TextChanged += new System.EventHandler(this.hrTf5_TextChanged);
+            this.hrTf5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf6
             // 
@@ -1235,6 +1243,8 @@ namespace PBET_Mainline
             this.hrTf6.Size = new System.Drawing.Size(40, 26);
             this.hrTf6.TabIndex = 166;
             this.hrTf6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf6.TextChanged += new System.EventHandler(this.hrTf6_TextChanged);
+            this.hrTf6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf7
             // 
@@ -1264,6 +1274,8 @@ namespace PBET_Mainline
             this.hrTf7.Size = new System.Drawing.Size(40, 26);
             this.hrTf7.TabIndex = 174;
             this.hrTf7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf7.TextChanged += new System.EventHandler(this.hrTf7_TextChanged);
+            this.hrTf7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf8
             // 
@@ -1293,6 +1305,8 @@ namespace PBET_Mainline
             this.hrTf8.Size = new System.Drawing.Size(40, 26);
             this.hrTf8.TabIndex = 182;
             this.hrTf8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf8.TextChanged += new System.EventHandler(this.hrTf8_TextChanged);
+            this.hrTf8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // hrLbl1
             // 
@@ -1544,6 +1558,8 @@ namespace PBET_Mainline
             this.hrTf9.Size = new System.Drawing.Size(40, 26);
             this.hrTf9.TabIndex = 256;
             this.hrTf9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf9.TextChanged += new System.EventHandler(this.hrTf9_TextChanged);
+            this.hrTf9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // label48
             // 
@@ -1606,6 +1622,8 @@ namespace PBET_Mainline
             this.hrTf10.Size = new System.Drawing.Size(40, 26);
             this.hrTf10.TabIndex = 273;
             this.hrTf10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf10.TextChanged += new System.EventHandler(this.hrTf10_TextChanged);
+            this.hrTf10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // label69
             // 
@@ -1669,6 +1687,8 @@ namespace PBET_Mainline
             this.hrTf11.Size = new System.Drawing.Size(40, 26);
             this.hrTf11.TabIndex = 290;
             this.hrTf11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf11.TextChanged += new System.EventHandler(this.hrTf11_TextChanged);
+            this.hrTf11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // label78
             // 
@@ -1731,6 +1751,8 @@ namespace PBET_Mainline
             this.hrTf12.Size = new System.Drawing.Size(40, 26);
             this.hrTf12.TabIndex = 307;
             this.hrTf12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hrTf12.TextChanged += new System.EventHandler(this.hrTf12_TextChanged);
+            this.hrTf12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // label87
             // 
@@ -3188,7 +3210,7 @@ namespace PBET_Mainline
             this.actTf2.Name = "actTf2";
             this.actTf2.Size = new System.Drawing.Size(61, 26);
             this.actTf2.TabIndex = 136;
-            this.actTf2.ValueChanged += new System.EventHandler(this.actTf2_ValueChanged);
+            this.actTf2.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf2
             // 
@@ -3202,7 +3224,7 @@ namespace PBET_Mainline
             this.goalTf2.Name = "goalTf2";
             this.goalTf2.Size = new System.Drawing.Size(58, 26);
             this.goalTf2.TabIndex = 135;
-            this.goalTf2.ValueChanged += new System.EventHandler(this.goalTf2_ValueChanged);
+            this.goalTf2.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // scrapTf1
             // 
@@ -3239,7 +3261,7 @@ namespace PBET_Mainline
             this.scrapTf2.Name = "scrapTf2";
             this.scrapTf2.Size = new System.Drawing.Size(51, 26);
             this.scrapTf2.TabIndex = 138;
-            this.scrapTf2.ValueChanged += new System.EventHandler(this.scrapTf2_ValueChanged);
+            this.scrapTf2.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf2
             // 
@@ -3258,7 +3280,7 @@ namespace PBET_Mainline
             this.downTf2.Name = "downTf2";
             this.downTf2.Size = new System.Drawing.Size(51, 26);
             this.downTf2.TabIndex = 139;
-            this.downTf2.ValueChanged += new System.EventHandler(this.downTf2_ValueChanged);
+            this.downTf2.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // totalActualLbl
             // 
@@ -3370,6 +3392,7 @@ namespace PBET_Mainline
             this.actTf3.Name = "actTf3";
             this.actTf3.Size = new System.Drawing.Size(61, 26);
             this.actTf3.TabIndex = 144;
+            this.actTf3.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf3
             // 
@@ -3383,6 +3406,7 @@ namespace PBET_Mainline
             this.goalTf3.Name = "goalTf3";
             this.goalTf3.Size = new System.Drawing.Size(58, 26);
             this.goalTf3.TabIndex = 143;
+            this.goalTf3.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf5
             // 
@@ -3395,7 +3419,8 @@ namespace PBET_Mainline
             0});
             this.actTf5.Name = "actTf5";
             this.actTf5.Size = new System.Drawing.Size(61, 26);
-            this.actTf5.TabIndex = 498;
+            this.actTf5.TabIndex = 160;
+            this.actTf5.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf5
             // 
@@ -3408,7 +3433,8 @@ namespace PBET_Mainline
             0});
             this.goalTf5.Name = "goalTf5";
             this.goalTf5.Size = new System.Drawing.Size(58, 26);
-            this.goalTf5.TabIndex = 497;
+            this.goalTf5.TabIndex = 159;
+            this.goalTf5.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf4
             // 
@@ -3421,7 +3447,8 @@ namespace PBET_Mainline
             0});
             this.actTf4.Name = "actTf4";
             this.actTf4.Size = new System.Drawing.Size(61, 26);
-            this.actTf4.TabIndex = 496;
+            this.actTf4.TabIndex = 152;
+            this.actTf4.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf4
             // 
@@ -3434,7 +3461,8 @@ namespace PBET_Mainline
             0});
             this.goalTf4.Name = "goalTf4";
             this.goalTf4.Size = new System.Drawing.Size(58, 26);
-            this.goalTf4.TabIndex = 495;
+            this.goalTf4.TabIndex = 151;
+            this.goalTf4.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf7
             // 
@@ -3447,7 +3475,8 @@ namespace PBET_Mainline
             0});
             this.actTf7.Name = "actTf7";
             this.actTf7.Size = new System.Drawing.Size(61, 26);
-            this.actTf7.TabIndex = 502;
+            this.actTf7.TabIndex = 176;
+            this.actTf7.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf7
             // 
@@ -3460,7 +3489,8 @@ namespace PBET_Mainline
             0});
             this.goalTf7.Name = "goalTf7";
             this.goalTf7.Size = new System.Drawing.Size(58, 26);
-            this.goalTf7.TabIndex = 501;
+            this.goalTf7.TabIndex = 175;
+            this.goalTf7.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf6
             // 
@@ -3473,7 +3503,8 @@ namespace PBET_Mainline
             0});
             this.actTf6.Name = "actTf6";
             this.actTf6.Size = new System.Drawing.Size(61, 26);
-            this.actTf6.TabIndex = 500;
+            this.actTf6.TabIndex = 168;
+            this.actTf6.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf6
             // 
@@ -3486,7 +3517,8 @@ namespace PBET_Mainline
             0});
             this.goalTf6.Name = "goalTf6";
             this.goalTf6.Size = new System.Drawing.Size(58, 26);
-            this.goalTf6.TabIndex = 499;
+            this.goalTf6.TabIndex = 167;
+            this.goalTf6.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf9
             // 
@@ -3499,7 +3531,8 @@ namespace PBET_Mainline
             0});
             this.actTf9.Name = "actTf9";
             this.actTf9.Size = new System.Drawing.Size(61, 26);
-            this.actTf9.TabIndex = 506;
+            this.actTf9.TabIndex = 258;
+            this.actTf9.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf9
             // 
@@ -3512,7 +3545,8 @@ namespace PBET_Mainline
             0});
             this.goalTf9.Name = "goalTf9";
             this.goalTf9.Size = new System.Drawing.Size(58, 26);
-            this.goalTf9.TabIndex = 505;
+            this.goalTf9.TabIndex = 257;
+            this.goalTf9.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf8
             // 
@@ -3525,7 +3559,8 @@ namespace PBET_Mainline
             0});
             this.actTf8.Name = "actTf8";
             this.actTf8.Size = new System.Drawing.Size(61, 26);
-            this.actTf8.TabIndex = 504;
+            this.actTf8.TabIndex = 184;
+            this.actTf8.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf8
             // 
@@ -3538,7 +3573,8 @@ namespace PBET_Mainline
             0});
             this.goalTf8.Name = "goalTf8";
             this.goalTf8.Size = new System.Drawing.Size(58, 26);
-            this.goalTf8.TabIndex = 503;
+            this.goalTf8.TabIndex = 183;
+            this.goalTf8.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf11
             // 
@@ -3551,7 +3587,8 @@ namespace PBET_Mainline
             0});
             this.actTf11.Name = "actTf11";
             this.actTf11.Size = new System.Drawing.Size(61, 26);
-            this.actTf11.TabIndex = 510;
+            this.actTf11.TabIndex = 292;
+            this.actTf11.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf11
             // 
@@ -3564,7 +3601,8 @@ namespace PBET_Mainline
             0});
             this.goalTf11.Name = "goalTf11";
             this.goalTf11.Size = new System.Drawing.Size(58, 26);
-            this.goalTf11.TabIndex = 509;
+            this.goalTf11.TabIndex = 291;
+            this.goalTf11.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf10
             // 
@@ -3577,7 +3615,8 @@ namespace PBET_Mainline
             0});
             this.actTf10.Name = "actTf10";
             this.actTf10.Size = new System.Drawing.Size(61, 26);
-            this.actTf10.TabIndex = 508;
+            this.actTf10.TabIndex = 275;
+            this.actTf10.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf10
             // 
@@ -3590,7 +3629,8 @@ namespace PBET_Mainline
             0});
             this.goalTf10.Name = "goalTf10";
             this.goalTf10.Size = new System.Drawing.Size(58, 26);
-            this.goalTf10.TabIndex = 507;
+            this.goalTf10.TabIndex = 274;
+            this.goalTf10.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // actTf12
             // 
@@ -3603,7 +3643,8 @@ namespace PBET_Mainline
             0});
             this.actTf12.Name = "actTf12";
             this.actTf12.Size = new System.Drawing.Size(61, 26);
-            this.actTf12.TabIndex = 512;
+            this.actTf12.TabIndex = 309;
+            this.actTf12.ValueChanged += new System.EventHandler(this.actTf1_ValueChanged);
             // 
             // goalTf12
             // 
@@ -3616,7 +3657,8 @@ namespace PBET_Mainline
             0});
             this.goalTf12.Name = "goalTf12";
             this.goalTf12.Size = new System.Drawing.Size(58, 26);
-            this.goalTf12.TabIndex = 511;
+            this.goalTf12.TabIndex = 308;
+            this.goalTf12.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
             // 
             // downTf4
             // 
@@ -3634,7 +3676,8 @@ namespace PBET_Mainline
             0});
             this.downTf4.Name = "downTf4";
             this.downTf4.Size = new System.Drawing.Size(51, 26);
-            this.downTf4.TabIndex = 516;
+            this.downTf4.TabIndex = 155;
+            this.downTf4.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf4
             // 
@@ -3642,7 +3685,8 @@ namespace PBET_Mainline
             this.scrapTf4.Location = new System.Drawing.Point(619, 280);
             this.scrapTf4.Name = "scrapTf4";
             this.scrapTf4.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf4.TabIndex = 515;
+            this.scrapTf4.TabIndex = 154;
+            this.scrapTf4.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf3
             // 
@@ -3661,6 +3705,7 @@ namespace PBET_Mainline
             this.downTf3.Name = "downTf3";
             this.downTf3.Size = new System.Drawing.Size(51, 26);
             this.downTf3.TabIndex = 147;
+            this.downTf3.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf3
             // 
@@ -3669,6 +3714,7 @@ namespace PBET_Mainline
             this.scrapTf3.Name = "scrapTf3";
             this.scrapTf3.Size = new System.Drawing.Size(51, 26);
             this.scrapTf3.TabIndex = 146;
+            this.scrapTf3.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf6
             // 
@@ -3686,7 +3732,8 @@ namespace PBET_Mainline
             0});
             this.downTf6.Name = "downTf6";
             this.downTf6.Size = new System.Drawing.Size(51, 26);
-            this.downTf6.TabIndex = 520;
+            this.downTf6.TabIndex = 171;
+            this.downTf6.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf6
             // 
@@ -3694,7 +3741,8 @@ namespace PBET_Mainline
             this.scrapTf6.Location = new System.Drawing.Point(619, 344);
             this.scrapTf6.Name = "scrapTf6";
             this.scrapTf6.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf6.TabIndex = 519;
+            this.scrapTf6.TabIndex = 170;
+            this.scrapTf6.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf5
             // 
@@ -3712,7 +3760,8 @@ namespace PBET_Mainline
             0});
             this.downTf5.Name = "downTf5";
             this.downTf5.Size = new System.Drawing.Size(51, 26);
-            this.downTf5.TabIndex = 518;
+            this.downTf5.TabIndex = 163;
+            this.downTf5.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf5
             // 
@@ -3720,7 +3769,8 @@ namespace PBET_Mainline
             this.scrapTf5.Location = new System.Drawing.Point(619, 312);
             this.scrapTf5.Name = "scrapTf5";
             this.scrapTf5.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf5.TabIndex = 517;
+            this.scrapTf5.TabIndex = 162;
+            this.scrapTf5.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf8
             // 
@@ -3738,7 +3788,8 @@ namespace PBET_Mainline
             0});
             this.downTf8.Name = "downTf8";
             this.downTf8.Size = new System.Drawing.Size(51, 26);
-            this.downTf8.TabIndex = 524;
+            this.downTf8.TabIndex = 187;
+            this.downTf8.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf8
             // 
@@ -3746,7 +3797,8 @@ namespace PBET_Mainline
             this.scrapTf8.Location = new System.Drawing.Point(619, 408);
             this.scrapTf8.Name = "scrapTf8";
             this.scrapTf8.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf8.TabIndex = 523;
+            this.scrapTf8.TabIndex = 186;
+            this.scrapTf8.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf7
             // 
@@ -3764,7 +3816,8 @@ namespace PBET_Mainline
             0});
             this.downTf7.Name = "downTf7";
             this.downTf7.Size = new System.Drawing.Size(51, 26);
-            this.downTf7.TabIndex = 522;
+            this.downTf7.TabIndex = 179;
+            this.downTf7.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf7
             // 
@@ -3772,7 +3825,8 @@ namespace PBET_Mainline
             this.scrapTf7.Location = new System.Drawing.Point(619, 376);
             this.scrapTf7.Name = "scrapTf7";
             this.scrapTf7.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf7.TabIndex = 521;
+            this.scrapTf7.TabIndex = 178;
+            this.scrapTf7.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf10
             // 
@@ -3790,7 +3844,8 @@ namespace PBET_Mainline
             0});
             this.downTf10.Name = "downTf10";
             this.downTf10.Size = new System.Drawing.Size(51, 26);
-            this.downTf10.TabIndex = 528;
+            this.downTf10.TabIndex = 278;
+            this.downTf10.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf10
             // 
@@ -3798,7 +3853,8 @@ namespace PBET_Mainline
             this.scrapTf10.Location = new System.Drawing.Point(619, 472);
             this.scrapTf10.Name = "scrapTf10";
             this.scrapTf10.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf10.TabIndex = 527;
+            this.scrapTf10.TabIndex = 277;
+            this.scrapTf10.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf9
             // 
@@ -3816,7 +3872,8 @@ namespace PBET_Mainline
             0});
             this.downTf9.Name = "downTf9";
             this.downTf9.Size = new System.Drawing.Size(51, 26);
-            this.downTf9.TabIndex = 526;
+            this.downTf9.TabIndex = 261;
+            this.downTf9.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf9
             // 
@@ -3824,7 +3881,8 @@ namespace PBET_Mainline
             this.scrapTf9.Location = new System.Drawing.Point(619, 440);
             this.scrapTf9.Name = "scrapTf9";
             this.scrapTf9.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf9.TabIndex = 525;
+            this.scrapTf9.TabIndex = 260;
+            this.scrapTf9.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf12
             // 
@@ -3842,7 +3900,8 @@ namespace PBET_Mainline
             0});
             this.downTf12.Name = "downTf12";
             this.downTf12.Size = new System.Drawing.Size(51, 26);
-            this.downTf12.TabIndex = 532;
+            this.downTf12.TabIndex = 312;
+            this.downTf12.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf12
             // 
@@ -3850,7 +3909,8 @@ namespace PBET_Mainline
             this.scrapTf12.Location = new System.Drawing.Point(619, 536);
             this.scrapTf12.Name = "scrapTf12";
             this.scrapTf12.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf12.TabIndex = 531;
+            this.scrapTf12.TabIndex = 311;
+            this.scrapTf12.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // downTf11
             // 
@@ -3868,7 +3928,8 @@ namespace PBET_Mainline
             0});
             this.downTf11.Name = "downTf11";
             this.downTf11.Size = new System.Drawing.Size(51, 26);
-            this.downTf11.TabIndex = 530;
+            this.downTf11.TabIndex = 295;
+            this.downTf11.ValueChanged += new System.EventHandler(this.downTf1_ValueChanged);
             // 
             // scrapTf11
             // 
@@ -3876,7 +3937,8 @@ namespace PBET_Mainline
             this.scrapTf11.Location = new System.Drawing.Point(619, 504);
             this.scrapTf11.Name = "scrapTf11";
             this.scrapTf11.Size = new System.Drawing.Size(51, 26);
-            this.scrapTf11.TabIndex = 529;
+            this.scrapTf11.TabIndex = 294;
+            this.scrapTf11.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
             // mainForm
             // 

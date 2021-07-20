@@ -29,7 +29,7 @@ namespace PBET_Mainline
         /// </summary>
         private void InitializeComponent()
         {
-            this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.dtPicker = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbTitle = new System.Windows.Forms.Label();
@@ -359,7 +359,7 @@ namespace PBET_Mainline
             this.scrapTf12 = new System.Windows.Forms.NumericUpDown();
             this.downTf11 = new System.Windows.Forms.NumericUpDown();
             this.scrapTf11 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
+            this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -433,12 +433,8 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pBETDBDataSet
-            // 
-            this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
-            this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dtPicker
             // 
@@ -921,7 +917,7 @@ namespace PBET_Mainline
             this.label25.BackColor = System.Drawing.SystemColors.Highlight;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(49, 624);
+            this.label25.Location = new System.Drawing.Point(81, 629);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(40, 17);
             this.label25.TabIndex = 118;
@@ -943,7 +939,7 @@ namespace PBET_Mainline
             this.label26.BackColor = System.Drawing.SystemColors.Highlight;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(146, 624);
+            this.label26.Location = new System.Drawing.Point(159, 629);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(86, 17);
             this.label26.TabIndex = 121;
@@ -965,7 +961,7 @@ namespace PBET_Mainline
             this.label27.BackColor = System.Drawing.SystemColors.Highlight;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(275, 624);
+            this.label27.Location = new System.Drawing.Point(304, 629);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(100, 17);
             this.label27.TabIndex = 124;
@@ -987,7 +983,7 @@ namespace PBET_Mainline
             this.label28.BackColor = System.Drawing.SystemColors.Highlight;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(436, 624);
+            this.label28.Location = new System.Drawing.Point(466, 629);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 17);
             this.label28.TabIndex = 127;
@@ -1019,45 +1015,45 @@ namespace PBET_Mainline
             // 
             this.oeeLbl.AutoSize = true;
             this.oeeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oeeLbl.Location = new System.Drawing.Point(62, 644);
+            this.oeeLbl.Location = new System.Drawing.Point(3, 643);
             this.oeeLbl.Name = "oeeLbl";
-            this.oeeLbl.Size = new System.Drawing.Size(45, 29);
+            this.oeeLbl.Size = new System.Drawing.Size(22, 29);
             this.oeeLbl.TabIndex = 130;
-            this.oeeLbl.Text = "-%";
-            this.oeeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.oeeLbl.Text = "-";
+            this.oeeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // avaiLbl
             // 
             this.avaiLbl.AutoSize = true;
             this.avaiLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avaiLbl.Location = new System.Drawing.Point(154, 644);
+            this.avaiLbl.Location = new System.Drawing.Point(132, 646);
             this.avaiLbl.Name = "avaiLbl";
             this.avaiLbl.Size = new System.Drawing.Size(78, 29);
             this.avaiLbl.TabIndex = 131;
             this.avaiLbl.Text = "100%";
-            this.avaiLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.avaiLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // perfLbl
             // 
             this.perfLbl.AutoSize = true;
             this.perfLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perfLbl.Location = new System.Drawing.Point(289, 644);
+            this.perfLbl.Location = new System.Drawing.Point(289, 646);
             this.perfLbl.Name = "perfLbl";
             this.perfLbl.Size = new System.Drawing.Size(78, 29);
             this.perfLbl.TabIndex = 132;
             this.perfLbl.Text = "100%";
-            this.perfLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.perfLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // quaLbl
             // 
             this.quaLbl.AutoSize = true;
             this.quaLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quaLbl.Location = new System.Drawing.Point(462, 644);
+            this.quaLbl.Location = new System.Drawing.Point(411, 646);
             this.quaLbl.Name = "quaLbl";
-            this.quaLbl.Size = new System.Drawing.Size(45, 29);
+            this.quaLbl.Size = new System.Drawing.Size(22, 29);
             this.quaLbl.TabIndex = 133;
-            this.quaLbl.Text = "-%";
-            this.quaLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.quaLbl.Text = "-";
+            this.quaLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // hrTf1
             // 
@@ -3940,6 +3936,11 @@ namespace PBET_Mainline
             this.scrapTf11.TabIndex = 294;
             this.scrapTf11.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
             // 
+            // pBETDBDataSet
+            // 
+            this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
+            this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -4279,10 +4280,9 @@ namespace PBET_Mainline
             this.Controls.Add(this.oeeLbl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainForm";
-            this.Text = "PBET";
             this.Load += new System.EventHandler(this.PBETMainline_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -4356,6 +4356,7 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

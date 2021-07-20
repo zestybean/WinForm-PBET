@@ -74,6 +74,7 @@ namespace PBET_Mainline
             calcVariance();
             calcTotalScrap();
             calcTotalDowntime();
+            calcTotalOEE();
         }
 
         private void validateInput(object sender, KeyPressEventArgs e)
@@ -135,6 +136,29 @@ namespace PBET_Mainline
                         mainHour += 1;
                         reCalcTotals();
                     }
+                }
+            }
+        }
+
+        private void calcTotalOEE()
+        {
+            if (mainGoal > 0)
+            {
+                performance = (Convert.ToDouble(mainActual) / Convert.ToDouble(mainGoal)) * 100.0;
+                
+                perfLbl.Text = String.Format("{0:F2}%", performance);
+
+
+                availability = (1.0 - (Convert.ToDouble(mainDowntime) / 480.0)) * 100.0;
+                avaiLbl.Text = String.Format("{0:F2}%", availability);
+
+                if (mainScrap > 0)
+                {
+                    quality = (1.0 - (Convert.ToDouble(mainScrap) / Convert.ToDouble(mainActual))) * 100.0;
+                    quaLbl.Text = String.Format("{0:F2}%", quality);
+
+                    oee = ((quality/100.0) * (performance/100.0) * (availability/100.0))*100.0;
+                    oeeLbl.Text = String.Format("{0:F2}%", oee);
                 }
             }
         }

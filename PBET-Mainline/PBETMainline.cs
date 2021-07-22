@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
+using ClosedXML.Excel;
+using System.Globalization;
+
 
 
 namespace PBET_Mainline
@@ -31,7 +34,10 @@ namespace PBET_Mainline
 
         string[] machines = { "Spoven1", "Spoven2", "Spoven3", "Mainline" };
         string[] departments = { "Paintline", "Bonding", "Fronts", "Bumpers", "Rears", };
-        string[] customers = { "PACCAR", "NAVISTAR", "OTHER" };
+        string[] customers = { "PACCAR", "NAVISTAR", "PETERBILT","OTHER" };
+        string[] partsSeqs = { "R33", "208", "787" };
+        
+        
 
         public mainForm()
         {
@@ -44,6 +50,7 @@ namespace PBET_Mainline
             AutoCompleteStringCollection sugMachine = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugDept = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugCust = new AutoCompleteStringCollection();
+            AutoCompleteStringCollection sugPartsSeq = new AutoCompleteStringCollection();
 
             foreach (string machine in machines)
             {
@@ -60,7 +67,12 @@ namespace PBET_Mainline
                 sugCust.Add(customer);
             }
             custTf.AutoCompleteCustomSource = sugCust;
-
+            foreach (string partSeq in partsSeqs)
+            {
+                sugPartsSeq.Add(partSeq);
+            }
+            
+            seqTf1.AutoCompleteCustomSource = sugPartsSeq;
 
         }
 
@@ -91,6 +103,17 @@ namespace PBET_Mainline
             {
                 e.Handled = true;
             }
+        }
+
+        private int weekOfYearNum()
+        {
+            var date = DateTime.Now;
+            CultureInfo myCI = new CultureInfo("en-US");
+            Calendar myCal = myCI.Calendar;
+            CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
+            DayOfWeek myFirstDOW = myCI.DateTimeFormat.FirstDayOfWeek;
+            int weekOfYear = myCal.GetWeekOfYear(date, myCWR, myFirstDOW);
+            return weekOfYear;
         }
 
         private void bgColorChange() {
@@ -130,7 +153,6 @@ namespace PBET_Mainline
             {
                 if (x is TextBox)
                 {
-
                     if ((x as TextBox).Text != string.Empty || (x as TextBox).Text != "")
                     {
                         mainHour += 1;
@@ -316,6 +338,7 @@ namespace PBET_Mainline
 
             } catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -344,6 +367,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -372,6 +396,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -400,6 +425,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -428,6 +454,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -456,6 +483,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -484,6 +512,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -512,6 +541,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -540,6 +570,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -568,6 +599,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -596,6 +628,7 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
@@ -624,21 +657,20 @@ namespace PBET_Mainline
             }
             catch (FormatException)
             {
+                sumHours();
                 Console.WriteLine("Bad parse.");
             }
         }
 
-        private void subButton_Click(object sender, EventArgs e)
+        private void goalTf12_Enter(object sender, EventArgs e)
         {
-            var user = System.Security.Principal.WindowsIdentity.GetCurrent();
-
-            
-            //USER CHECK
-
-         
-            //SUBMIT TO EXCEL
-            
-            
+            foreach (Control x in this.Controls)
+            {
+                if (x is NumericUpDown)
+                {
+                    (x as NumericUpDown).Select(0, (x as NumericUpDown).Text.Length);
+                }
+            }
         }
 
         /// <summary>
@@ -677,5 +709,60 @@ namespace PBET_Mainline
             reCalcTotals();
         }
 
+        /// <summary>
+        /// SUBMIT
+        /// </summary>
+
+        private void subButton_Click(object sender, EventArgs e)
+        {
+            saveDataToExcel();
+        }
+
+        private void saveDataToExcel()
+        {
+            var date = DateTime.Now;
+            string path = $@"C:\Users\brando.lugo\Desktop\Week-{weekOfYearNum() - 1}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+
+            //SUBMIT TO EXCEL
+            var workbook = new XLWorkbook();
+            var worksheet = workbook.Worksheets.Add("Summary Report");
+            //Title
+            worksheet.Cell("A1").Value = "Paceboard Data";
+            //Headings
+            worksheet.Cell("A2").Value = "Operator";
+            worksheet.Cell("B2").Value = "Shift";
+            worksheet.Cell("C2").Value = "Machine";
+            worksheet.Cell("D2").Value = "Department";
+            worksheet.Cell("E2").Value = "Customer";
+            worksheet.Cell("F2").Value = "Date";
+            //Headings Data
+            worksheet.Cell("A3").Value = opTf.Text;
+            worksheet.Cell("B3").Value = shiftTf.Value;
+            worksheet.Cell("C3").Value = machineTf.Text;
+            worksheet.Cell("D3").Value = deptTf.Text;
+            worksheet.Cell("E3").Value = custTf.Text;
+            worksheet.Cell("F3").Value = dtPicker.Value;
+
+            worksheet.Cell("A5").Value = mainHour;
+            worksheet.Cell("B5").Value = mainGoal;
+            worksheet.Cell("C5").Value = mainActual;
+            worksheet.Cell("D5").Value = mainVariance;
+            worksheet.Cell("E5").Value = mainScrap;
+            worksheet.Cell("F5").Value = mainDowntime;
+
+            workbook.SaveAs(path);
+        }
+
+        private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var window = MessageBox.Show("Close the window?","Are you sure?",MessageBoxButtons.YesNo);
+            if(window == DialogResult.Yes)
+            {
+
+            }
+            e.Cancel = (window == DialogResult.No);
+        }
+
+        
     }
 }

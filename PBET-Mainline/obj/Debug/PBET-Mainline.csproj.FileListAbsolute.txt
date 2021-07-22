@@ -10,3 +10,12 @@ C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mai
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.pdb
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\PBET-Mainline.pdb
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.AssemblyReference.cache
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ClosedXML.dll
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ExcelNumberFormat.dll
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\System.IO.Packaging.dll
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ClosedXML.pdb
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ClosedXML.xml
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ExcelNumberFormat.xml
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.CopyComplete

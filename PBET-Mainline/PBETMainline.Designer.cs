@@ -961,7 +961,7 @@ namespace PBET_Mainline
             this.label27.BackColor = System.Drawing.SystemColors.Highlight;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(304, 629);
+            this.label27.Location = new System.Drawing.Point(267, 629);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(100, 17);
             this.label27.TabIndex = 124;
@@ -973,7 +973,7 @@ namespace PBET_Mainline
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox21.Location = new System.Drawing.Point(252, 614);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(152, 32);
+            this.pictureBox21.Size = new System.Drawing.Size(115, 32);
             this.pictureBox21.TabIndex = 123;
             this.pictureBox21.TabStop = false;
             // 
@@ -983,7 +983,7 @@ namespace PBET_Mainline
             this.label28.BackColor = System.Drawing.SystemColors.Highlight;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(466, 629);
+            this.label28.Location = new System.Drawing.Point(429, 629);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 17);
             this.label28.TabIndex = 127;
@@ -993,9 +993,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox22.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox22.Location = new System.Drawing.Point(412, 614);
+            this.pictureBox22.Location = new System.Drawing.Point(373, 614);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(113, 32);
+            this.pictureBox22.Size = new System.Drawing.Size(115, 32);
             this.pictureBox22.TabIndex = 126;
             this.pictureBox22.TabStop = false;
             // 
@@ -1015,7 +1015,7 @@ namespace PBET_Mainline
             // 
             this.oeeLbl.AutoSize = true;
             this.oeeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oeeLbl.Location = new System.Drawing.Point(3, 643);
+            this.oeeLbl.Location = new System.Drawing.Point(3, 646);
             this.oeeLbl.Name = "oeeLbl";
             this.oeeLbl.Size = new System.Drawing.Size(22, 29);
             this.oeeLbl.TabIndex = 130;
@@ -1026,7 +1026,7 @@ namespace PBET_Mainline
             // 
             this.avaiLbl.AutoSize = true;
             this.avaiLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avaiLbl.Location = new System.Drawing.Point(132, 646);
+            this.avaiLbl.Location = new System.Drawing.Point(127, 646);
             this.avaiLbl.Name = "avaiLbl";
             this.avaiLbl.Size = new System.Drawing.Size(78, 29);
             this.avaiLbl.TabIndex = 131;
@@ -1037,7 +1037,7 @@ namespace PBET_Mainline
             // 
             this.perfLbl.AutoSize = true;
             this.perfLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perfLbl.Location = new System.Drawing.Point(289, 646);
+            this.perfLbl.Location = new System.Drawing.Point(247, 646);
             this.perfLbl.Name = "perfLbl";
             this.perfLbl.Size = new System.Drawing.Size(78, 29);
             this.perfLbl.TabIndex = 132;
@@ -1048,7 +1048,7 @@ namespace PBET_Mainline
             // 
             this.quaLbl.AutoSize = true;
             this.quaLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quaLbl.Location = new System.Drawing.Point(411, 646);
+            this.quaLbl.Location = new System.Drawing.Point(368, 646);
             this.quaLbl.Name = "quaLbl";
             this.quaLbl.Size = new System.Drawing.Size(22, 29);
             this.quaLbl.TabIndex = 133;
@@ -1069,6 +1069,8 @@ namespace PBET_Mainline
             // 
             // seqTf1
             // 
+            this.seqTf1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf1.Location = new System.Drawing.Point(388, 183);
             this.seqTf1.Name = "seqTf1";
@@ -1100,6 +1102,8 @@ namespace PBET_Mainline
             // 
             // seqTf2
             // 
+            this.seqTf2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf2.Location = new System.Drawing.Point(388, 215);
             this.seqTf2.Name = "seqTf2";
@@ -1131,6 +1135,8 @@ namespace PBET_Mainline
             // 
             // seqTf3
             // 
+            this.seqTf3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf3.Location = new System.Drawing.Point(388, 247);
             this.seqTf3.Name = "seqTf3";
@@ -1162,6 +1168,8 @@ namespace PBET_Mainline
             // 
             // seqTf4
             // 
+            this.seqTf4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf4.Location = new System.Drawing.Point(388, 279);
             this.seqTf4.Name = "seqTf4";
@@ -1193,6 +1201,8 @@ namespace PBET_Mainline
             // 
             // seqTf5
             // 
+            this.seqTf5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf5.Location = new System.Drawing.Point(388, 311);
             this.seqTf5.Name = "seqTf5";
@@ -1224,6 +1234,8 @@ namespace PBET_Mainline
             // 
             // seqTf6
             // 
+            this.seqTf6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf6.Location = new System.Drawing.Point(388, 343);
             this.seqTf6.Name = "seqTf6";
@@ -1255,6 +1267,8 @@ namespace PBET_Mainline
             // 
             // seqTf7
             // 
+            this.seqTf7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf7.Location = new System.Drawing.Point(388, 375);
             this.seqTf7.Name = "seqTf7";
@@ -1286,6 +1300,8 @@ namespace PBET_Mainline
             // 
             // seqTf8
             // 
+            this.seqTf8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf8.Location = new System.Drawing.Point(388, 407);
             this.seqTf8.Name = "seqTf8";
@@ -1539,6 +1555,8 @@ namespace PBET_Mainline
             // 
             // seqTf9
             // 
+            this.seqTf9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf9.Location = new System.Drawing.Point(388, 439);
             this.seqTf9.Name = "seqTf9";
@@ -1603,6 +1621,8 @@ namespace PBET_Mainline
             // 
             // seqTf10
             // 
+            this.seqTf10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf10.Location = new System.Drawing.Point(388, 471);
             this.seqTf10.Name = "seqTf10";
@@ -1668,6 +1688,8 @@ namespace PBET_Mainline
             // 
             // seqTf11
             // 
+            this.seqTf11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf11.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf11.Location = new System.Drawing.Point(388, 503);
             this.seqTf11.Name = "seqTf11";
@@ -1732,6 +1754,8 @@ namespace PBET_Mainline
             // 
             // seqTf12
             // 
+            this.seqTf12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.seqTf12.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seqTf12.Location = new System.Drawing.Point(388, 535);
             this.seqTf12.Name = "seqTf12";
@@ -3179,6 +3203,7 @@ namespace PBET_Mainline
             this.goalTf1.Size = new System.Drawing.Size(58, 26);
             this.goalTf1.TabIndex = 43;
             this.goalTf1.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf1.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf1
             // 
@@ -3221,6 +3246,7 @@ namespace PBET_Mainline
             this.goalTf2.Size = new System.Drawing.Size(58, 26);
             this.goalTf2.TabIndex = 135;
             this.goalTf2.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf2.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // scrapTf1
             // 
@@ -3306,8 +3332,9 @@ namespace PBET_Mainline
             // 
             // machineTf
             // 
-            this.machineTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.machineTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.machineTf.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.machineTf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
             this.machineTf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.machineTf.FormattingEnabled = true;
             this.machineTf.Location = new System.Drawing.Point(492, 104);
@@ -3317,7 +3344,7 @@ namespace PBET_Mainline
             // 
             // deptTf
             // 
-            this.deptTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.deptTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.deptTf.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.deptTf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deptTf.FormattingEnabled = true;
@@ -3403,6 +3430,7 @@ namespace PBET_Mainline
             this.goalTf3.Size = new System.Drawing.Size(58, 26);
             this.goalTf3.TabIndex = 143;
             this.goalTf3.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf3.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf5
             // 
@@ -3431,6 +3459,7 @@ namespace PBET_Mainline
             this.goalTf5.Size = new System.Drawing.Size(58, 26);
             this.goalTf5.TabIndex = 159;
             this.goalTf5.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf5.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf4
             // 
@@ -3459,6 +3488,7 @@ namespace PBET_Mainline
             this.goalTf4.Size = new System.Drawing.Size(58, 26);
             this.goalTf4.TabIndex = 151;
             this.goalTf4.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf4.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf7
             // 
@@ -3487,6 +3517,7 @@ namespace PBET_Mainline
             this.goalTf7.Size = new System.Drawing.Size(58, 26);
             this.goalTf7.TabIndex = 175;
             this.goalTf7.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf7.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf6
             // 
@@ -3515,6 +3546,7 @@ namespace PBET_Mainline
             this.goalTf6.Size = new System.Drawing.Size(58, 26);
             this.goalTf6.TabIndex = 167;
             this.goalTf6.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf6.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf9
             // 
@@ -3543,6 +3575,7 @@ namespace PBET_Mainline
             this.goalTf9.Size = new System.Drawing.Size(58, 26);
             this.goalTf9.TabIndex = 257;
             this.goalTf9.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf9.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf8
             // 
@@ -3571,6 +3604,7 @@ namespace PBET_Mainline
             this.goalTf8.Size = new System.Drawing.Size(58, 26);
             this.goalTf8.TabIndex = 183;
             this.goalTf8.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf8.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf11
             // 
@@ -3599,6 +3633,7 @@ namespace PBET_Mainline
             this.goalTf11.Size = new System.Drawing.Size(58, 26);
             this.goalTf11.TabIndex = 291;
             this.goalTf11.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf11.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf10
             // 
@@ -3627,6 +3662,7 @@ namespace PBET_Mainline
             this.goalTf10.Size = new System.Drawing.Size(58, 26);
             this.goalTf10.TabIndex = 274;
             this.goalTf10.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf10.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // actTf12
             // 
@@ -3655,6 +3691,7 @@ namespace PBET_Mainline
             this.goalTf12.Size = new System.Drawing.Size(58, 26);
             this.goalTf12.TabIndex = 308;
             this.goalTf12.ValueChanged += new System.EventHandler(this.goalTf1_ValueChanged);
+            this.goalTf12.Enter += new System.EventHandler(this.goalTf12_Enter);
             // 
             // downTf4
             // 
@@ -4282,6 +4319,7 @@ namespace PBET_Mainline
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.Load += new System.EventHandler(this.PBETMainline_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

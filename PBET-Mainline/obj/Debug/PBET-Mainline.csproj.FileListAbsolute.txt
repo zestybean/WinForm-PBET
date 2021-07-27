@@ -19,3 +19,4 @@ C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ClosedXM
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\ExcelNumberFormat.xml
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.CopyComplete
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.SubmitPopup.resources

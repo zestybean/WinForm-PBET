@@ -81,35 +81,26 @@ namespace PBET_Mainline
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.oeeLbl = new System.Windows.Forms.Label();
             this.avaiLbl = new System.Windows.Forms.Label();
             this.perfLbl = new System.Windows.Forms.Label();
             this.quaLbl = new System.Windows.Forms.Label();
-            this.hrTf1 = new System.Windows.Forms.TextBox();
             this.seqTf1 = new System.Windows.Forms.TextBox();
             this.comTf1 = new System.Windows.Forms.TextBox();
             this.comTf2 = new System.Windows.Forms.TextBox();
             this.seqTf2 = new System.Windows.Forms.TextBox();
-            this.hrTf2 = new System.Windows.Forms.TextBox();
             this.comTf3 = new System.Windows.Forms.TextBox();
             this.seqTf3 = new System.Windows.Forms.TextBox();
-            this.hrTf3 = new System.Windows.Forms.TextBox();
             this.comTf4 = new System.Windows.Forms.TextBox();
             this.seqTf4 = new System.Windows.Forms.TextBox();
-            this.hrTf4 = new System.Windows.Forms.TextBox();
             this.comTf5 = new System.Windows.Forms.TextBox();
             this.seqTf5 = new System.Windows.Forms.TextBox();
-            this.hrTf5 = new System.Windows.Forms.TextBox();
             this.comTf6 = new System.Windows.Forms.TextBox();
             this.seqTf6 = new System.Windows.Forms.TextBox();
-            this.hrTf6 = new System.Windows.Forms.TextBox();
             this.comTf7 = new System.Windows.Forms.TextBox();
             this.seqTf7 = new System.Windows.Forms.TextBox();
-            this.hrTf7 = new System.Windows.Forms.TextBox();
             this.comTf8 = new System.Windows.Forms.TextBox();
             this.seqTf8 = new System.Windows.Forms.TextBox();
-            this.hrTf8 = new System.Windows.Forms.TextBox();
             this.hrLbl1 = new System.Windows.Forms.Label();
             this.hrLbl2 = new System.Windows.Forms.Label();
             this.hrLbl3 = new System.Windows.Forms.Label();
@@ -131,25 +122,21 @@ namespace PBET_Mainline
             this.hrLbl9 = new System.Windows.Forms.Label();
             this.comTf9 = new System.Windows.Forms.TextBox();
             this.seqTf9 = new System.Windows.Forms.TextBox();
-            this.hrTf9 = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.varLbl10_1 = new System.Windows.Forms.Label();
             this.hrLbl10 = new System.Windows.Forms.Label();
             this.comTf10 = new System.Windows.Forms.TextBox();
             this.seqTf10 = new System.Windows.Forms.TextBox();
-            this.hrTf10 = new System.Windows.Forms.TextBox();
             this.label69 = new System.Windows.Forms.Label();
             this.varLbl11_1 = new System.Windows.Forms.Label();
             this.hrLbl11 = new System.Windows.Forms.Label();
             this.comTf11 = new System.Windows.Forms.TextBox();
             this.seqTf11 = new System.Windows.Forms.TextBox();
-            this.hrTf11 = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.varLbl12_1 = new System.Windows.Forms.Label();
             this.hrLbl12 = new System.Windows.Forms.Label();
             this.comTf12 = new System.Windows.Forms.TextBox();
             this.seqTf12 = new System.Windows.Forms.TextBox();
-            this.hrTf12 = new System.Windows.Forms.TextBox();
             this.label87 = new System.Windows.Forms.Label();
             this.shiftTf = new System.Windows.Forms.NumericUpDown();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
@@ -360,6 +347,18 @@ namespace PBET_Mainline
             this.downTf11 = new System.Windows.Forms.NumericUpDown();
             this.scrapTf11 = new System.Windows.Forms.NumericUpDown();
             this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
+            this.hrTf1 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf2 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf4 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf3 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf6 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf5 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf8 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf7 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf10 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf9 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf12 = new System.Windows.Forms.NumericUpDown();
+            this.hrTf11 = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -381,7 +380,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -434,6 +432,18 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf11)).BeginInit();
             this.SuspendLayout();
             // 
             // dtPicker
@@ -999,18 +1009,6 @@ namespace PBET_Mainline
             this.pictureBox22.TabIndex = 126;
             this.pictureBox22.TabStop = false;
             // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox23.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox23.Location = new System.Drawing.Point(778, 567);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(682, 39);
-            this.pictureBox23.TabIndex = 129;
-            this.pictureBox23.TabStop = false;
-            // 
             // oeeLbl
             // 
             this.oeeLbl.AutoSize = true;
@@ -1054,18 +1052,6 @@ namespace PBET_Mainline
             this.quaLbl.TabIndex = 133;
             this.quaLbl.Text = "-";
             this.quaLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // hrTf1
-            // 
-            this.hrTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf1.Location = new System.Drawing.Point(38, 183);
-            this.hrTf1.MaxLength = 2;
-            this.hrTf1.Name = "hrTf1";
-            this.hrTf1.Size = new System.Drawing.Size(40, 26);
-            this.hrTf1.TabIndex = 42;
-            this.hrTf1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf1.TextChanged += new System.EventHandler(this.hrTf1_TextChanged);
-            this.hrTf1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // seqTf1
             // 
@@ -1111,17 +1097,6 @@ namespace PBET_Mainline
             this.seqTf2.TabIndex = 137;
             this.seqTf2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf2
-            // 
-            this.hrTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf2.Location = new System.Drawing.Point(38, 215);
-            this.hrTf2.Name = "hrTf2";
-            this.hrTf2.Size = new System.Drawing.Size(40, 26);
-            this.hrTf2.TabIndex = 134;
-            this.hrTf2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf2.TextChanged += new System.EventHandler(this.hrTf2_TextChanged);
-            this.hrTf2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // comTf3
             // 
             this.comTf3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1143,17 +1118,6 @@ namespace PBET_Mainline
             this.seqTf3.Size = new System.Drawing.Size(223, 26);
             this.seqTf3.TabIndex = 145;
             this.seqTf3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hrTf3
-            // 
-            this.hrTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf3.Location = new System.Drawing.Point(38, 247);
-            this.hrTf3.Name = "hrTf3";
-            this.hrTf3.Size = new System.Drawing.Size(40, 26);
-            this.hrTf3.TabIndex = 142;
-            this.hrTf3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf3.TextChanged += new System.EventHandler(this.hrTf3_TextChanged);
-            this.hrTf3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf4
             // 
@@ -1177,17 +1141,6 @@ namespace PBET_Mainline
             this.seqTf4.TabIndex = 153;
             this.seqTf4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf4
-            // 
-            this.hrTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf4.Location = new System.Drawing.Point(38, 279);
-            this.hrTf4.Name = "hrTf4";
-            this.hrTf4.Size = new System.Drawing.Size(40, 26);
-            this.hrTf4.TabIndex = 150;
-            this.hrTf4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf4.TextChanged += new System.EventHandler(this.hrTf4_TextChanged);
-            this.hrTf4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // comTf5
             // 
             this.comTf5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1209,17 +1162,6 @@ namespace PBET_Mainline
             this.seqTf5.Size = new System.Drawing.Size(223, 26);
             this.seqTf5.TabIndex = 161;
             this.seqTf5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hrTf5
-            // 
-            this.hrTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf5.Location = new System.Drawing.Point(38, 311);
-            this.hrTf5.Name = "hrTf5";
-            this.hrTf5.Size = new System.Drawing.Size(40, 26);
-            this.hrTf5.TabIndex = 158;
-            this.hrTf5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf5.TextChanged += new System.EventHandler(this.hrTf5_TextChanged);
-            this.hrTf5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf6
             // 
@@ -1243,17 +1185,6 @@ namespace PBET_Mainline
             this.seqTf6.TabIndex = 169;
             this.seqTf6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf6
-            // 
-            this.hrTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf6.Location = new System.Drawing.Point(38, 343);
-            this.hrTf6.Name = "hrTf6";
-            this.hrTf6.Size = new System.Drawing.Size(40, 26);
-            this.hrTf6.TabIndex = 166;
-            this.hrTf6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf6.TextChanged += new System.EventHandler(this.hrTf6_TextChanged);
-            this.hrTf6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // comTf7
             // 
             this.comTf7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1275,17 +1206,6 @@ namespace PBET_Mainline
             this.seqTf7.Size = new System.Drawing.Size(223, 26);
             this.seqTf7.TabIndex = 177;
             this.seqTf7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hrTf7
-            // 
-            this.hrTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf7.Location = new System.Drawing.Point(38, 375);
-            this.hrTf7.Name = "hrTf7";
-            this.hrTf7.Size = new System.Drawing.Size(40, 26);
-            this.hrTf7.TabIndex = 174;
-            this.hrTf7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf7.TextChanged += new System.EventHandler(this.hrTf7_TextChanged);
-            this.hrTf7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // comTf8
             // 
@@ -1309,110 +1229,91 @@ namespace PBET_Mainline
             this.seqTf8.TabIndex = 185;
             this.seqTf8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf8
-            // 
-            this.hrTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf8.Location = new System.Drawing.Point(38, 407);
-            this.hrTf8.Name = "hrTf8";
-            this.hrTf8.Size = new System.Drawing.Size(40, 26);
-            this.hrTf8.TabIndex = 182;
-            this.hrTf8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf8.TextChanged += new System.EventHandler(this.hrTf8_TextChanged);
-            this.hrTf8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // hrLbl1
             // 
             this.hrLbl1.AutoSize = true;
-            this.hrLbl1.BackColor = System.Drawing.Color.White;
-            this.hrLbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl1.Location = new System.Drawing.Point(86, 186);
+            this.hrLbl1.Location = new System.Drawing.Point(93, 186);
             this.hrLbl1.Name = "hrLbl1";
-            this.hrLbl1.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl1.Size = new System.Drawing.Size(19, 20);
             this.hrLbl1.TabIndex = 190;
             this.hrLbl1.Text = "0";
             // 
             // hrLbl2
             // 
             this.hrLbl2.AutoSize = true;
-            this.hrLbl2.BackColor = System.Drawing.Color.White;
-            this.hrLbl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl2.Location = new System.Drawing.Point(86, 218);
+            this.hrLbl2.Location = new System.Drawing.Point(93, 218);
             this.hrLbl2.Name = "hrLbl2";
-            this.hrLbl2.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl2.Size = new System.Drawing.Size(19, 20);
             this.hrLbl2.TabIndex = 191;
             this.hrLbl2.Text = "0";
             // 
             // hrLbl3
             // 
             this.hrLbl3.AutoSize = true;
-            this.hrLbl3.BackColor = System.Drawing.Color.White;
-            this.hrLbl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl3.Location = new System.Drawing.Point(86, 250);
+            this.hrLbl3.Location = new System.Drawing.Point(93, 250);
             this.hrLbl3.Name = "hrLbl3";
-            this.hrLbl3.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl3.Size = new System.Drawing.Size(19, 20);
             this.hrLbl3.TabIndex = 192;
             this.hrLbl3.Text = "0";
             // 
             // hrLbl4
             // 
             this.hrLbl4.AutoSize = true;
-            this.hrLbl4.BackColor = System.Drawing.Color.White;
-            this.hrLbl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl4.Location = new System.Drawing.Point(86, 282);
+            this.hrLbl4.Location = new System.Drawing.Point(93, 282);
             this.hrLbl4.Name = "hrLbl4";
-            this.hrLbl4.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl4.Size = new System.Drawing.Size(19, 20);
             this.hrLbl4.TabIndex = 193;
             this.hrLbl4.Text = "0";
             // 
             // hrLbl5
             // 
             this.hrLbl5.AutoSize = true;
-            this.hrLbl5.BackColor = System.Drawing.Color.White;
-            this.hrLbl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl5.Location = new System.Drawing.Point(86, 314);
+            this.hrLbl5.Location = new System.Drawing.Point(93, 314);
             this.hrLbl5.Name = "hrLbl5";
-            this.hrLbl5.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl5.Size = new System.Drawing.Size(19, 20);
             this.hrLbl5.TabIndex = 194;
             this.hrLbl5.Text = "0";
             // 
             // hrLbl6
             // 
             this.hrLbl6.AutoSize = true;
-            this.hrLbl6.BackColor = System.Drawing.Color.White;
-            this.hrLbl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl6.Location = new System.Drawing.Point(86, 346);
+            this.hrLbl6.Location = new System.Drawing.Point(93, 346);
             this.hrLbl6.Name = "hrLbl6";
-            this.hrLbl6.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl6.Size = new System.Drawing.Size(19, 20);
             this.hrLbl6.TabIndex = 195;
             this.hrLbl6.Text = "0";
             // 
             // hrLbl7
             // 
             this.hrLbl7.AutoSize = true;
-            this.hrLbl7.BackColor = System.Drawing.Color.White;
-            this.hrLbl7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl7.Location = new System.Drawing.Point(86, 378);
+            this.hrLbl7.Location = new System.Drawing.Point(93, 378);
             this.hrLbl7.Name = "hrLbl7";
-            this.hrLbl7.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl7.Size = new System.Drawing.Size(19, 20);
             this.hrLbl7.TabIndex = 196;
             this.hrLbl7.Text = "0";
             // 
             // hrLbl8
             // 
             this.hrLbl8.AutoSize = true;
-            this.hrLbl8.BackColor = System.Drawing.Color.White;
-            this.hrLbl8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl8.Location = new System.Drawing.Point(86, 410);
+            this.hrLbl8.Location = new System.Drawing.Point(93, 410);
             this.hrLbl8.Name = "hrLbl8";
-            this.hrLbl8.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl8.Size = new System.Drawing.Size(19, 20);
             this.hrLbl8.TabIndex = 197;
             this.hrLbl8.Text = "0";
             // 
@@ -1533,12 +1434,11 @@ namespace PBET_Mainline
             // hrLbl9
             // 
             this.hrLbl9.AutoSize = true;
-            this.hrLbl9.BackColor = System.Drawing.Color.White;
-            this.hrLbl9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl9.Location = new System.Drawing.Point(86, 442);
+            this.hrLbl9.Location = new System.Drawing.Point(93, 442);
             this.hrLbl9.Name = "hrLbl9";
-            this.hrLbl9.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl9.Size = new System.Drawing.Size(19, 20);
             this.hrLbl9.TabIndex = 264;
             this.hrLbl9.Text = "0";
             // 
@@ -1564,17 +1464,6 @@ namespace PBET_Mainline
             this.seqTf9.TabIndex = 259;
             this.seqTf9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf9
-            // 
-            this.hrTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf9.Location = new System.Drawing.Point(38, 439);
-            this.hrTf9.Name = "hrTf9";
-            this.hrTf9.Size = new System.Drawing.Size(40, 26);
-            this.hrTf9.TabIndex = 256;
-            this.hrTf9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf9.TextChanged += new System.EventHandler(this.hrTf9_TextChanged);
-            this.hrTf9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // label48
             // 
             this.label48.AutoSize = true;
@@ -1599,12 +1488,11 @@ namespace PBET_Mainline
             // hrLbl10
             // 
             this.hrLbl10.AutoSize = true;
-            this.hrLbl10.BackColor = System.Drawing.Color.White;
-            this.hrLbl10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl10.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl10.Location = new System.Drawing.Point(86, 474);
+            this.hrLbl10.Location = new System.Drawing.Point(93, 474);
             this.hrLbl10.Name = "hrLbl10";
-            this.hrLbl10.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl10.Size = new System.Drawing.Size(19, 20);
             this.hrLbl10.TabIndex = 281;
             this.hrLbl10.Text = "0";
             // 
@@ -1629,17 +1517,6 @@ namespace PBET_Mainline
             this.seqTf10.Size = new System.Drawing.Size(223, 26);
             this.seqTf10.TabIndex = 276;
             this.seqTf10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hrTf10
-            // 
-            this.hrTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf10.Location = new System.Drawing.Point(38, 471);
-            this.hrTf10.Name = "hrTf10";
-            this.hrTf10.Size = new System.Drawing.Size(40, 26);
-            this.hrTf10.TabIndex = 273;
-            this.hrTf10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf10.TextChanged += new System.EventHandler(this.hrTf10_TextChanged);
-            this.hrTf10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
             // 
             // label69
             // 
@@ -1666,12 +1543,11 @@ namespace PBET_Mainline
             // hrLbl11
             // 
             this.hrLbl11.AutoSize = true;
-            this.hrLbl11.BackColor = System.Drawing.Color.White;
-            this.hrLbl11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl11.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl11.Location = new System.Drawing.Point(86, 506);
+            this.hrLbl11.Location = new System.Drawing.Point(93, 506);
             this.hrLbl11.Name = "hrLbl11";
-            this.hrLbl11.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl11.Size = new System.Drawing.Size(19, 20);
             this.hrLbl11.TabIndex = 298;
             this.hrLbl11.Text = "0";
             // 
@@ -1697,17 +1573,6 @@ namespace PBET_Mainline
             this.seqTf11.TabIndex = 293;
             this.seqTf11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf11
-            // 
-            this.hrTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf11.Location = new System.Drawing.Point(38, 503);
-            this.hrTf11.Name = "hrTf11";
-            this.hrTf11.Size = new System.Drawing.Size(40, 26);
-            this.hrTf11.TabIndex = 290;
-            this.hrTf11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf11.TextChanged += new System.EventHandler(this.hrTf11_TextChanged);
-            this.hrTf11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // label78
             // 
             this.label78.AutoSize = true;
@@ -1732,12 +1597,11 @@ namespace PBET_Mainline
             // hrLbl12
             // 
             this.hrLbl12.AutoSize = true;
-            this.hrLbl12.BackColor = System.Drawing.Color.White;
-            this.hrLbl12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hrLbl12.BackColor = System.Drawing.Color.WhiteSmoke;
             this.hrLbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl12.Location = new System.Drawing.Point(86, 538);
+            this.hrLbl12.Location = new System.Drawing.Point(93, 538);
             this.hrLbl12.Name = "hrLbl12";
-            this.hrLbl12.Size = new System.Drawing.Size(21, 22);
+            this.hrLbl12.Size = new System.Drawing.Size(19, 20);
             this.hrLbl12.TabIndex = 315;
             this.hrLbl12.Text = "0";
             // 
@@ -1763,17 +1627,6 @@ namespace PBET_Mainline
             this.seqTf12.TabIndex = 310;
             this.seqTf12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hrTf12
-            // 
-            this.hrTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf12.Location = new System.Drawing.Point(38, 535);
-            this.hrTf12.Name = "hrTf12";
-            this.hrTf12.Size = new System.Drawing.Size(40, 26);
-            this.hrTf12.TabIndex = 307;
-            this.hrTf12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hrTf12.TextChanged += new System.EventHandler(this.hrTf12_TextChanged);
-            this.hrTf12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateInput);
-            // 
             // label87
             // 
             this.label87.AutoSize = true;
@@ -1790,11 +1643,6 @@ namespace PBET_Mainline
             this.shiftTf.Location = new System.Drawing.Point(344, 106);
             this.shiftTf.Maximum = new decimal(new int[] {
             3,
-            0,
-            0,
-            0});
-            this.shiftTf.Minimum = new decimal(new int[] {
-            1,
             0,
             0,
             0});
@@ -3160,7 +3008,7 @@ namespace PBET_Mainline
             this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox24.Location = new System.Drawing.Point(8, 567);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(764, 39);
+            this.pictureBox24.Size = new System.Drawing.Size(1452, 39);
             this.pictureBox24.TabIndex = 485;
             this.pictureBox24.TabStop = false;
             // 
@@ -3355,7 +3203,7 @@ namespace PBET_Mainline
             // 
             // custTf
             // 
-            this.custTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.custTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.custTf.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.custTf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.custTf.FormattingEnabled = true;
@@ -3978,6 +3826,163 @@ namespace PBET_Mainline
             this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
             this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // hrTf1
+            // 
+            this.hrTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf1.Location = new System.Drawing.Point(39, 184);
+            this.hrTf1.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf1.Name = "hrTf1";
+            this.hrTf1.Size = new System.Drawing.Size(48, 26);
+            this.hrTf1.TabIndex = 42;
+            this.hrTf1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // hrTf2
+            // 
+            this.hrTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf2.Location = new System.Drawing.Point(39, 216);
+            this.hrTf2.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf2.Name = "hrTf2";
+            this.hrTf2.Size = new System.Drawing.Size(48, 26);
+            this.hrTf2.TabIndex = 134;
+            // 
+            // hrTf4
+            // 
+            this.hrTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf4.Location = new System.Drawing.Point(39, 280);
+            this.hrTf4.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf4.Name = "hrTf4";
+            this.hrTf4.Size = new System.Drawing.Size(48, 26);
+            this.hrTf4.TabIndex = 150;
+            // 
+            // hrTf3
+            // 
+            this.hrTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf3.Location = new System.Drawing.Point(39, 248);
+            this.hrTf3.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf3.Name = "hrTf3";
+            this.hrTf3.Size = new System.Drawing.Size(48, 26);
+            this.hrTf3.TabIndex = 142;
+            // 
+            // hrTf6
+            // 
+            this.hrTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf6.Location = new System.Drawing.Point(39, 344);
+            this.hrTf6.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf6.Name = "hrTf6";
+            this.hrTf6.Size = new System.Drawing.Size(48, 26);
+            this.hrTf6.TabIndex = 166;
+            // 
+            // hrTf5
+            // 
+            this.hrTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf5.Location = new System.Drawing.Point(39, 312);
+            this.hrTf5.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf5.Name = "hrTf5";
+            this.hrTf5.Size = new System.Drawing.Size(48, 26);
+            this.hrTf5.TabIndex = 158;
+            // 
+            // hrTf8
+            // 
+            this.hrTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf8.Location = new System.Drawing.Point(39, 408);
+            this.hrTf8.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf8.Name = "hrTf8";
+            this.hrTf8.Size = new System.Drawing.Size(48, 26);
+            this.hrTf8.TabIndex = 182;
+            // 
+            // hrTf7
+            // 
+            this.hrTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf7.Location = new System.Drawing.Point(39, 376);
+            this.hrTf7.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf7.Name = "hrTf7";
+            this.hrTf7.Size = new System.Drawing.Size(48, 26);
+            this.hrTf7.TabIndex = 174;
+            // 
+            // hrTf10
+            // 
+            this.hrTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf10.Location = new System.Drawing.Point(39, 472);
+            this.hrTf10.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf10.Name = "hrTf10";
+            this.hrTf10.Size = new System.Drawing.Size(48, 26);
+            this.hrTf10.TabIndex = 273;
+            // 
+            // hrTf9
+            // 
+            this.hrTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf9.Location = new System.Drawing.Point(39, 440);
+            this.hrTf9.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf9.Name = "hrTf9";
+            this.hrTf9.Size = new System.Drawing.Size(48, 26);
+            this.hrTf9.TabIndex = 256;
+            // 
+            // hrTf12
+            // 
+            this.hrTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf12.Location = new System.Drawing.Point(39, 536);
+            this.hrTf12.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf12.Name = "hrTf12";
+            this.hrTf12.Size = new System.Drawing.Size(48, 26);
+            this.hrTf12.TabIndex = 307;
+            // 
+            // hrTf11
+            // 
+            this.hrTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrTf11.Location = new System.Drawing.Point(39, 504);
+            this.hrTf11.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.hrTf11.Name = "hrTf11";
+            this.hrTf11.Size = new System.Drawing.Size(48, 26);
+            this.hrTf11.TabIndex = 290;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -3986,6 +3991,18 @@ namespace PBET_Mainline
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1475, 681);
+            this.Controls.Add(this.hrTf12);
+            this.Controls.Add(this.hrTf11);
+            this.Controls.Add(this.hrTf10);
+            this.Controls.Add(this.hrTf9);
+            this.Controls.Add(this.hrTf8);
+            this.Controls.Add(this.hrTf7);
+            this.Controls.Add(this.hrTf6);
+            this.Controls.Add(this.hrTf5);
+            this.Controls.Add(this.hrTf4);
+            this.Controls.Add(this.hrTf3);
+            this.Controls.Add(this.hrTf2);
+            this.Controls.Add(this.hrTf1);
             this.Controls.Add(this.downTf12);
             this.Controls.Add(this.scrapTf12);
             this.Controls.Add(this.downTf11);
@@ -4198,25 +4215,21 @@ namespace PBET_Mainline
             this.Controls.Add(this.hrLbl12);
             this.Controls.Add(this.comTf12);
             this.Controls.Add(this.seqTf12);
-            this.Controls.Add(this.hrTf12);
             this.Controls.Add(this.label87);
             this.Controls.Add(this.varLbl11_1);
             this.Controls.Add(this.hrLbl11);
             this.Controls.Add(this.comTf11);
             this.Controls.Add(this.seqTf11);
-            this.Controls.Add(this.hrTf11);
             this.Controls.Add(this.label78);
             this.Controls.Add(this.varLbl10_1);
             this.Controls.Add(this.hrLbl10);
             this.Controls.Add(this.comTf10);
             this.Controls.Add(this.seqTf10);
-            this.Controls.Add(this.hrTf10);
             this.Controls.Add(this.label69);
             this.Controls.Add(this.varLbl9_1);
             this.Controls.Add(this.hrLbl9);
             this.Controls.Add(this.comTf9);
             this.Controls.Add(this.seqTf9);
-            this.Controls.Add(this.hrTf9);
             this.Controls.Add(this.label48);
             this.Controls.Add(this.subButton);
             this.Controls.Add(this.varLbl8_1);
@@ -4237,26 +4250,18 @@ namespace PBET_Mainline
             this.Controls.Add(this.hrLbl1);
             this.Controls.Add(this.comTf8);
             this.Controls.Add(this.seqTf8);
-            this.Controls.Add(this.hrTf8);
             this.Controls.Add(this.comTf7);
             this.Controls.Add(this.seqTf7);
-            this.Controls.Add(this.hrTf7);
             this.Controls.Add(this.comTf6);
             this.Controls.Add(this.seqTf6);
-            this.Controls.Add(this.hrTf6);
             this.Controls.Add(this.comTf5);
             this.Controls.Add(this.seqTf5);
-            this.Controls.Add(this.hrTf5);
             this.Controls.Add(this.comTf4);
             this.Controls.Add(this.seqTf4);
-            this.Controls.Add(this.hrTf4);
             this.Controls.Add(this.comTf3);
             this.Controls.Add(this.seqTf3);
-            this.Controls.Add(this.hrTf3);
             this.Controls.Add(this.comTf2);
             this.Controls.Add(this.seqTf2);
-            this.Controls.Add(this.hrTf2);
-            this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.pictureBox22);
             this.Controls.Add(this.label27);
@@ -4277,7 +4282,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.comTf1);
             this.Controls.Add(this.seqTf1);
-            this.Controls.Add(this.hrTf1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.label13);
@@ -4342,7 +4346,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
@@ -4395,6 +4398,18 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hrTf11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4454,35 +4469,26 @@ namespace PBET_Mainline
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.Label oeeLbl;
         private System.Windows.Forms.Label avaiLbl;
         private System.Windows.Forms.Label perfLbl;
         private System.Windows.Forms.Label quaLbl;
-        private System.Windows.Forms.TextBox hrTf1;
         private System.Windows.Forms.TextBox seqTf1;
         private System.Windows.Forms.TextBox comTf1;
         private System.Windows.Forms.TextBox comTf2;
         private System.Windows.Forms.TextBox seqTf2;
-        private System.Windows.Forms.TextBox hrTf2;
         private System.Windows.Forms.TextBox comTf3;
         private System.Windows.Forms.TextBox seqTf3;
-        private System.Windows.Forms.TextBox hrTf3;
         private System.Windows.Forms.TextBox comTf4;
         private System.Windows.Forms.TextBox seqTf4;
-        private System.Windows.Forms.TextBox hrTf4;
         private System.Windows.Forms.TextBox comTf5;
         private System.Windows.Forms.TextBox seqTf5;
-        private System.Windows.Forms.TextBox hrTf5;
         private System.Windows.Forms.TextBox comTf6;
         private System.Windows.Forms.TextBox seqTf6;
-        private System.Windows.Forms.TextBox hrTf6;
         private System.Windows.Forms.TextBox comTf7;
         private System.Windows.Forms.TextBox seqTf7;
-        private System.Windows.Forms.TextBox hrTf7;
         private System.Windows.Forms.TextBox comTf8;
         private System.Windows.Forms.TextBox seqTf8;
-        private System.Windows.Forms.TextBox hrTf8;
         private System.Windows.Forms.Label hrLbl1;
         private System.Windows.Forms.Label hrLbl2;
         private System.Windows.Forms.Label hrLbl3;
@@ -4504,25 +4510,21 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label hrLbl9;
         private System.Windows.Forms.TextBox comTf9;
         private System.Windows.Forms.TextBox seqTf9;
-        private System.Windows.Forms.TextBox hrTf9;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label varLbl10_1;
         private System.Windows.Forms.Label hrLbl10;
         private System.Windows.Forms.TextBox comTf10;
         private System.Windows.Forms.TextBox seqTf10;
-        private System.Windows.Forms.TextBox hrTf10;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label varLbl11_1;
         private System.Windows.Forms.Label hrLbl11;
         private System.Windows.Forms.TextBox comTf11;
         private System.Windows.Forms.TextBox seqTf11;
-        private System.Windows.Forms.TextBox hrTf11;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label varLbl12_1;
         private System.Windows.Forms.Label hrLbl12;
         private System.Windows.Forms.TextBox comTf12;
         private System.Windows.Forms.TextBox seqTf12;
-        private System.Windows.Forms.TextBox hrTf12;
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.NumericUpDown shiftTf;
         private System.Windows.Forms.PictureBox pictureBox17;
@@ -4732,6 +4734,18 @@ namespace PBET_Mainline
         private System.Windows.Forms.NumericUpDown scrapTf12;
         private System.Windows.Forms.NumericUpDown downTf11;
         private System.Windows.Forms.NumericUpDown scrapTf11;
+        private System.Windows.Forms.NumericUpDown hrTf1;
+        private System.Windows.Forms.NumericUpDown hrTf2;
+        private System.Windows.Forms.NumericUpDown hrTf4;
+        private System.Windows.Forms.NumericUpDown hrTf3;
+        private System.Windows.Forms.NumericUpDown hrTf6;
+        private System.Windows.Forms.NumericUpDown hrTf5;
+        private System.Windows.Forms.NumericUpDown hrTf8;
+        private System.Windows.Forms.NumericUpDown hrTf7;
+        private System.Windows.Forms.NumericUpDown hrTf10;
+        private System.Windows.Forms.NumericUpDown hrTf9;
+        private System.Windows.Forms.NumericUpDown hrTf12;
+        private System.Windows.Forms.NumericUpDown hrTf11;
     }
 }
 

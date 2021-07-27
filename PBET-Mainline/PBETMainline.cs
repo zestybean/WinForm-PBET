@@ -35,9 +35,6 @@ namespace PBET_Mainline
         string[] machines = { "Spoven1", "Spoven2", "Spoven3", "Mainline" };
         string[] departments = { "Paintline", "Bonding", "Fronts", "Bumpers", "Rears", };
         string[] customers = { "PACCAR", "NAVISTAR", "PETERBILT","OTHER" };
-        string[] partsSeqs = { "R33", "208", "787" };
-        
-        
 
         public mainForm()
         {
@@ -50,7 +47,7 @@ namespace PBET_Mainline
             AutoCompleteStringCollection sugMachine = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugDept = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugCust = new AutoCompleteStringCollection();
-            AutoCompleteStringCollection sugPartsSeq = new AutoCompleteStringCollection();
+            
 
             foreach (string machine in machines)
             {
@@ -67,13 +64,6 @@ namespace PBET_Mainline
                 sugCust.Add(customer);
             }
             custTf.AutoCompleteCustomSource = sugCust;
-            foreach (string partSeq in partsSeqs)
-            {
-                sugPartsSeq.Add(partSeq);
-            }
-            
-            seqTf1.AutoCompleteCustomSource = sugPartsSeq;
-
         }
 
         ///HELPER METHODS///
@@ -87,22 +77,6 @@ namespace PBET_Mainline
             calcTotalScrap();
             calcTotalDowntime();
             calcTotalOEE();
-        }
-
-        private void validateInput(object sender, KeyPressEventArgs e)
-        {
-     
-            // Verify that the pressed key isn't CTRL or any non-numeric digit
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
-
-            // If you want, you can allow decimal (float) numbers
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }
         }
 
         private int weekOfYearNum()
@@ -151,9 +125,9 @@ namespace PBET_Mainline
             mainHour = 0;
             foreach (Control x in this.Controls)
             {
-                if (x is TextBox)
+                if (x is NumericUpDown)
                 {
-                    if ((x as TextBox).Text != string.Empty || (x as TextBox).Text != "")
+                    if ((x as NumericUpDown).Value != 0 || (x as NumericUpDown).Text != "")
                     {
                         mainHour += 1;
                         reCalcTotals();
@@ -241,7 +215,6 @@ namespace PBET_Mainline
             bgColorChange();
         }
 
-
         private void calcVariance()
         {
             //RESET VARIANCE
@@ -313,353 +286,13 @@ namespace PBET_Mainline
             bgColorChange();
         }
 
-        
+        /// <summary>
+        /// HOURSSSSS
+        /// </summary>
 
-        private void hrTf1_TextChanged(object sender, EventArgs e)
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             sumHours();
-            
-            //Reset label each time new input comes in
-            hrLbl1.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf1.Text);
-                //Handle 12th hour
-                if(result == 12)
-                {
-                    result -= 11;
-                } else
-                {
-                    result += 1;
-                }
-                
-                //Set label string
-                hrLbl1.Text = result.ToString();
-
-            } catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf2_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-
-            //Reset label each time new input comes in
-            hrLbl2.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf2.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl2.Text = result.ToString();
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf3_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl3.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf3.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl3.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf4_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl4.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf4.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl4.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf5_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl5.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf5.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl5.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf6_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl6.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf6.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl6.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf7_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl7.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf7.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl7.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf8_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl8.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf8.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl8.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf9_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl9.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf9.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl9.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf10_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl10.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf10.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl10.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf11_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl11.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf11.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl11.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
-        }
-
-        private void hrTf12_TextChanged(object sender, EventArgs e)
-        {
-            sumHours();
-            //Reset label each time new input comes in
-            hrLbl12.Text = "0";
-            try
-            {
-                int result = Int32.Parse(hrTf12.Text);
-                //Handle 12th hour
-                if (result == 12)
-                {
-                    result -= 11;
-                }
-                else
-                {
-                    result += 1;
-                }
-
-                //Set label string
-                hrLbl12.Text = result.ToString();
-
-            }
-            catch (FormatException)
-            {
-                sumHours();
-                Console.WriteLine("Bad parse.");
-            }
         }
 
         private void goalTf12_Enter(object sender, EventArgs e)
@@ -715,13 +348,50 @@ namespace PBET_Mainline
 
         private void subButton_Click(object sender, EventArgs e)
         {
-            saveDataToExcel();
+            
+            SubmitPopup popSubmitForm = new SubmitPopup();
+
+            // Show testDialog as a modal dialog and determine if DialogResult = OK.
+            if (popSubmitForm.ShowDialog(this) == DialogResult.OK)
+            {
+                saveDataToExcel();
+                ClearTextBoxes();
+            }
+            else
+            {
+               //Cancel
+            }
+            popSubmitForm.Dispose();
+            
+        }
+
+        private void ClearTextBoxes()
+        {
+            Action<Control.ControlCollection> func = null;
+
+            //NEEDS WORK!!!!
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                        (control as TextBox).Text = " ";
+                    else
+                        func(control.Controls);
+
+                foreach (Control control in controls)
+                    if (control is NumericUpDown)
+                        (control as NumericUpDown).Value = 0;
+                    else
+                        func(control.Controls);
+            };
+
+            func(Controls);
         }
 
         private void saveDataToExcel()
         {
             var date = DateTime.Now;
-            string path = $@"C:\Users\brando.lugo\Desktop\Week-{weekOfYearNum() - 1}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
 
             //SUBMIT TO EXCEL
             var workbook = new XLWorkbook();

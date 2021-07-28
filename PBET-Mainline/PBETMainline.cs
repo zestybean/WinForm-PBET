@@ -348,21 +348,43 @@ namespace PBET_Mainline
 
         private void subButton_Click(object sender, EventArgs e)
         {
-            
-            SubmitPopup popSubmitForm = new SubmitPopup();
+            opTf.Text = opTf.Text.Trim();
+            machineTf.Text = machineTf.Text.Trim();
+            deptTf.Text = deptTf.Text.Trim();
+            custTf.Text = custTf.Text.Trim();
 
-            // Show testDialog as a modal dialog and determine if DialogResult = OK.
-            if (popSubmitForm.ShowDialog(this) == DialogResult.OK)
+            if(opTf.Text == string.Empty)
             {
-                saveDataToExcel();
-                ClearTextBoxes();
-            }
-            else
+                opTf.BackColor = Color.LightCoral;
+                
+            } else if (machineTf.Text == string.Empty)
             {
-               //Cancel
+                machineTf.BackColor = Color.LightCoral;
+               
+            } else if (deptTf.Text == string.Empty)
+            {
+                deptTf.BackColor = Color.LightCoral;
+                
+            } else if (custTf.Text == string.Empty)
+            {
+                custTf.BackColor = Color.LightCoral;
+               
+            } else
+            {
+                SubmitPopup popSubmitForm = new SubmitPopup();
+
+                // Show testDialog as a modal dialog and determine if DialogResult = OK.
+                if (popSubmitForm.ShowDialog(this) == DialogResult.OK)
+                {
+                    saveDataToExcel();
+                    ClearTextBoxes();
+                }
+                else
+                {
+                    //Cancel
+                }
+                popSubmitForm.Dispose();
             }
-            popSubmitForm.Dispose();
-            
         }
 
         private void ClearTextBoxes()

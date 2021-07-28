@@ -3182,6 +3182,7 @@ namespace PBET_Mainline
             // 
             this.machineTf.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.machineTf.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.machineTf.BackColor = System.Drawing.SystemColors.Window;
             this.machineTf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
             this.machineTf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.machineTf.FormattingEnabled = true;

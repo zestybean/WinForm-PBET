@@ -12,8 +12,8 @@ namespace PBET_Mainline
 {
     public partial class SubmitPopup : Form
     {
-        string currentUserName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-        
+        string currentUserName = "";
+
 
         public SubmitPopup()
         {
@@ -22,7 +22,7 @@ namespace PBET_Mainline
 
         private void SubmitPopup_Load(object sender, EventArgs e)
         {
-            currentUserName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            currentUserName = System.Environment.UserName;
             Console.WriteLine(currentUserName);
             
         }

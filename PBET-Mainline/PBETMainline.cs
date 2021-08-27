@@ -11,7 +11,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using ClosedXML.Excel;
 using System.Globalization;
-
+using System.Runtime.InteropServices;
 
 
 namespace PBET_Mainline
@@ -21,7 +21,7 @@ namespace PBET_Mainline
         int mainGoal = 0;
         int mainActual = 0;
         int mainVariance = 0;
-        int mainHour = 0;
+        int mainHour = 8;
         int mainScrap = 0;
         int mainDowntime = 0;
 
@@ -47,7 +47,6 @@ namespace PBET_Mainline
             AutoCompleteStringCollection sugMachine = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugDept = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugCust = new AutoCompleteStringCollection();
-            
 
             foreach (string machine in machines)
             {
@@ -292,7 +291,7 @@ namespace PBET_Mainline
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            sumHours();
+            //sumHours();
         }
 
         private void goalTf12_Enter(object sender, EventArgs e)
@@ -304,6 +303,16 @@ namespace PBET_Mainline
                     (x as NumericUpDown).Select(0, (x as NumericUpDown).Text.Length);
                 }
             }
+        }
+
+        private void opTf_TextChanged(object sender, EventArgs e)
+        {
+            (sender as TextBox).BackColor = Color.White;
+        }
+
+        private void shiftTf_ValueChanged(object sender, EventArgs e)
+        {
+            (sender as NumericUpDown).BackColor = Color.White;
         }
 
         /// <summary>
@@ -353,6 +362,8 @@ namespace PBET_Mainline
             deptTf.Text = deptTf.Text.Trim();
             custTf.Text = custTf.Text.Trim();
 
+            
+
             if(opTf.Text == string.Empty)
             {
                 opTf.BackColor = Color.LightCoral;
@@ -371,6 +382,12 @@ namespace PBET_Mainline
                
             } else
             {
+                if (shiftTf.Value == 0 || shiftTf.Value > 3)
+                {
+                    shiftTf.BackColor = Color.LightCoral;
+                    return;
+                }
+
                 SubmitPopup popSubmitForm = new SubmitPopup();
 
                 // Show testDialog as a modal dialog and determine if DialogResult = OK.
@@ -391,6 +408,31 @@ namespace PBET_Mainline
         {
             Action<Control.ControlCollection> func = null;
 
+            mainGoal = 0;
+            mainActual = 0;
+            mainVariance = 0;
+            mainHour = 8;
+            mainScrap = 0;
+            mainDowntime = 0;
+
+            quality = 0.0;
+            performance = 0.0;
+            availability = 0.0;
+            oee = 0.0;
+
+            hourVariance = 0;
+
+            totalHoursLbl.Text = "8";
+            totalVarianceLbl.Text = "0";
+            totalScrapLbl.Text = "0";
+            totalDtLbl.Text = "0";
+            totalGoalLbl.Text = "0";
+            totalActualLbl.Text = "0";
+
+            oeeLbl.Text = "-";
+            perfLbl.Text = "-";
+            avaiLbl.Text = "-";
+            quaLbl.Text = "-";
             //NEEDS WORK!!!!
             func = (controls) =>
             {
@@ -413,7 +455,7 @@ namespace PBET_Mainline
         private void saveDataToExcel()
         {
             var date = DateTime.Now;
-            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
 
             //SUBMIT TO EXCEL
             var workbook = new XLWorkbook();
@@ -454,7 +496,5 @@ namespace PBET_Mainline
             }
             e.Cancel = (window == DialogResult.No);
         }
-
-        
     }
 }

@@ -101,14 +101,6 @@ namespace PBET_Mainline
             this.seqTf7 = new System.Windows.Forms.TextBox();
             this.comTf8 = new System.Windows.Forms.TextBox();
             this.seqTf8 = new System.Windows.Forms.TextBox();
-            this.hrLbl1 = new System.Windows.Forms.Label();
-            this.hrLbl2 = new System.Windows.Forms.Label();
-            this.hrLbl3 = new System.Windows.Forms.Label();
-            this.hrLbl4 = new System.Windows.Forms.Label();
-            this.hrLbl5 = new System.Windows.Forms.Label();
-            this.hrLbl6 = new System.Windows.Forms.Label();
-            this.hrLbl7 = new System.Windows.Forms.Label();
-            this.hrLbl8 = new System.Windows.Forms.Label();
             this.varLbl1_1 = new System.Windows.Forms.Label();
             this.varLbl2_1 = new System.Windows.Forms.Label();
             this.varLbl3_1 = new System.Windows.Forms.Label();
@@ -119,175 +111,24 @@ namespace PBET_Mainline
             this.varLbl8_1 = new System.Windows.Forms.Label();
             this.subButton = new System.Windows.Forms.Button();
             this.varLbl9_1 = new System.Windows.Forms.Label();
-            this.hrLbl9 = new System.Windows.Forms.Label();
             this.comTf9 = new System.Windows.Forms.TextBox();
             this.seqTf9 = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.varLbl10_1 = new System.Windows.Forms.Label();
-            this.hrLbl10 = new System.Windows.Forms.Label();
             this.comTf10 = new System.Windows.Forms.TextBox();
             this.seqTf10 = new System.Windows.Forms.TextBox();
             this.label69 = new System.Windows.Forms.Label();
             this.varLbl11_1 = new System.Windows.Forms.Label();
-            this.hrLbl11 = new System.Windows.Forms.Label();
             this.comTf11 = new System.Windows.Forms.TextBox();
             this.seqTf11 = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.varLbl12_1 = new System.Windows.Forms.Label();
-            this.hrLbl12 = new System.Windows.Forms.Label();
             this.comTf12 = new System.Windows.Forms.TextBox();
             this.seqTf12 = new System.Windows.Forms.TextBox();
             this.label87 = new System.Windows.Forms.Label();
             this.shiftTf = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.label91 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label92 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label93 = new System.Windows.Forms.Label();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label95 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.label94 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.label96 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.label97 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.label98 = new System.Windows.Forms.Label();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.label99 = new System.Windows.Forms.Label();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.label100 = new System.Windows.Forms.Label();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.label101 = new System.Windows.Forms.Label();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.label102 = new System.Windows.Forms.Label();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.label103 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.label104 = new System.Windows.Forms.Label();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.label105 = new System.Windows.Forms.Label();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.label106 = new System.Windows.Forms.Label();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.label107 = new System.Windows.Forms.Label();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.label108 = new System.Windows.Forms.Label();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.label109 = new System.Windows.Forms.Label();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.label110 = new System.Windows.Forms.Label();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.label111 = new System.Windows.Forms.Label();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.label112 = new System.Windows.Forms.Label();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.label113 = new System.Windows.Forms.Label();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.label114 = new System.Windows.Forms.Label();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.label115 = new System.Windows.Forms.Label();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.label116 = new System.Windows.Forms.Label();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.label117 = new System.Windows.Forms.Label();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.label118 = new System.Windows.Forms.Label();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.label119 = new System.Windows.Forms.Label();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.label120 = new System.Windows.Forms.Label();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.label121 = new System.Windows.Forms.Label();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.label122 = new System.Windows.Forms.Label();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.label123 = new System.Windows.Forms.Label();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.label124 = new System.Windows.Forms.Label();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.label125 = new System.Windows.Forms.Label();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.label126 = new System.Windows.Forms.Label();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.label127 = new System.Windows.Forms.Label();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.label128 = new System.Windows.Forms.Label();
-            this.checkBox40 = new System.Windows.Forms.CheckBox();
-            this.label129 = new System.Windows.Forms.Label();
-            this.checkBox41 = new System.Windows.Forms.CheckBox();
-            this.label130 = new System.Windows.Forms.Label();
-            this.checkBox42 = new System.Windows.Forms.CheckBox();
-            this.label131 = new System.Windows.Forms.Label();
-            this.checkBox43 = new System.Windows.Forms.CheckBox();
-            this.label132 = new System.Windows.Forms.Label();
-            this.checkBox44 = new System.Windows.Forms.CheckBox();
-            this.label133 = new System.Windows.Forms.Label();
-            this.checkBox45 = new System.Windows.Forms.CheckBox();
-            this.label134 = new System.Windows.Forms.Label();
-            this.checkBox46 = new System.Windows.Forms.CheckBox();
-            this.label135 = new System.Windows.Forms.Label();
-            this.checkBox47 = new System.Windows.Forms.CheckBox();
-            this.label136 = new System.Windows.Forms.Label();
-            this.checkBox48 = new System.Windows.Forms.CheckBox();
-            this.label137 = new System.Windows.Forms.Label();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
-            this.label138 = new System.Windows.Forms.Label();
-            this.checkBox50 = new System.Windows.Forms.CheckBox();
-            this.label139 = new System.Windows.Forms.Label();
-            this.checkBox51 = new System.Windows.Forms.CheckBox();
-            this.label140 = new System.Windows.Forms.Label();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
-            this.label141 = new System.Windows.Forms.Label();
-            this.checkBox53 = new System.Windows.Forms.CheckBox();
-            this.label142 = new System.Windows.Forms.Label();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
-            this.label143 = new System.Windows.Forms.Label();
-            this.checkBox55 = new System.Windows.Forms.CheckBox();
-            this.label144 = new System.Windows.Forms.Label();
-            this.checkBox56 = new System.Windows.Forms.CheckBox();
-            this.label145 = new System.Windows.Forms.Label();
-            this.checkBox57 = new System.Windows.Forms.CheckBox();
-            this.label146 = new System.Windows.Forms.Label();
-            this.checkBox58 = new System.Windows.Forms.CheckBox();
-            this.label147 = new System.Windows.Forms.Label();
-            this.checkBox59 = new System.Windows.Forms.CheckBox();
-            this.label148 = new System.Windows.Forms.Label();
-            this.checkBox60 = new System.Windows.Forms.CheckBox();
-            this.label149 = new System.Windows.Forms.Label();
-            this.checkBox61 = new System.Windows.Forms.CheckBox();
-            this.label150 = new System.Windows.Forms.Label();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.label151 = new System.Windows.Forms.Label();
-            this.checkBox63 = new System.Windows.Forms.CheckBox();
-            this.label152 = new System.Windows.Forms.Label();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
-            this.label153 = new System.Windows.Forms.Label();
-            this.checkBox65 = new System.Windows.Forms.CheckBox();
-            this.label154 = new System.Windows.Forms.Label();
-            this.checkBox66 = new System.Windows.Forms.CheckBox();
-            this.label155 = new System.Windows.Forms.Label();
-            this.checkBox67 = new System.Windows.Forms.CheckBox();
-            this.label156 = new System.Windows.Forms.Label();
-            this.checkBox68 = new System.Windows.Forms.CheckBox();
-            this.label157 = new System.Windows.Forms.Label();
-            this.checkBox69 = new System.Windows.Forms.CheckBox();
-            this.label158 = new System.Windows.Forms.Label();
-            this.checkBox70 = new System.Windows.Forms.CheckBox();
-            this.label159 = new System.Windows.Forms.Label();
-            this.checkBox71 = new System.Windows.Forms.CheckBox();
-            this.label160 = new System.Windows.Forms.Label();
-            this.checkBox72 = new System.Windows.Forms.CheckBox();
-            this.label161 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label162 = new System.Windows.Forms.Label();
             this.totalGoalLbl = new System.Windows.Forms.Label();
             this.goalTf1 = new System.Windows.Forms.NumericUpDown();
@@ -343,22 +184,30 @@ namespace PBET_Mainline
             this.scrapTf12 = new System.Windows.Forms.NumericUpDown();
             this.downTf11 = new System.Windows.Forms.NumericUpDown();
             this.scrapTf11 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf1 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf2 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf4 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf3 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf6 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf5 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf8 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf7 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf10 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf9 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf12 = new System.Windows.Forms.NumericUpDown();
-            this.hrTf11 = new System.Windows.Forms.NumericUpDown();
             this.machineTf = new System.Windows.Forms.TextBox();
             this.deptTf = new System.Windows.Forms.TextBox();
             this.custTf = new System.Windows.Forms.TextBox();
             this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.clearCartBtn = new System.Windows.Forms.Button();
+            this.TimeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LotNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hzBumberBtn = new System.Windows.Forms.Button();
+            this.hzSkirtBtn = new System.Windows.Forms.Button();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.rbtHzSkirtBtn = new System.Windows.Forms.Button();
+            this.rbtHzBumperBtn = new System.Windows.Forms.Button();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.robotLbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.rbtHzBumFenBtn = new System.Windows.Forms.Button();
+            this.rbtMluFairingsBtn = new System.Windows.Forms.Button();
+            this.rbtMluBumpersBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -381,8 +230,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf2)).BeginInit();
@@ -431,19 +278,11 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.SuspendLayout();
             // 
             // dtPicker
@@ -663,7 +502,7 @@ namespace PBET_Mainline
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox10.Location = new System.Drawing.Point(14, 138);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(113, 39);
+            this.pictureBox10.Size = new System.Drawing.Size(26, 39);
             this.pictureBox10.TabIndex = 26;
             this.pictureBox10.TabStop = false;
             // 
@@ -673,11 +512,11 @@ namespace PBET_Mainline
             this.label8.BackColor = System.Drawing.SystemColors.Highlight;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(49, 148);
+            this.label8.Location = new System.Drawing.Point(15, 148);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 17);
+            this.label8.Size = new System.Drawing.Size(25, 17);
             this.label8.TabIndex = 27;
-            this.label8.Text = "Hour";
+            this.label8.Text = "Hr";
             // 
             // label9
             // 
@@ -685,7 +524,7 @@ namespace PBET_Mainline
             this.label9.BackColor = System.Drawing.SystemColors.Highlight;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(142, 148);
+            this.label9.Location = new System.Drawing.Point(56, 148);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 17);
             this.label9.TabIndex = 29;
@@ -695,7 +534,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox11.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Location = new System.Drawing.Point(134, 138);
+            this.pictureBox11.Location = new System.Drawing.Point(48, 138);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(58, 39);
             this.pictureBox11.TabIndex = 28;
@@ -707,7 +546,7 @@ namespace PBET_Mainline
             this.label10.BackColor = System.Drawing.SystemColors.Highlight;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(272, 148);
+            this.label10.Location = new System.Drawing.Point(186, 148);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 17);
             this.label10.TabIndex = 31;
@@ -718,7 +557,7 @@ namespace PBET_Mainline
             this.pictureBox12.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Location = new System.Drawing.Point(265, 138);
+            this.pictureBox12.Location = new System.Drawing.Point(179, 138);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(82, 39);
             this.pictureBox12.TabIndex = 30;
@@ -730,7 +569,7 @@ namespace PBET_Mainline
             this.label11.BackColor = System.Drawing.SystemColors.Highlight;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(396, 148);
+            this.label11.Location = new System.Drawing.Point(275, 148);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(176, 17);
             this.label11.TabIndex = 33;
@@ -740,9 +579,9 @@ namespace PBET_Mainline
             // 
             this.pictureBox13.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Location = new System.Drawing.Point(388, 138);
+            this.pictureBox13.Location = new System.Drawing.Point(267, 138);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(224, 39);
+            this.pictureBox13.Size = new System.Drawing.Size(197, 39);
             this.pictureBox13.TabIndex = 32;
             this.pictureBox13.TabStop = false;
             // 
@@ -752,7 +591,7 @@ namespace PBET_Mainline
             this.label12.BackColor = System.Drawing.SystemColors.Highlight;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(620, 138);
+            this.label12.Location = new System.Drawing.Point(481, 138);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(50, 17);
             this.label12.TabIndex = 35;
@@ -762,7 +601,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox14.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Location = new System.Drawing.Point(619, 138);
+            this.pictureBox14.Location = new System.Drawing.Point(480, 138);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(51, 39);
             this.pictureBox14.TabIndex = 34;
@@ -774,7 +613,7 @@ namespace PBET_Mainline
             this.label13.BackColor = System.Drawing.SystemColors.Highlight;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(684, 138);
+            this.label13.Location = new System.Drawing.Point(545, 138);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(29, 17);
             this.label13.TabIndex = 37;
@@ -784,7 +623,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox15.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Location = new System.Drawing.Point(675, 138);
+            this.pictureBox15.Location = new System.Drawing.Point(536, 138);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(51, 39);
             this.pictureBox15.TabIndex = 36;
@@ -796,7 +635,7 @@ namespace PBET_Mainline
             this.label14.BackColor = System.Drawing.SystemColors.Highlight;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(861, 148);
+            this.label14.Location = new System.Drawing.Point(638, 148);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(82, 17);
             this.label14.TabIndex = 39;
@@ -804,11 +643,12 @@ namespace PBET_Mainline
             // 
             // pictureBox16
             // 
+            this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox16.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox16.Location = new System.Drawing.Point(731, 138);
+            this.pictureBox16.Location = new System.Drawing.Point(1455, 138);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(317, 39);
+            this.pictureBox16.Size = new System.Drawing.Size(83, 423);
             this.pictureBox16.TabIndex = 38;
             this.pictureBox16.TabStop = false;
             // 
@@ -818,7 +658,7 @@ namespace PBET_Mainline
             this.label16.BackColor = System.Drawing.SystemColors.Highlight;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(201, 148);
+            this.label16.Location = new System.Drawing.Point(115, 148);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(53, 17);
             this.label16.TabIndex = 51;
@@ -828,7 +668,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox18.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox18.Location = new System.Drawing.Point(198, 138);
+            this.pictureBox18.Location = new System.Drawing.Point(112, 138);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(61, 39);
             this.pictureBox18.TabIndex = 50;
@@ -1051,27 +891,27 @@ namespace PBET_Mainline
             this.seqTf1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf1.Location = new System.Drawing.Point(388, 183);
+            this.seqTf1.Location = new System.Drawing.Point(267, 183);
             this.seqTf1.Name = "seqTf1";
-            this.seqTf1.Size = new System.Drawing.Size(223, 26);
+            this.seqTf1.Size = new System.Drawing.Size(196, 26);
             this.seqTf1.TabIndex = 45;
             this.seqTf1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf1
             // 
             this.comTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf1.Location = new System.Drawing.Point(731, 183);
+            this.comTf1.Location = new System.Drawing.Point(592, 183);
             this.comTf1.Name = "comTf1";
-            this.comTf1.Size = new System.Drawing.Size(317, 26);
+            this.comTf1.Size = new System.Drawing.Size(176, 26);
             this.comTf1.TabIndex = 48;
             this.comTf1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf2
             // 
             this.comTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf2.Location = new System.Drawing.Point(731, 215);
+            this.comTf2.Location = new System.Drawing.Point(592, 215);
             this.comTf2.Name = "comTf2";
-            this.comTf2.Size = new System.Drawing.Size(317, 26);
+            this.comTf2.Size = new System.Drawing.Size(176, 26);
             this.comTf2.TabIndex = 140;
             this.comTf2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1080,18 +920,18 @@ namespace PBET_Mainline
             this.seqTf2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf2.Location = new System.Drawing.Point(388, 215);
+            this.seqTf2.Location = new System.Drawing.Point(267, 215);
             this.seqTf2.Name = "seqTf2";
-            this.seqTf2.Size = new System.Drawing.Size(223, 26);
+            this.seqTf2.Size = new System.Drawing.Size(196, 26);
             this.seqTf2.TabIndex = 137;
             this.seqTf2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf3
             // 
             this.comTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf3.Location = new System.Drawing.Point(731, 247);
+            this.comTf3.Location = new System.Drawing.Point(592, 247);
             this.comTf3.Name = "comTf3";
-            this.comTf3.Size = new System.Drawing.Size(317, 26);
+            this.comTf3.Size = new System.Drawing.Size(176, 26);
             this.comTf3.TabIndex = 148;
             this.comTf3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1100,18 +940,18 @@ namespace PBET_Mainline
             this.seqTf3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf3.Location = new System.Drawing.Point(388, 247);
+            this.seqTf3.Location = new System.Drawing.Point(267, 247);
             this.seqTf3.Name = "seqTf3";
-            this.seqTf3.Size = new System.Drawing.Size(223, 26);
+            this.seqTf3.Size = new System.Drawing.Size(196, 26);
             this.seqTf3.TabIndex = 145;
             this.seqTf3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf4
             // 
             this.comTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf4.Location = new System.Drawing.Point(731, 279);
+            this.comTf4.Location = new System.Drawing.Point(592, 279);
             this.comTf4.Name = "comTf4";
-            this.comTf4.Size = new System.Drawing.Size(317, 26);
+            this.comTf4.Size = new System.Drawing.Size(176, 26);
             this.comTf4.TabIndex = 156;
             this.comTf4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1120,18 +960,18 @@ namespace PBET_Mainline
             this.seqTf4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf4.Location = new System.Drawing.Point(388, 279);
+            this.seqTf4.Location = new System.Drawing.Point(267, 279);
             this.seqTf4.Name = "seqTf4";
-            this.seqTf4.Size = new System.Drawing.Size(223, 26);
+            this.seqTf4.Size = new System.Drawing.Size(196, 26);
             this.seqTf4.TabIndex = 153;
             this.seqTf4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf5
             // 
             this.comTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf5.Location = new System.Drawing.Point(731, 311);
+            this.comTf5.Location = new System.Drawing.Point(592, 311);
             this.comTf5.Name = "comTf5";
-            this.comTf5.Size = new System.Drawing.Size(317, 26);
+            this.comTf5.Size = new System.Drawing.Size(176, 26);
             this.comTf5.TabIndex = 164;
             this.comTf5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1140,18 +980,18 @@ namespace PBET_Mainline
             this.seqTf5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf5.Location = new System.Drawing.Point(388, 311);
+            this.seqTf5.Location = new System.Drawing.Point(267, 311);
             this.seqTf5.Name = "seqTf5";
-            this.seqTf5.Size = new System.Drawing.Size(223, 26);
+            this.seqTf5.Size = new System.Drawing.Size(196, 26);
             this.seqTf5.TabIndex = 161;
             this.seqTf5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf6
             // 
             this.comTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf6.Location = new System.Drawing.Point(731, 343);
+            this.comTf6.Location = new System.Drawing.Point(592, 343);
             this.comTf6.Name = "comTf6";
-            this.comTf6.Size = new System.Drawing.Size(317, 26);
+            this.comTf6.Size = new System.Drawing.Size(176, 26);
             this.comTf6.TabIndex = 172;
             this.comTf6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1160,18 +1000,18 @@ namespace PBET_Mainline
             this.seqTf6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf6.Location = new System.Drawing.Point(388, 343);
+            this.seqTf6.Location = new System.Drawing.Point(267, 343);
             this.seqTf6.Name = "seqTf6";
-            this.seqTf6.Size = new System.Drawing.Size(223, 26);
+            this.seqTf6.Size = new System.Drawing.Size(196, 26);
             this.seqTf6.TabIndex = 169;
             this.seqTf6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf7
             // 
             this.comTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf7.Location = new System.Drawing.Point(731, 375);
+            this.comTf7.Location = new System.Drawing.Point(592, 375);
             this.comTf7.Name = "comTf7";
-            this.comTf7.Size = new System.Drawing.Size(317, 26);
+            this.comTf7.Size = new System.Drawing.Size(176, 26);
             this.comTf7.TabIndex = 180;
             this.comTf7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1180,18 +1020,18 @@ namespace PBET_Mainline
             this.seqTf7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf7.Location = new System.Drawing.Point(388, 375);
+            this.seqTf7.Location = new System.Drawing.Point(267, 375);
             this.seqTf7.Name = "seqTf7";
-            this.seqTf7.Size = new System.Drawing.Size(223, 26);
+            this.seqTf7.Size = new System.Drawing.Size(196, 26);
             this.seqTf7.TabIndex = 177;
             this.seqTf7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comTf8
             // 
             this.comTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf8.Location = new System.Drawing.Point(731, 407);
+            this.comTf8.Location = new System.Drawing.Point(592, 407);
             this.comTf8.Name = "comTf8";
-            this.comTf8.Size = new System.Drawing.Size(317, 26);
+            this.comTf8.Size = new System.Drawing.Size(176, 26);
             this.comTf8.TabIndex = 188;
             this.comTf8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1200,105 +1040,17 @@ namespace PBET_Mainline
             this.seqTf8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf8.Location = new System.Drawing.Point(388, 407);
+            this.seqTf8.Location = new System.Drawing.Point(267, 407);
             this.seqTf8.Name = "seqTf8";
-            this.seqTf8.Size = new System.Drawing.Size(223, 26);
+            this.seqTf8.Size = new System.Drawing.Size(196, 26);
             this.seqTf8.TabIndex = 185;
             this.seqTf8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hrLbl1
-            // 
-            this.hrLbl1.AutoSize = true;
-            this.hrLbl1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl1.Location = new System.Drawing.Point(93, 186);
-            this.hrLbl1.Name = "hrLbl1";
-            this.hrLbl1.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl1.TabIndex = 190;
-            this.hrLbl1.Text = "0";
-            // 
-            // hrLbl2
-            // 
-            this.hrLbl2.AutoSize = true;
-            this.hrLbl2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl2.Location = new System.Drawing.Point(93, 218);
-            this.hrLbl2.Name = "hrLbl2";
-            this.hrLbl2.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl2.TabIndex = 191;
-            this.hrLbl2.Text = "0";
-            // 
-            // hrLbl3
-            // 
-            this.hrLbl3.AutoSize = true;
-            this.hrLbl3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl3.Location = new System.Drawing.Point(93, 250);
-            this.hrLbl3.Name = "hrLbl3";
-            this.hrLbl3.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl3.TabIndex = 192;
-            this.hrLbl3.Text = "0";
-            // 
-            // hrLbl4
-            // 
-            this.hrLbl4.AutoSize = true;
-            this.hrLbl4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl4.Location = new System.Drawing.Point(93, 282);
-            this.hrLbl4.Name = "hrLbl4";
-            this.hrLbl4.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl4.TabIndex = 193;
-            this.hrLbl4.Text = "0";
-            // 
-            // hrLbl5
-            // 
-            this.hrLbl5.AutoSize = true;
-            this.hrLbl5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl5.Location = new System.Drawing.Point(93, 314);
-            this.hrLbl5.Name = "hrLbl5";
-            this.hrLbl5.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl5.TabIndex = 194;
-            this.hrLbl5.Text = "0";
-            // 
-            // hrLbl6
-            // 
-            this.hrLbl6.AutoSize = true;
-            this.hrLbl6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl6.Location = new System.Drawing.Point(93, 346);
-            this.hrLbl6.Name = "hrLbl6";
-            this.hrLbl6.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl6.TabIndex = 195;
-            this.hrLbl6.Text = "0";
-            // 
-            // hrLbl7
-            // 
-            this.hrLbl7.AutoSize = true;
-            this.hrLbl7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl7.Location = new System.Drawing.Point(93, 378);
-            this.hrLbl7.Name = "hrLbl7";
-            this.hrLbl7.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl7.TabIndex = 196;
-            this.hrLbl7.Text = "0";
-            // 
-            // hrLbl8
-            // 
-            this.hrLbl8.AutoSize = true;
-            this.hrLbl8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl8.Location = new System.Drawing.Point(93, 410);
-            this.hrLbl8.Name = "hrLbl8";
-            this.hrLbl8.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl8.TabIndex = 197;
-            this.hrLbl8.Text = "0";
             // 
             // varLbl1_1
             // 
             this.varLbl1_1.AutoSize = true;
             this.varLbl1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl1_1.Location = new System.Drawing.Point(290, 186);
+            this.varLbl1_1.Location = new System.Drawing.Point(204, 186);
             this.varLbl1_1.Name = "varLbl1_1";
             this.varLbl1_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl1_1.TabIndex = 217;
@@ -1309,7 +1061,7 @@ namespace PBET_Mainline
             // 
             this.varLbl2_1.AutoSize = true;
             this.varLbl2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl2_1.Location = new System.Drawing.Point(290, 218);
+            this.varLbl2_1.Location = new System.Drawing.Point(204, 218);
             this.varLbl2_1.Name = "varLbl2_1";
             this.varLbl2_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl2_1.TabIndex = 222;
@@ -1320,7 +1072,7 @@ namespace PBET_Mainline
             // 
             this.varLbl3_1.AutoSize = true;
             this.varLbl3_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl3_1.Location = new System.Drawing.Point(290, 250);
+            this.varLbl3_1.Location = new System.Drawing.Point(204, 250);
             this.varLbl3_1.Name = "varLbl3_1";
             this.varLbl3_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl3_1.TabIndex = 227;
@@ -1331,7 +1083,7 @@ namespace PBET_Mainline
             // 
             this.varLbl4_1.AutoSize = true;
             this.varLbl4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl4_1.Location = new System.Drawing.Point(290, 282);
+            this.varLbl4_1.Location = new System.Drawing.Point(204, 282);
             this.varLbl4_1.Name = "varLbl4_1";
             this.varLbl4_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl4_1.TabIndex = 232;
@@ -1342,7 +1094,7 @@ namespace PBET_Mainline
             // 
             this.varLbl5_1.AutoSize = true;
             this.varLbl5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl5_1.Location = new System.Drawing.Point(290, 314);
+            this.varLbl5_1.Location = new System.Drawing.Point(204, 314);
             this.varLbl5_1.Name = "varLbl5_1";
             this.varLbl5_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl5_1.TabIndex = 237;
@@ -1353,7 +1105,7 @@ namespace PBET_Mainline
             // 
             this.varLbl6_1.AutoSize = true;
             this.varLbl6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl6_1.Location = new System.Drawing.Point(290, 346);
+            this.varLbl6_1.Location = new System.Drawing.Point(204, 346);
             this.varLbl6_1.Name = "varLbl6_1";
             this.varLbl6_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl6_1.TabIndex = 242;
@@ -1364,7 +1116,7 @@ namespace PBET_Mainline
             // 
             this.varLbl7_1.AutoSize = true;
             this.varLbl7_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl7_1.Location = new System.Drawing.Point(290, 378);
+            this.varLbl7_1.Location = new System.Drawing.Point(204, 378);
             this.varLbl7_1.Name = "varLbl7_1";
             this.varLbl7_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl7_1.TabIndex = 247;
@@ -1375,7 +1127,7 @@ namespace PBET_Mainline
             // 
             this.varLbl8_1.AutoSize = true;
             this.varLbl8_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl8_1.Location = new System.Drawing.Point(290, 410);
+            this.varLbl8_1.Location = new System.Drawing.Point(204, 410);
             this.varLbl8_1.Name = "varLbl8_1";
             this.varLbl8_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl8_1.TabIndex = 252;
@@ -1401,30 +1153,19 @@ namespace PBET_Mainline
             // 
             this.varLbl9_1.AutoSize = true;
             this.varLbl9_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl9_1.Location = new System.Drawing.Point(290, 442);
+            this.varLbl9_1.Location = new System.Drawing.Point(204, 442);
             this.varLbl9_1.Name = "varLbl9_1";
             this.varLbl9_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl9_1.TabIndex = 270;
             this.varLbl9_1.Text = "0";
             this.varLbl9_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // hrLbl9
-            // 
-            this.hrLbl9.AutoSize = true;
-            this.hrLbl9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl9.Location = new System.Drawing.Point(93, 442);
-            this.hrLbl9.Name = "hrLbl9";
-            this.hrLbl9.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl9.TabIndex = 264;
-            this.hrLbl9.Text = "0";
-            // 
             // comTf9
             // 
             this.comTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf9.Location = new System.Drawing.Point(731, 439);
+            this.comTf9.Location = new System.Drawing.Point(592, 439);
             this.comTf9.Name = "comTf9";
-            this.comTf9.Size = new System.Drawing.Size(317, 26);
+            this.comTf9.Size = new System.Drawing.Size(176, 26);
             this.comTf9.TabIndex = 262;
             this.comTf9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1433,9 +1174,9 @@ namespace PBET_Mainline
             this.seqTf9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf9.Location = new System.Drawing.Point(388, 439);
+            this.seqTf9.Location = new System.Drawing.Point(267, 439);
             this.seqTf9.Name = "seqTf9";
-            this.seqTf9.Size = new System.Drawing.Size(223, 26);
+            this.seqTf9.Size = new System.Drawing.Size(196, 26);
             this.seqTf9.TabIndex = 259;
             this.seqTf9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1453,30 +1194,19 @@ namespace PBET_Mainline
             // 
             this.varLbl10_1.AutoSize = true;
             this.varLbl10_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl10_1.Location = new System.Drawing.Point(290, 474);
+            this.varLbl10_1.Location = new System.Drawing.Point(204, 474);
             this.varLbl10_1.Name = "varLbl10_1";
             this.varLbl10_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl10_1.TabIndex = 287;
             this.varLbl10_1.Text = "0";
             this.varLbl10_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // hrLbl10
-            // 
-            this.hrLbl10.AutoSize = true;
-            this.hrLbl10.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl10.Location = new System.Drawing.Point(93, 474);
-            this.hrLbl10.Name = "hrLbl10";
-            this.hrLbl10.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl10.TabIndex = 281;
-            this.hrLbl10.Text = "0";
-            // 
             // comTf10
             // 
             this.comTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf10.Location = new System.Drawing.Point(731, 471);
+            this.comTf10.Location = new System.Drawing.Point(592, 471);
             this.comTf10.Name = "comTf10";
-            this.comTf10.Size = new System.Drawing.Size(317, 26);
+            this.comTf10.Size = new System.Drawing.Size(176, 26);
             this.comTf10.TabIndex = 279;
             this.comTf10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1485,9 +1215,9 @@ namespace PBET_Mainline
             this.seqTf10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf10.Location = new System.Drawing.Point(388, 471);
+            this.seqTf10.Location = new System.Drawing.Point(267, 471);
             this.seqTf10.Name = "seqTf10";
-            this.seqTf10.Size = new System.Drawing.Size(223, 26);
+            this.seqTf10.Size = new System.Drawing.Size(196, 26);
             this.seqTf10.TabIndex = 276;
             this.seqTf10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1506,30 +1236,19 @@ namespace PBET_Mainline
             // 
             this.varLbl11_1.AutoSize = true;
             this.varLbl11_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl11_1.Location = new System.Drawing.Point(290, 506);
+            this.varLbl11_1.Location = new System.Drawing.Point(204, 506);
             this.varLbl11_1.Name = "varLbl11_1";
             this.varLbl11_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl11_1.TabIndex = 304;
             this.varLbl11_1.Text = "0";
             this.varLbl11_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // hrLbl11
-            // 
-            this.hrLbl11.AutoSize = true;
-            this.hrLbl11.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl11.Location = new System.Drawing.Point(93, 506);
-            this.hrLbl11.Name = "hrLbl11";
-            this.hrLbl11.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl11.TabIndex = 298;
-            this.hrLbl11.Text = "0";
-            // 
             // comTf11
             // 
             this.comTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf11.Location = new System.Drawing.Point(731, 503);
+            this.comTf11.Location = new System.Drawing.Point(592, 503);
             this.comTf11.Name = "comTf11";
-            this.comTf11.Size = new System.Drawing.Size(317, 26);
+            this.comTf11.Size = new System.Drawing.Size(176, 26);
             this.comTf11.TabIndex = 296;
             this.comTf11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1538,9 +1257,9 @@ namespace PBET_Mainline
             this.seqTf11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf11.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf11.Location = new System.Drawing.Point(388, 503);
+            this.seqTf11.Location = new System.Drawing.Point(267, 503);
             this.seqTf11.Name = "seqTf11";
-            this.seqTf11.Size = new System.Drawing.Size(223, 26);
+            this.seqTf11.Size = new System.Drawing.Size(196, 26);
             this.seqTf11.TabIndex = 293;
             this.seqTf11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1558,30 +1277,19 @@ namespace PBET_Mainline
             // 
             this.varLbl12_1.AutoSize = true;
             this.varLbl12_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varLbl12_1.Location = new System.Drawing.Point(290, 538);
+            this.varLbl12_1.Location = new System.Drawing.Point(204, 538);
             this.varLbl12_1.Name = "varLbl12_1";
             this.varLbl12_1.Size = new System.Drawing.Size(19, 20);
             this.varLbl12_1.TabIndex = 321;
             this.varLbl12_1.Text = "0";
             this.varLbl12_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // hrLbl12
-            // 
-            this.hrLbl12.AutoSize = true;
-            this.hrLbl12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.hrLbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrLbl12.Location = new System.Drawing.Point(93, 538);
-            this.hrLbl12.Name = "hrLbl12";
-            this.hrLbl12.Size = new System.Drawing.Size(19, 20);
-            this.hrLbl12.TabIndex = 315;
-            this.hrLbl12.Text = "0";
-            // 
             // comTf12
             // 
             this.comTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comTf12.Location = new System.Drawing.Point(731, 535);
+            this.comTf12.Location = new System.Drawing.Point(592, 535);
             this.comTf12.Name = "comTf12";
-            this.comTf12.Size = new System.Drawing.Size(317, 26);
+            this.comTf12.Size = new System.Drawing.Size(176, 26);
             this.comTf12.TabIndex = 313;
             this.comTf12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1590,9 +1298,9 @@ namespace PBET_Mainline
             this.seqTf12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.seqTf12.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.seqTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seqTf12.Location = new System.Drawing.Point(388, 535);
+            this.seqTf12.Location = new System.Drawing.Point(267, 535);
             this.seqTf12.Name = "seqTf12";
-            this.seqTf12.Size = new System.Drawing.Size(223, 26);
+            this.seqTf12.Size = new System.Drawing.Size(196, 26);
             this.seqTf12.TabIndex = 310;
             this.seqTf12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1626,23 +1334,13 @@ namespace PBET_Mainline
             0});
             this.shiftTf.ValueChanged += new System.EventHandler(this.shiftTf_ValueChanged);
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox17.Location = new System.Drawing.Point(1056, 138);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(270, 39);
-            this.pictureBox17.TabIndex = 323;
-            this.pictureBox17.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.Highlight;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(627, 155);
+            this.label15.Location = new System.Drawing.Point(488, 155);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(33, 17);
             this.label15.TabIndex = 336;
@@ -1654,1333 +1352,11 @@ namespace PBET_Mainline
             this.label88.BackColor = System.Drawing.SystemColors.Highlight;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Location = new System.Drawing.Point(684, 155);
+            this.label88.Location = new System.Drawing.Point(545, 155);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(41, 17);
             this.label88.TabIndex = 337;
             this.label88.Text = "Mins";
-            // 
-            // label89
-            // 
-            this.label89.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label89.AutoSize = true;
-            this.label89.BackColor = System.Drawing.SystemColors.Highlight;
-            this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.ForeColor = System.Drawing.Color.White;
-            this.label89.Location = new System.Drawing.Point(1094, 148);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(199, 17);
-            this.label89.TabIndex = 338;
-            this.label89.Text = "Escalation Status (10 Min)";
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(1057, 179);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(35, 13);
-            this.label90.TabIndex = 339;
-            this.label90.Text = "Lead";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(1060, 195);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 340;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(1101, 195);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 342;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(1098, 179);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(40, 13);
-            this.label91.TabIndex = 341;
-            this.label91.Text = "Super";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(1141, 195);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 344;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(1138, 179);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(47, 13);
-            this.label92.TabIndex = 343;
-            this.label92.Text = "AreaEx";
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(1185, 195);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 346;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(1182, 179);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(44, 13);
-            this.label93.TabIndex = 345;
-            this.label93.Text = "OpMgr";
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(1279, 195);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 350;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(1276, 179);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(50, 13);
-            this.label95.TabIndex = 349;
-            this.label95.Text = "PlntMgr";
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(1230, 195);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 352;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(1227, 179);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(50, 13);
-            this.label94.TabIndex = 351;
-            this.label94.Text = "EngMgr";
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(1230, 228);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 364;
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(1227, 212);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(50, 13);
-            this.label96.TabIndex = 363;
-            this.label96.Text = "EngMgr";
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(1279, 228);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 362;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(1276, 212);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(50, 13);
-            this.label97.TabIndex = 361;
-            this.label97.Text = "PlntMgr";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(1185, 228);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 360;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(1182, 212);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(44, 13);
-            this.label98.TabIndex = 359;
-            this.label98.Text = "OpMgr";
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(1141, 228);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(15, 14);
-            this.checkBox10.TabIndex = 358;
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(1138, 212);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(47, 13);
-            this.label99.TabIndex = 357;
-            this.label99.Text = "AreaEx";
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(1101, 228);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 356;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(1098, 212);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(40, 13);
-            this.label100.TabIndex = 355;
-            this.label100.Text = "Super";
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(1060, 228);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 354;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(1057, 212);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(35, 13);
-            this.label101.TabIndex = 353;
-            this.label101.Text = "Lead";
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(1230, 260);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 376;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(1227, 244);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(50, 13);
-            this.label102.TabIndex = 375;
-            this.label102.Text = "EngMgr";
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(1279, 260);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 374;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // label103
-            // 
-            this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(1276, 244);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(50, 13);
-            this.label103.TabIndex = 373;
-            this.label103.Text = "PlntMgr";
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(1185, 260);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 372;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // label104
-            // 
-            this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(1182, 244);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(44, 13);
-            this.label104.TabIndex = 371;
-            this.label104.Text = "OpMgr";
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(1141, 260);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 370;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(1138, 244);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(47, 13);
-            this.label105.TabIndex = 369;
-            this.label105.Text = "AreaEx";
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(1101, 260);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(15, 14);
-            this.checkBox17.TabIndex = 368;
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(1098, 244);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(40, 13);
-            this.label106.TabIndex = 367;
-            this.label106.Text = "Super";
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(1060, 260);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
-            this.checkBox18.TabIndex = 366;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(1057, 244);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(35, 13);
-            this.label107.TabIndex = 365;
-            this.label107.Text = "Lead";
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(1230, 292);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(15, 14);
-            this.checkBox19.TabIndex = 388;
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(1227, 276);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(50, 13);
-            this.label108.TabIndex = 387;
-            this.label108.Text = "EngMgr";
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(1279, 292);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(15, 14);
-            this.checkBox20.TabIndex = 386;
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(1276, 276);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(50, 13);
-            this.label109.TabIndex = 385;
-            this.label109.Text = "PlntMgr";
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(1185, 292);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(15, 14);
-            this.checkBox21.TabIndex = 384;
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(1182, 276);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(44, 13);
-            this.label110.TabIndex = 383;
-            this.label110.Text = "OpMgr";
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(1141, 292);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(15, 14);
-            this.checkBox22.TabIndex = 382;
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(1138, 276);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(47, 13);
-            this.label111.TabIndex = 381;
-            this.label111.Text = "AreaEx";
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(1101, 292);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(15, 14);
-            this.checkBox23.TabIndex = 380;
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(1098, 276);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(40, 13);
-            this.label112.TabIndex = 379;
-            this.label112.Text = "Super";
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(1060, 292);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(15, 14);
-            this.checkBox24.TabIndex = 378;
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(1057, 276);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(35, 13);
-            this.label113.TabIndex = 377;
-            this.label113.Text = "Lead";
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(1230, 324);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(15, 14);
-            this.checkBox25.TabIndex = 400;
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(1227, 308);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(50, 13);
-            this.label114.TabIndex = 399;
-            this.label114.Text = "EngMgr";
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(1279, 324);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(15, 14);
-            this.checkBox26.TabIndex = 398;
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // label115
-            // 
-            this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(1276, 308);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(50, 13);
-            this.label115.TabIndex = 397;
-            this.label115.Text = "PlntMgr";
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(1185, 324);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(15, 14);
-            this.checkBox27.TabIndex = 396;
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(1182, 308);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(44, 13);
-            this.label116.TabIndex = 395;
-            this.label116.Text = "OpMgr";
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(1141, 324);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(15, 14);
-            this.checkBox28.TabIndex = 394;
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // label117
-            // 
-            this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(1138, 308);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(47, 13);
-            this.label117.TabIndex = 393;
-            this.label117.Text = "AreaEx";
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(1101, 324);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(15, 14);
-            this.checkBox29.TabIndex = 392;
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(1098, 308);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(40, 13);
-            this.label118.TabIndex = 391;
-            this.label118.Text = "Super";
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(1060, 324);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(15, 14);
-            this.checkBox30.TabIndex = 390;
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // label119
-            // 
-            this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(1057, 308);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(35, 13);
-            this.label119.TabIndex = 389;
-            this.label119.Text = "Lead";
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(1230, 356);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(15, 14);
-            this.checkBox31.TabIndex = 412;
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(1227, 340);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(50, 13);
-            this.label120.TabIndex = 411;
-            this.label120.Text = "EngMgr";
-            // 
-            // checkBox32
-            // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(1279, 356);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(15, 14);
-            this.checkBox32.TabIndex = 410;
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // label121
-            // 
-            this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(1276, 340);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(50, 13);
-            this.label121.TabIndex = 409;
-            this.label121.Text = "PlntMgr";
-            // 
-            // checkBox33
-            // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(1185, 356);
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(15, 14);
-            this.checkBox33.TabIndex = 408;
-            this.checkBox33.UseVisualStyleBackColor = true;
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(1182, 340);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(44, 13);
-            this.label122.TabIndex = 407;
-            this.label122.Text = "OpMgr";
-            // 
-            // checkBox34
-            // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(1141, 356);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(15, 14);
-            this.checkBox34.TabIndex = 406;
-            this.checkBox34.UseVisualStyleBackColor = true;
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(1138, 340);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(47, 13);
-            this.label123.TabIndex = 405;
-            this.label123.Text = "AreaEx";
-            // 
-            // checkBox35
-            // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(1101, 356);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(15, 14);
-            this.checkBox35.TabIndex = 404;
-            this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.label124.Location = new System.Drawing.Point(1098, 340);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(40, 13);
-            this.label124.TabIndex = 403;
-            this.label124.Text = "Super";
-            // 
-            // checkBox36
-            // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(1060, 356);
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(15, 14);
-            this.checkBox36.TabIndex = 402;
-            this.checkBox36.UseVisualStyleBackColor = true;
-            // 
-            // label125
-            // 
-            this.label125.AutoSize = true;
-            this.label125.Location = new System.Drawing.Point(1057, 340);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(35, 13);
-            this.label125.TabIndex = 401;
-            this.label125.Text = "Lead";
-            // 
-            // checkBox37
-            // 
-            this.checkBox37.AutoSize = true;
-            this.checkBox37.Location = new System.Drawing.Point(1230, 388);
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(15, 14);
-            this.checkBox37.TabIndex = 424;
-            this.checkBox37.UseVisualStyleBackColor = true;
-            // 
-            // label126
-            // 
-            this.label126.AutoSize = true;
-            this.label126.Location = new System.Drawing.Point(1227, 372);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(50, 13);
-            this.label126.TabIndex = 423;
-            this.label126.Text = "EngMgr";
-            // 
-            // checkBox38
-            // 
-            this.checkBox38.AutoSize = true;
-            this.checkBox38.Location = new System.Drawing.Point(1279, 388);
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(15, 14);
-            this.checkBox38.TabIndex = 422;
-            this.checkBox38.UseVisualStyleBackColor = true;
-            // 
-            // label127
-            // 
-            this.label127.AutoSize = true;
-            this.label127.Location = new System.Drawing.Point(1276, 372);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(50, 13);
-            this.label127.TabIndex = 421;
-            this.label127.Text = "PlntMgr";
-            // 
-            // checkBox39
-            // 
-            this.checkBox39.AutoSize = true;
-            this.checkBox39.Location = new System.Drawing.Point(1185, 388);
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Size = new System.Drawing.Size(15, 14);
-            this.checkBox39.TabIndex = 420;
-            this.checkBox39.UseVisualStyleBackColor = true;
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(1182, 372);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(44, 13);
-            this.label128.TabIndex = 419;
-            this.label128.Text = "OpMgr";
-            // 
-            // checkBox40
-            // 
-            this.checkBox40.AutoSize = true;
-            this.checkBox40.Location = new System.Drawing.Point(1141, 388);
-            this.checkBox40.Name = "checkBox40";
-            this.checkBox40.Size = new System.Drawing.Size(15, 14);
-            this.checkBox40.TabIndex = 418;
-            this.checkBox40.UseVisualStyleBackColor = true;
-            // 
-            // label129
-            // 
-            this.label129.AutoSize = true;
-            this.label129.Location = new System.Drawing.Point(1138, 372);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(47, 13);
-            this.label129.TabIndex = 417;
-            this.label129.Text = "AreaEx";
-            // 
-            // checkBox41
-            // 
-            this.checkBox41.AutoSize = true;
-            this.checkBox41.Location = new System.Drawing.Point(1101, 388);
-            this.checkBox41.Name = "checkBox41";
-            this.checkBox41.Size = new System.Drawing.Size(15, 14);
-            this.checkBox41.TabIndex = 416;
-            this.checkBox41.UseVisualStyleBackColor = true;
-            // 
-            // label130
-            // 
-            this.label130.AutoSize = true;
-            this.label130.Location = new System.Drawing.Point(1098, 372);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(40, 13);
-            this.label130.TabIndex = 415;
-            this.label130.Text = "Super";
-            // 
-            // checkBox42
-            // 
-            this.checkBox42.AutoSize = true;
-            this.checkBox42.Location = new System.Drawing.Point(1060, 388);
-            this.checkBox42.Name = "checkBox42";
-            this.checkBox42.Size = new System.Drawing.Size(15, 14);
-            this.checkBox42.TabIndex = 414;
-            this.checkBox42.UseVisualStyleBackColor = true;
-            // 
-            // label131
-            // 
-            this.label131.AutoSize = true;
-            this.label131.Location = new System.Drawing.Point(1057, 372);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(35, 13);
-            this.label131.TabIndex = 413;
-            this.label131.Text = "Lead";
-            // 
-            // checkBox43
-            // 
-            this.checkBox43.AutoSize = true;
-            this.checkBox43.Location = new System.Drawing.Point(1230, 420);
-            this.checkBox43.Name = "checkBox43";
-            this.checkBox43.Size = new System.Drawing.Size(15, 14);
-            this.checkBox43.TabIndex = 436;
-            this.checkBox43.UseVisualStyleBackColor = true;
-            // 
-            // label132
-            // 
-            this.label132.AutoSize = true;
-            this.label132.Location = new System.Drawing.Point(1227, 404);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(50, 13);
-            this.label132.TabIndex = 435;
-            this.label132.Text = "EngMgr";
-            // 
-            // checkBox44
-            // 
-            this.checkBox44.AutoSize = true;
-            this.checkBox44.Location = new System.Drawing.Point(1279, 420);
-            this.checkBox44.Name = "checkBox44";
-            this.checkBox44.Size = new System.Drawing.Size(15, 14);
-            this.checkBox44.TabIndex = 434;
-            this.checkBox44.UseVisualStyleBackColor = true;
-            // 
-            // label133
-            // 
-            this.label133.AutoSize = true;
-            this.label133.Location = new System.Drawing.Point(1276, 404);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(50, 13);
-            this.label133.TabIndex = 433;
-            this.label133.Text = "PlntMgr";
-            // 
-            // checkBox45
-            // 
-            this.checkBox45.AutoSize = true;
-            this.checkBox45.Location = new System.Drawing.Point(1185, 420);
-            this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Size = new System.Drawing.Size(15, 14);
-            this.checkBox45.TabIndex = 432;
-            this.checkBox45.UseVisualStyleBackColor = true;
-            // 
-            // label134
-            // 
-            this.label134.AutoSize = true;
-            this.label134.Location = new System.Drawing.Point(1182, 404);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(44, 13);
-            this.label134.TabIndex = 431;
-            this.label134.Text = "OpMgr";
-            // 
-            // checkBox46
-            // 
-            this.checkBox46.AutoSize = true;
-            this.checkBox46.Location = new System.Drawing.Point(1141, 420);
-            this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(15, 14);
-            this.checkBox46.TabIndex = 430;
-            this.checkBox46.UseVisualStyleBackColor = true;
-            // 
-            // label135
-            // 
-            this.label135.AutoSize = true;
-            this.label135.Location = new System.Drawing.Point(1138, 404);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(47, 13);
-            this.label135.TabIndex = 429;
-            this.label135.Text = "AreaEx";
-            // 
-            // checkBox47
-            // 
-            this.checkBox47.AutoSize = true;
-            this.checkBox47.Location = new System.Drawing.Point(1101, 420);
-            this.checkBox47.Name = "checkBox47";
-            this.checkBox47.Size = new System.Drawing.Size(15, 14);
-            this.checkBox47.TabIndex = 428;
-            this.checkBox47.UseVisualStyleBackColor = true;
-            // 
-            // label136
-            // 
-            this.label136.AutoSize = true;
-            this.label136.Location = new System.Drawing.Point(1098, 404);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(40, 13);
-            this.label136.TabIndex = 427;
-            this.label136.Text = "Super";
-            // 
-            // checkBox48
-            // 
-            this.checkBox48.AutoSize = true;
-            this.checkBox48.Location = new System.Drawing.Point(1060, 420);
-            this.checkBox48.Name = "checkBox48";
-            this.checkBox48.Size = new System.Drawing.Size(15, 14);
-            this.checkBox48.TabIndex = 426;
-            this.checkBox48.UseVisualStyleBackColor = true;
-            // 
-            // label137
-            // 
-            this.label137.AutoSize = true;
-            this.label137.Location = new System.Drawing.Point(1057, 404);
-            this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(35, 13);
-            this.label137.TabIndex = 425;
-            this.label137.Text = "Lead";
-            // 
-            // checkBox49
-            // 
-            this.checkBox49.AutoSize = true;
-            this.checkBox49.Location = new System.Drawing.Point(1230, 452);
-            this.checkBox49.Name = "checkBox49";
-            this.checkBox49.Size = new System.Drawing.Size(15, 14);
-            this.checkBox49.TabIndex = 448;
-            this.checkBox49.UseVisualStyleBackColor = true;
-            // 
-            // label138
-            // 
-            this.label138.AutoSize = true;
-            this.label138.Location = new System.Drawing.Point(1227, 436);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(50, 13);
-            this.label138.TabIndex = 447;
-            this.label138.Text = "EngMgr";
-            // 
-            // checkBox50
-            // 
-            this.checkBox50.AutoSize = true;
-            this.checkBox50.Location = new System.Drawing.Point(1279, 452);
-            this.checkBox50.Name = "checkBox50";
-            this.checkBox50.Size = new System.Drawing.Size(15, 14);
-            this.checkBox50.TabIndex = 446;
-            this.checkBox50.UseVisualStyleBackColor = true;
-            // 
-            // label139
-            // 
-            this.label139.AutoSize = true;
-            this.label139.Location = new System.Drawing.Point(1276, 436);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(50, 13);
-            this.label139.TabIndex = 445;
-            this.label139.Text = "PlntMgr";
-            // 
-            // checkBox51
-            // 
-            this.checkBox51.AutoSize = true;
-            this.checkBox51.Location = new System.Drawing.Point(1185, 452);
-            this.checkBox51.Name = "checkBox51";
-            this.checkBox51.Size = new System.Drawing.Size(15, 14);
-            this.checkBox51.TabIndex = 444;
-            this.checkBox51.UseVisualStyleBackColor = true;
-            // 
-            // label140
-            // 
-            this.label140.AutoSize = true;
-            this.label140.Location = new System.Drawing.Point(1182, 436);
-            this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(44, 13);
-            this.label140.TabIndex = 443;
-            this.label140.Text = "OpMgr";
-            // 
-            // checkBox52
-            // 
-            this.checkBox52.AutoSize = true;
-            this.checkBox52.Location = new System.Drawing.Point(1141, 452);
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(15, 14);
-            this.checkBox52.TabIndex = 442;
-            this.checkBox52.UseVisualStyleBackColor = true;
-            // 
-            // label141
-            // 
-            this.label141.AutoSize = true;
-            this.label141.Location = new System.Drawing.Point(1138, 436);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(47, 13);
-            this.label141.TabIndex = 441;
-            this.label141.Text = "AreaEx";
-            // 
-            // checkBox53
-            // 
-            this.checkBox53.AutoSize = true;
-            this.checkBox53.Location = new System.Drawing.Point(1101, 452);
-            this.checkBox53.Name = "checkBox53";
-            this.checkBox53.Size = new System.Drawing.Size(15, 14);
-            this.checkBox53.TabIndex = 440;
-            this.checkBox53.UseVisualStyleBackColor = true;
-            // 
-            // label142
-            // 
-            this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(1098, 436);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(40, 13);
-            this.label142.TabIndex = 439;
-            this.label142.Text = "Super";
-            // 
-            // checkBox54
-            // 
-            this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(1060, 452);
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(15, 14);
-            this.checkBox54.TabIndex = 438;
-            this.checkBox54.UseVisualStyleBackColor = true;
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(1057, 436);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(35, 13);
-            this.label143.TabIndex = 437;
-            this.label143.Text = "Lead";
-            // 
-            // checkBox55
-            // 
-            this.checkBox55.AutoSize = true;
-            this.checkBox55.Location = new System.Drawing.Point(1230, 485);
-            this.checkBox55.Name = "checkBox55";
-            this.checkBox55.Size = new System.Drawing.Size(15, 14);
-            this.checkBox55.TabIndex = 460;
-            this.checkBox55.UseVisualStyleBackColor = true;
-            // 
-            // label144
-            // 
-            this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1227, 469);
-            this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(50, 13);
-            this.label144.TabIndex = 459;
-            this.label144.Text = "EngMgr";
-            // 
-            // checkBox56
-            // 
-            this.checkBox56.AutoSize = true;
-            this.checkBox56.Location = new System.Drawing.Point(1279, 485);
-            this.checkBox56.Name = "checkBox56";
-            this.checkBox56.Size = new System.Drawing.Size(15, 14);
-            this.checkBox56.TabIndex = 458;
-            this.checkBox56.UseVisualStyleBackColor = true;
-            // 
-            // label145
-            // 
-            this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1276, 469);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(50, 13);
-            this.label145.TabIndex = 457;
-            this.label145.Text = "PlntMgr";
-            // 
-            // checkBox57
-            // 
-            this.checkBox57.AutoSize = true;
-            this.checkBox57.Location = new System.Drawing.Point(1185, 485);
-            this.checkBox57.Name = "checkBox57";
-            this.checkBox57.Size = new System.Drawing.Size(15, 14);
-            this.checkBox57.TabIndex = 456;
-            this.checkBox57.UseVisualStyleBackColor = true;
-            // 
-            // label146
-            // 
-            this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(1182, 469);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(44, 13);
-            this.label146.TabIndex = 455;
-            this.label146.Text = "OpMgr";
-            // 
-            // checkBox58
-            // 
-            this.checkBox58.AutoSize = true;
-            this.checkBox58.Location = new System.Drawing.Point(1141, 485);
-            this.checkBox58.Name = "checkBox58";
-            this.checkBox58.Size = new System.Drawing.Size(15, 14);
-            this.checkBox58.TabIndex = 454;
-            this.checkBox58.UseVisualStyleBackColor = true;
-            // 
-            // label147
-            // 
-            this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(1138, 469);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(47, 13);
-            this.label147.TabIndex = 453;
-            this.label147.Text = "AreaEx";
-            // 
-            // checkBox59
-            // 
-            this.checkBox59.AutoSize = true;
-            this.checkBox59.Location = new System.Drawing.Point(1101, 485);
-            this.checkBox59.Name = "checkBox59";
-            this.checkBox59.Size = new System.Drawing.Size(15, 14);
-            this.checkBox59.TabIndex = 452;
-            this.checkBox59.UseVisualStyleBackColor = true;
-            // 
-            // label148
-            // 
-            this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(1098, 469);
-            this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(40, 13);
-            this.label148.TabIndex = 451;
-            this.label148.Text = "Super";
-            // 
-            // checkBox60
-            // 
-            this.checkBox60.AutoSize = true;
-            this.checkBox60.Location = new System.Drawing.Point(1060, 485);
-            this.checkBox60.Name = "checkBox60";
-            this.checkBox60.Size = new System.Drawing.Size(15, 14);
-            this.checkBox60.TabIndex = 450;
-            this.checkBox60.UseVisualStyleBackColor = true;
-            // 
-            // label149
-            // 
-            this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(1057, 469);
-            this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(35, 13);
-            this.label149.TabIndex = 449;
-            this.label149.Text = "Lead";
-            // 
-            // checkBox61
-            // 
-            this.checkBox61.AutoSize = true;
-            this.checkBox61.Location = new System.Drawing.Point(1230, 516);
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(15, 14);
-            this.checkBox61.TabIndex = 472;
-            this.checkBox61.UseVisualStyleBackColor = true;
-            // 
-            // label150
-            // 
-            this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(1227, 500);
-            this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(50, 13);
-            this.label150.TabIndex = 471;
-            this.label150.Text = "EngMgr";
-            // 
-            // checkBox62
-            // 
-            this.checkBox62.AutoSize = true;
-            this.checkBox62.Location = new System.Drawing.Point(1279, 516);
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(15, 14);
-            this.checkBox62.TabIndex = 470;
-            this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(1276, 500);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(50, 13);
-            this.label151.TabIndex = 469;
-            this.label151.Text = "PlntMgr";
-            // 
-            // checkBox63
-            // 
-            this.checkBox63.AutoSize = true;
-            this.checkBox63.Location = new System.Drawing.Point(1185, 516);
-            this.checkBox63.Name = "checkBox63";
-            this.checkBox63.Size = new System.Drawing.Size(15, 14);
-            this.checkBox63.TabIndex = 468;
-            this.checkBox63.UseVisualStyleBackColor = true;
-            // 
-            // label152
-            // 
-            this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(1182, 500);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(44, 13);
-            this.label152.TabIndex = 467;
-            this.label152.Text = "OpMgr";
-            // 
-            // checkBox64
-            // 
-            this.checkBox64.AutoSize = true;
-            this.checkBox64.Location = new System.Drawing.Point(1141, 516);
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(15, 14);
-            this.checkBox64.TabIndex = 466;
-            this.checkBox64.UseVisualStyleBackColor = true;
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(1138, 500);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(47, 13);
-            this.label153.TabIndex = 465;
-            this.label153.Text = "AreaEx";
-            // 
-            // checkBox65
-            // 
-            this.checkBox65.AutoSize = true;
-            this.checkBox65.Location = new System.Drawing.Point(1101, 516);
-            this.checkBox65.Name = "checkBox65";
-            this.checkBox65.Size = new System.Drawing.Size(15, 14);
-            this.checkBox65.TabIndex = 464;
-            this.checkBox65.UseVisualStyleBackColor = true;
-            // 
-            // label154
-            // 
-            this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(1098, 500);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(40, 13);
-            this.label154.TabIndex = 463;
-            this.label154.Text = "Super";
-            // 
-            // checkBox66
-            // 
-            this.checkBox66.AutoSize = true;
-            this.checkBox66.Location = new System.Drawing.Point(1060, 516);
-            this.checkBox66.Name = "checkBox66";
-            this.checkBox66.Size = new System.Drawing.Size(15, 14);
-            this.checkBox66.TabIndex = 462;
-            this.checkBox66.UseVisualStyleBackColor = true;
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.Location = new System.Drawing.Point(1057, 500);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(35, 13);
-            this.label155.TabIndex = 461;
-            this.label155.Text = "Lead";
-            // 
-            // checkBox67
-            // 
-            this.checkBox67.AutoSize = true;
-            this.checkBox67.Location = new System.Drawing.Point(1230, 548);
-            this.checkBox67.Name = "checkBox67";
-            this.checkBox67.Size = new System.Drawing.Size(15, 14);
-            this.checkBox67.TabIndex = 484;
-            this.checkBox67.UseVisualStyleBackColor = true;
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Location = new System.Drawing.Point(1227, 532);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(50, 13);
-            this.label156.TabIndex = 483;
-            this.label156.Text = "EngMgr";
-            // 
-            // checkBox68
-            // 
-            this.checkBox68.AutoSize = true;
-            this.checkBox68.Location = new System.Drawing.Point(1279, 548);
-            this.checkBox68.Name = "checkBox68";
-            this.checkBox68.Size = new System.Drawing.Size(15, 14);
-            this.checkBox68.TabIndex = 482;
-            this.checkBox68.UseVisualStyleBackColor = true;
-            // 
-            // label157
-            // 
-            this.label157.AutoSize = true;
-            this.label157.Location = new System.Drawing.Point(1276, 532);
-            this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(50, 13);
-            this.label157.TabIndex = 481;
-            this.label157.Text = "PlntMgr";
-            // 
-            // checkBox69
-            // 
-            this.checkBox69.AutoSize = true;
-            this.checkBox69.Location = new System.Drawing.Point(1185, 548);
-            this.checkBox69.Name = "checkBox69";
-            this.checkBox69.Size = new System.Drawing.Size(15, 14);
-            this.checkBox69.TabIndex = 480;
-            this.checkBox69.UseVisualStyleBackColor = true;
-            // 
-            // label158
-            // 
-            this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(1182, 532);
-            this.label158.Name = "label158";
-            this.label158.Size = new System.Drawing.Size(44, 13);
-            this.label158.TabIndex = 479;
-            this.label158.Text = "OpMgr";
-            // 
-            // checkBox70
-            // 
-            this.checkBox70.AutoSize = true;
-            this.checkBox70.Location = new System.Drawing.Point(1141, 548);
-            this.checkBox70.Name = "checkBox70";
-            this.checkBox70.Size = new System.Drawing.Size(15, 14);
-            this.checkBox70.TabIndex = 478;
-            this.checkBox70.UseVisualStyleBackColor = true;
-            // 
-            // label159
-            // 
-            this.label159.AutoSize = true;
-            this.label159.Location = new System.Drawing.Point(1138, 532);
-            this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(47, 13);
-            this.label159.TabIndex = 477;
-            this.label159.Text = "AreaEx";
-            // 
-            // checkBox71
-            // 
-            this.checkBox71.AutoSize = true;
-            this.checkBox71.Location = new System.Drawing.Point(1101, 548);
-            this.checkBox71.Name = "checkBox71";
-            this.checkBox71.Size = new System.Drawing.Size(15, 14);
-            this.checkBox71.TabIndex = 476;
-            this.checkBox71.UseVisualStyleBackColor = true;
-            // 
-            // label160
-            // 
-            this.label160.AutoSize = true;
-            this.label160.Location = new System.Drawing.Point(1098, 532);
-            this.label160.Name = "label160";
-            this.label160.Size = new System.Drawing.Size(40, 13);
-            this.label160.TabIndex = 475;
-            this.label160.Text = "Super";
-            // 
-            // checkBox72
-            // 
-            this.checkBox72.AutoSize = true;
-            this.checkBox72.Location = new System.Drawing.Point(1060, 548);
-            this.checkBox72.Name = "checkBox72";
-            this.checkBox72.Size = new System.Drawing.Size(15, 14);
-            this.checkBox72.TabIndex = 474;
-            this.checkBox72.UseVisualStyleBackColor = true;
-            // 
-            // label161
-            // 
-            this.label161.AutoSize = true;
-            this.label161.Location = new System.Drawing.Point(1057, 532);
-            this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(35, 13);
-            this.label161.TabIndex = 473;
-            this.label161.Text = "Lead";
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox24.Location = new System.Drawing.Point(8, 567);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(1530, 39);
-            this.pictureBox24.TabIndex = 485;
-            this.pictureBox24.TabStop = false;
             // 
             // label162
             // 
@@ -3011,7 +1387,7 @@ namespace PBET_Mainline
             // goalTf1
             // 
             this.goalTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf1.Location = new System.Drawing.Point(134, 184);
+            this.goalTf1.Location = new System.Drawing.Point(48, 184);
             this.goalTf1.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3026,7 +1402,7 @@ namespace PBET_Mainline
             // actTf1
             // 
             this.actTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf1.Location = new System.Drawing.Point(198, 184);
+            this.actTf1.Location = new System.Drawing.Point(112, 184);
             this.actTf1.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3040,7 +1416,7 @@ namespace PBET_Mainline
             // actTf2
             // 
             this.actTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf2.Location = new System.Drawing.Point(198, 216);
+            this.actTf2.Location = new System.Drawing.Point(112, 216);
             this.actTf2.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3054,7 +1430,7 @@ namespace PBET_Mainline
             // goalTf2
             // 
             this.goalTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf2.Location = new System.Drawing.Point(134, 216);
+            this.goalTf2.Location = new System.Drawing.Point(48, 216);
             this.goalTf2.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3069,7 +1445,7 @@ namespace PBET_Mainline
             // scrapTf1
             // 
             this.scrapTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf1.Location = new System.Drawing.Point(619, 183);
+            this.scrapTf1.Location = new System.Drawing.Point(480, 183);
             this.scrapTf1.Name = "scrapTf1";
             this.scrapTf1.Size = new System.Drawing.Size(51, 26);
             this.scrapTf1.TabIndex = 46;
@@ -3083,7 +1459,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf1.Location = new System.Drawing.Point(674, 183);
+            this.downTf1.Location = new System.Drawing.Point(535, 183);
             this.downTf1.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3097,7 +1473,7 @@ namespace PBET_Mainline
             // scrapTf2
             // 
             this.scrapTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf2.Location = new System.Drawing.Point(619, 215);
+            this.scrapTf2.Location = new System.Drawing.Point(480, 215);
             this.scrapTf2.Name = "scrapTf2";
             this.scrapTf2.Size = new System.Drawing.Size(51, 26);
             this.scrapTf2.TabIndex = 138;
@@ -3111,7 +1487,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf2.Location = new System.Drawing.Point(675, 215);
+            this.downTf2.Location = new System.Drawing.Point(536, 215);
             this.downTf2.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3190,7 +1566,7 @@ namespace PBET_Mainline
             // actTf3
             // 
             this.actTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf3.Location = new System.Drawing.Point(198, 248);
+            this.actTf3.Location = new System.Drawing.Point(112, 248);
             this.actTf3.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3204,7 +1580,7 @@ namespace PBET_Mainline
             // goalTf3
             // 
             this.goalTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf3.Location = new System.Drawing.Point(134, 248);
+            this.goalTf3.Location = new System.Drawing.Point(48, 248);
             this.goalTf3.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3219,7 +1595,7 @@ namespace PBET_Mainline
             // actTf5
             // 
             this.actTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf5.Location = new System.Drawing.Point(198, 312);
+            this.actTf5.Location = new System.Drawing.Point(112, 312);
             this.actTf5.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3233,7 +1609,7 @@ namespace PBET_Mainline
             // goalTf5
             // 
             this.goalTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf5.Location = new System.Drawing.Point(134, 312);
+            this.goalTf5.Location = new System.Drawing.Point(48, 312);
             this.goalTf5.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3248,7 +1624,7 @@ namespace PBET_Mainline
             // actTf4
             // 
             this.actTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf4.Location = new System.Drawing.Point(198, 280);
+            this.actTf4.Location = new System.Drawing.Point(112, 280);
             this.actTf4.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3262,7 +1638,7 @@ namespace PBET_Mainline
             // goalTf4
             // 
             this.goalTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf4.Location = new System.Drawing.Point(134, 280);
+            this.goalTf4.Location = new System.Drawing.Point(48, 280);
             this.goalTf4.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3277,7 +1653,7 @@ namespace PBET_Mainline
             // actTf7
             // 
             this.actTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf7.Location = new System.Drawing.Point(198, 376);
+            this.actTf7.Location = new System.Drawing.Point(112, 376);
             this.actTf7.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3291,7 +1667,7 @@ namespace PBET_Mainline
             // goalTf7
             // 
             this.goalTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf7.Location = new System.Drawing.Point(134, 376);
+            this.goalTf7.Location = new System.Drawing.Point(48, 376);
             this.goalTf7.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3306,7 +1682,7 @@ namespace PBET_Mainline
             // actTf6
             // 
             this.actTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf6.Location = new System.Drawing.Point(198, 344);
+            this.actTf6.Location = new System.Drawing.Point(112, 344);
             this.actTf6.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3320,7 +1696,7 @@ namespace PBET_Mainline
             // goalTf6
             // 
             this.goalTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf6.Location = new System.Drawing.Point(134, 344);
+            this.goalTf6.Location = new System.Drawing.Point(48, 344);
             this.goalTf6.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3335,7 +1711,7 @@ namespace PBET_Mainline
             // actTf9
             // 
             this.actTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf9.Location = new System.Drawing.Point(198, 440);
+            this.actTf9.Location = new System.Drawing.Point(112, 440);
             this.actTf9.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3349,7 +1725,7 @@ namespace PBET_Mainline
             // goalTf9
             // 
             this.goalTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf9.Location = new System.Drawing.Point(134, 440);
+            this.goalTf9.Location = new System.Drawing.Point(48, 440);
             this.goalTf9.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3364,7 +1740,7 @@ namespace PBET_Mainline
             // actTf8
             // 
             this.actTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf8.Location = new System.Drawing.Point(198, 408);
+            this.actTf8.Location = new System.Drawing.Point(112, 408);
             this.actTf8.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3378,7 +1754,7 @@ namespace PBET_Mainline
             // goalTf8
             // 
             this.goalTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf8.Location = new System.Drawing.Point(134, 408);
+            this.goalTf8.Location = new System.Drawing.Point(48, 408);
             this.goalTf8.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3393,7 +1769,7 @@ namespace PBET_Mainline
             // actTf11
             // 
             this.actTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf11.Location = new System.Drawing.Point(198, 504);
+            this.actTf11.Location = new System.Drawing.Point(112, 504);
             this.actTf11.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3407,7 +1783,7 @@ namespace PBET_Mainline
             // goalTf11
             // 
             this.goalTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf11.Location = new System.Drawing.Point(134, 504);
+            this.goalTf11.Location = new System.Drawing.Point(48, 504);
             this.goalTf11.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3422,7 +1798,7 @@ namespace PBET_Mainline
             // actTf10
             // 
             this.actTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf10.Location = new System.Drawing.Point(198, 472);
+            this.actTf10.Location = new System.Drawing.Point(112, 472);
             this.actTf10.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3436,7 +1812,7 @@ namespace PBET_Mainline
             // goalTf10
             // 
             this.goalTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf10.Location = new System.Drawing.Point(134, 472);
+            this.goalTf10.Location = new System.Drawing.Point(48, 472);
             this.goalTf10.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3451,7 +1827,7 @@ namespace PBET_Mainline
             // actTf12
             // 
             this.actTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.actTf12.Location = new System.Drawing.Point(198, 536);
+            this.actTf12.Location = new System.Drawing.Point(112, 536);
             this.actTf12.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3465,7 +1841,7 @@ namespace PBET_Mainline
             // goalTf12
             // 
             this.goalTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalTf12.Location = new System.Drawing.Point(134, 536);
+            this.goalTf12.Location = new System.Drawing.Point(48, 536);
             this.goalTf12.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3485,7 +1861,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf4.Location = new System.Drawing.Point(675, 280);
+            this.downTf4.Location = new System.Drawing.Point(536, 280);
             this.downTf4.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3499,7 +1875,7 @@ namespace PBET_Mainline
             // scrapTf4
             // 
             this.scrapTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf4.Location = new System.Drawing.Point(619, 280);
+            this.scrapTf4.Location = new System.Drawing.Point(480, 280);
             this.scrapTf4.Name = "scrapTf4";
             this.scrapTf4.Size = new System.Drawing.Size(51, 26);
             this.scrapTf4.TabIndex = 154;
@@ -3513,7 +1889,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf3.Location = new System.Drawing.Point(674, 248);
+            this.downTf3.Location = new System.Drawing.Point(535, 248);
             this.downTf3.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3527,7 +1903,7 @@ namespace PBET_Mainline
             // scrapTf3
             // 
             this.scrapTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf3.Location = new System.Drawing.Point(619, 248);
+            this.scrapTf3.Location = new System.Drawing.Point(480, 248);
             this.scrapTf3.Name = "scrapTf3";
             this.scrapTf3.Size = new System.Drawing.Size(51, 26);
             this.scrapTf3.TabIndex = 146;
@@ -3541,7 +1917,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf6.Location = new System.Drawing.Point(675, 344);
+            this.downTf6.Location = new System.Drawing.Point(536, 344);
             this.downTf6.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3555,7 +1931,7 @@ namespace PBET_Mainline
             // scrapTf6
             // 
             this.scrapTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf6.Location = new System.Drawing.Point(619, 344);
+            this.scrapTf6.Location = new System.Drawing.Point(480, 344);
             this.scrapTf6.Name = "scrapTf6";
             this.scrapTf6.Size = new System.Drawing.Size(51, 26);
             this.scrapTf6.TabIndex = 170;
@@ -3569,7 +1945,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf5.Location = new System.Drawing.Point(674, 312);
+            this.downTf5.Location = new System.Drawing.Point(535, 312);
             this.downTf5.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3583,7 +1959,7 @@ namespace PBET_Mainline
             // scrapTf5
             // 
             this.scrapTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf5.Location = new System.Drawing.Point(619, 312);
+            this.scrapTf5.Location = new System.Drawing.Point(480, 312);
             this.scrapTf5.Name = "scrapTf5";
             this.scrapTf5.Size = new System.Drawing.Size(51, 26);
             this.scrapTf5.TabIndex = 162;
@@ -3597,7 +1973,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf8.Location = new System.Drawing.Point(675, 408);
+            this.downTf8.Location = new System.Drawing.Point(536, 408);
             this.downTf8.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3611,7 +1987,7 @@ namespace PBET_Mainline
             // scrapTf8
             // 
             this.scrapTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf8.Location = new System.Drawing.Point(619, 408);
+            this.scrapTf8.Location = new System.Drawing.Point(480, 408);
             this.scrapTf8.Name = "scrapTf8";
             this.scrapTf8.Size = new System.Drawing.Size(51, 26);
             this.scrapTf8.TabIndex = 186;
@@ -3625,7 +2001,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf7.Location = new System.Drawing.Point(674, 376);
+            this.downTf7.Location = new System.Drawing.Point(535, 376);
             this.downTf7.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3639,7 +2015,7 @@ namespace PBET_Mainline
             // scrapTf7
             // 
             this.scrapTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf7.Location = new System.Drawing.Point(619, 376);
+            this.scrapTf7.Location = new System.Drawing.Point(480, 376);
             this.scrapTf7.Name = "scrapTf7";
             this.scrapTf7.Size = new System.Drawing.Size(51, 26);
             this.scrapTf7.TabIndex = 178;
@@ -3653,7 +2029,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf10.Location = new System.Drawing.Point(675, 472);
+            this.downTf10.Location = new System.Drawing.Point(536, 472);
             this.downTf10.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3667,7 +2043,7 @@ namespace PBET_Mainline
             // scrapTf10
             // 
             this.scrapTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf10.Location = new System.Drawing.Point(619, 472);
+            this.scrapTf10.Location = new System.Drawing.Point(480, 472);
             this.scrapTf10.Name = "scrapTf10";
             this.scrapTf10.Size = new System.Drawing.Size(51, 26);
             this.scrapTf10.TabIndex = 277;
@@ -3681,7 +2057,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf9.Location = new System.Drawing.Point(674, 440);
+            this.downTf9.Location = new System.Drawing.Point(535, 440);
             this.downTf9.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3695,7 +2071,7 @@ namespace PBET_Mainline
             // scrapTf9
             // 
             this.scrapTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf9.Location = new System.Drawing.Point(619, 440);
+            this.scrapTf9.Location = new System.Drawing.Point(480, 440);
             this.scrapTf9.Name = "scrapTf9";
             this.scrapTf9.Size = new System.Drawing.Size(51, 26);
             this.scrapTf9.TabIndex = 260;
@@ -3709,7 +2085,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf12.Location = new System.Drawing.Point(675, 536);
+            this.downTf12.Location = new System.Drawing.Point(536, 536);
             this.downTf12.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3723,7 +2099,7 @@ namespace PBET_Mainline
             // scrapTf12
             // 
             this.scrapTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf12.Location = new System.Drawing.Point(619, 536);
+            this.scrapTf12.Location = new System.Drawing.Point(480, 536);
             this.scrapTf12.Name = "scrapTf12";
             this.scrapTf12.Size = new System.Drawing.Size(51, 26);
             this.scrapTf12.TabIndex = 311;
@@ -3737,7 +2113,7 @@ namespace PBET_Mainline
             0,
             0,
             0});
-            this.downTf11.Location = new System.Drawing.Point(674, 504);
+            this.downTf11.Location = new System.Drawing.Point(535, 504);
             this.downTf11.Maximum = new decimal(new int[] {
             500,
             0,
@@ -3751,168 +2127,11 @@ namespace PBET_Mainline
             // scrapTf11
             // 
             this.scrapTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrapTf11.Location = new System.Drawing.Point(619, 504);
+            this.scrapTf11.Location = new System.Drawing.Point(480, 504);
             this.scrapTf11.Name = "scrapTf11";
             this.scrapTf11.Size = new System.Drawing.Size(51, 26);
             this.scrapTf11.TabIndex = 294;
             this.scrapTf11.ValueChanged += new System.EventHandler(this.scrapTf1_ValueChanged);
-            // 
-            // hrTf1
-            // 
-            this.hrTf1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf1.Location = new System.Drawing.Point(39, 184);
-            this.hrTf1.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf1.Name = "hrTf1";
-            this.hrTf1.Size = new System.Drawing.Size(48, 26);
-            this.hrTf1.TabIndex = 42;
-            this.hrTf1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-            // 
-            // hrTf2
-            // 
-            this.hrTf2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf2.Location = new System.Drawing.Point(39, 216);
-            this.hrTf2.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf2.Name = "hrTf2";
-            this.hrTf2.Size = new System.Drawing.Size(48, 26);
-            this.hrTf2.TabIndex = 134;
-            // 
-            // hrTf4
-            // 
-            this.hrTf4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf4.Location = new System.Drawing.Point(39, 280);
-            this.hrTf4.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf4.Name = "hrTf4";
-            this.hrTf4.Size = new System.Drawing.Size(48, 26);
-            this.hrTf4.TabIndex = 150;
-            // 
-            // hrTf3
-            // 
-            this.hrTf3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf3.Location = new System.Drawing.Point(39, 248);
-            this.hrTf3.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf3.Name = "hrTf3";
-            this.hrTf3.Size = new System.Drawing.Size(48, 26);
-            this.hrTf3.TabIndex = 142;
-            // 
-            // hrTf6
-            // 
-            this.hrTf6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf6.Location = new System.Drawing.Point(39, 344);
-            this.hrTf6.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf6.Name = "hrTf6";
-            this.hrTf6.Size = new System.Drawing.Size(48, 26);
-            this.hrTf6.TabIndex = 166;
-            // 
-            // hrTf5
-            // 
-            this.hrTf5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf5.Location = new System.Drawing.Point(39, 312);
-            this.hrTf5.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf5.Name = "hrTf5";
-            this.hrTf5.Size = new System.Drawing.Size(48, 26);
-            this.hrTf5.TabIndex = 158;
-            // 
-            // hrTf8
-            // 
-            this.hrTf8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf8.Location = new System.Drawing.Point(39, 408);
-            this.hrTf8.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf8.Name = "hrTf8";
-            this.hrTf8.Size = new System.Drawing.Size(48, 26);
-            this.hrTf8.TabIndex = 182;
-            // 
-            // hrTf7
-            // 
-            this.hrTf7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf7.Location = new System.Drawing.Point(39, 376);
-            this.hrTf7.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf7.Name = "hrTf7";
-            this.hrTf7.Size = new System.Drawing.Size(48, 26);
-            this.hrTf7.TabIndex = 174;
-            // 
-            // hrTf10
-            // 
-            this.hrTf10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf10.Location = new System.Drawing.Point(39, 472);
-            this.hrTf10.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf10.Name = "hrTf10";
-            this.hrTf10.Size = new System.Drawing.Size(48, 26);
-            this.hrTf10.TabIndex = 273;
-            // 
-            // hrTf9
-            // 
-            this.hrTf9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf9.Location = new System.Drawing.Point(39, 440);
-            this.hrTf9.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf9.Name = "hrTf9";
-            this.hrTf9.Size = new System.Drawing.Size(48, 26);
-            this.hrTf9.TabIndex = 256;
-            // 
-            // hrTf12
-            // 
-            this.hrTf12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf12.Location = new System.Drawing.Point(39, 536);
-            this.hrTf12.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf12.Name = "hrTf12";
-            this.hrTf12.Size = new System.Drawing.Size(48, 26);
-            this.hrTf12.TabIndex = 307;
-            // 
-            // hrTf11
-            // 
-            this.hrTf11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrTf11.Location = new System.Drawing.Point(39, 504);
-            this.hrTf11.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.hrTf11.Name = "hrTf11";
-            this.hrTf11.Size = new System.Drawing.Size(48, 26);
-            this.hrTf11.TabIndex = 290;
             // 
             // machineTf
             // 
@@ -3955,6 +2174,239 @@ namespace PBET_Mainline
             this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
             this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TimeIn,
+            this.PartDescription,
+            this.PartNumber,
+            this.LotNumber,
+            this.Qty,
+            this.PartColor});
+            this.dataGridView1.Location = new System.Drawing.Point(774, 139);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(580, 422);
+            this.dataGridView1.TabIndex = 1004;
+            // 
+            // clearCartBtn
+            // 
+            this.clearCartBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.clearCartBtn.AutoSize = true;
+            this.clearCartBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.clearCartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearCartBtn.ForeColor = System.Drawing.Color.White;
+            this.clearCartBtn.Location = new System.Drawing.Point(1366, 173);
+            this.clearCartBtn.Name = "clearCartBtn";
+            this.clearCartBtn.Size = new System.Drawing.Size(172, 48);
+            this.clearCartBtn.TabIndex = 1005;
+            this.clearCartBtn.Text = "Clear \r\nCart";
+            this.clearCartBtn.UseVisualStyleBackColor = false;
+            this.clearCartBtn.Click += new System.EventHandler(this.addBlankBtn_Click);
+            // 
+            // TimeIn
+            // 
+            this.TimeIn.HeaderText = "TimeIn";
+            this.TimeIn.Name = "TimeIn";
+            this.TimeIn.Width = 90;
+            // 
+            // PartDescription
+            // 
+            this.PartDescription.HeaderText = "Part Description";
+            this.PartDescription.Name = "PartDescription";
+            this.PartDescription.Width = 113;
+            // 
+            // PartNumber
+            // 
+            this.PartNumber.HeaderText = "Part Number";
+            this.PartNumber.Name = "PartNumber";
+            this.PartNumber.Width = 94;
+            // 
+            // LotNumber
+            // 
+            this.LotNumber.HeaderText = "Lot Number";
+            this.LotNumber.Name = "LotNumber";
+            this.LotNumber.Width = 89;
+            // 
+            // Qty
+            // 
+            this.Qty.HeaderText = "Qty";
+            this.Qty.Name = "Qty";
+            this.Qty.Width = 51;
+            // 
+            // PartColor
+            // 
+            this.PartColor.HeaderText = "Color";
+            this.PartColor.Name = "PartColor";
+            // 
+            // hzBumberBtn
+            // 
+            this.hzBumberBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.hzBumberBtn.AutoSize = true;
+            this.hzBumberBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.hzBumberBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hzBumberBtn.ForeColor = System.Drawing.Color.White;
+            this.hzBumberBtn.Location = new System.Drawing.Point(1455, 227);
+            this.hzBumberBtn.Name = "hzBumberBtn";
+            this.hzBumberBtn.Size = new System.Drawing.Size(83, 48);
+            this.hzBumberBtn.TabIndex = 1006;
+            this.hzBumberBtn.Text = "HZ \r\nBumper\r\n";
+            this.hzBumberBtn.UseVisualStyleBackColor = false;
+            this.hzBumberBtn.Click += new System.EventHandler(this.hzBumberBtn_Click);
+            // 
+            // hzSkirtBtn
+            // 
+            this.hzSkirtBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.hzSkirtBtn.AutoSize = true;
+            this.hzSkirtBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.hzSkirtBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hzSkirtBtn.ForeColor = System.Drawing.Color.White;
+            this.hzSkirtBtn.Location = new System.Drawing.Point(1455, 282);
+            this.hzSkirtBtn.Name = "hzSkirtBtn";
+            this.hzSkirtBtn.Size = new System.Drawing.Size(83, 48);
+            this.hzSkirtBtn.TabIndex = 1007;
+            this.hzSkirtBtn.Text = "HZ \r\nSkirt";
+            this.hzSkirtBtn.UseVisualStyleBackColor = false;
+            this.hzSkirtBtn.Click += new System.EventHandler(this.hzSkirtBtn_Click);
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox17.Location = new System.Drawing.Point(593, 138);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(175, 39);
+            this.pictureBox17.TabIndex = 1008;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox24.Location = new System.Drawing.Point(8, 567);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(1530, 39);
+            this.pictureBox24.TabIndex = 485;
+            this.pictureBox24.TabStop = false;
+            // 
+            // rbtHzSkirtBtn
+            // 
+            this.rbtHzSkirtBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rbtHzSkirtBtn.AutoSize = true;
+            this.rbtHzSkirtBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzSkirtBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtHzSkirtBtn.ForeColor = System.Drawing.Color.White;
+            this.rbtHzSkirtBtn.Location = new System.Drawing.Point(1367, 365);
+            this.rbtHzSkirtBtn.Name = "rbtHzSkirtBtn";
+            this.rbtHzSkirtBtn.Size = new System.Drawing.Size(83, 48);
+            this.rbtHzSkirtBtn.TabIndex = 1012;
+            this.rbtHzSkirtBtn.Text = "HZ \r\nSkirt";
+            this.rbtHzSkirtBtn.UseVisualStyleBackColor = false;
+            this.rbtHzSkirtBtn.Click += new System.EventHandler(this.rbtHzSkirtBtn_Click);
+            // 
+            // rbtHzBumperBtn
+            // 
+            this.rbtHzBumperBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rbtHzBumperBtn.AutoSize = true;
+            this.rbtHzBumperBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzBumperBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtHzBumperBtn.ForeColor = System.Drawing.Color.White;
+            this.rbtHzBumperBtn.Location = new System.Drawing.Point(1366, 301);
+            this.rbtHzBumperBtn.Name = "rbtHzBumperBtn";
+            this.rbtHzBumperBtn.Size = new System.Drawing.Size(83, 48);
+            this.rbtHzBumperBtn.TabIndex = 1011;
+            this.rbtHzBumperBtn.Text = "HZ \r\nBumper\r\n";
+            this.rbtHzBumperBtn.UseVisualStyleBackColor = false;
+            this.rbtHzBumperBtn.Click += new System.EventHandler(this.rbtHzBumperBtn_Click);
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox23.BackColor = System.Drawing.Color.LightSalmon;
+            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox23.Location = new System.Drawing.Point(1366, 138);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(83, 423);
+            this.pictureBox23.TabIndex = 1009;
+            this.pictureBox23.TabStop = false;
+            // 
+            // robotLbl
+            // 
+            this.robotLbl.AutoSize = true;
+            this.robotLbl.BackColor = System.Drawing.Color.Coral;
+            this.robotLbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.robotLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.robotLbl.ForeColor = System.Drawing.Color.White;
+            this.robotLbl.Location = new System.Drawing.Point(1367, 138);
+            this.robotLbl.Name = "robotLbl";
+            this.robotLbl.Size = new System.Drawing.Size(82, 24);
+            this.robotLbl.TabIndex = 1013;
+            this.robotLbl.Text = "ROBOT";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1456, 138);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 24);
+            this.label1.TabIndex = 1014;
+            this.label1.Text = "MANUA";
+            // 
+            // rbtHzBumFenBtn
+            // 
+            this.rbtHzBumFenBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rbtHzBumFenBtn.AutoSize = true;
+            this.rbtHzBumFenBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzBumFenBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtHzBumFenBtn.ForeColor = System.Drawing.Color.White;
+            this.rbtHzBumFenBtn.Location = new System.Drawing.Point(1366, 232);
+            this.rbtHzBumFenBtn.Name = "rbtHzBumFenBtn";
+            this.rbtHzBumFenBtn.Size = new System.Drawing.Size(83, 58);
+            this.rbtHzBumFenBtn.TabIndex = 1015;
+            this.rbtHzBumFenBtn.Text = "HZ \r\nBumper\r\nFender\r\n";
+            this.rbtHzBumFenBtn.UseVisualStyleBackColor = false;
+            this.rbtHzBumFenBtn.Click += new System.EventHandler(this.rbtHzBumFenBtn_Click);
+            // 
+            // rbtMluFairingsBtn
+            // 
+            this.rbtMluFairingsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rbtMluFairingsBtn.AutoSize = true;
+            this.rbtMluFairingsBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtMluFairingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtMluFairingsBtn.ForeColor = System.Drawing.Color.White;
+            this.rbtMluFairingsBtn.Location = new System.Drawing.Point(1366, 429);
+            this.rbtMluFairingsBtn.Name = "rbtMluFairingsBtn";
+            this.rbtMluFairingsBtn.Size = new System.Drawing.Size(83, 48);
+            this.rbtMluFairingsBtn.TabIndex = 1016;
+            this.rbtMluFairingsBtn.Text = "MLU\r\nFairings";
+            this.rbtMluFairingsBtn.UseVisualStyleBackColor = false;
+            this.rbtMluFairingsBtn.Click += new System.EventHandler(this.rbtMluFairingsBtn_Click);
+            // 
+            // rbtMluBumpersBtn
+            // 
+            this.rbtMluBumpersBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.rbtMluBumpersBtn.AutoSize = true;
+            this.rbtMluBumpersBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtMluBumpersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtMluBumpersBtn.ForeColor = System.Drawing.Color.White;
+            this.rbtMluBumpersBtn.Location = new System.Drawing.Point(1366, 493);
+            this.rbtMluBumpersBtn.Name = "rbtMluBumpersBtn";
+            this.rbtMluBumpersBtn.Size = new System.Drawing.Size(83, 48);
+            this.rbtMluBumpersBtn.TabIndex = 1017;
+            this.rbtMluBumpersBtn.Text = "MLU\r\nBumper";
+            this.rbtMluBumpersBtn.UseVisualStyleBackColor = false;
+            this.rbtMluBumpersBtn.Click += new System.EventHandler(this.rbtMluBumpersBtn_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -3963,21 +2415,21 @@ namespace PBET_Mainline
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1550, 729);
+            this.Controls.Add(this.rbtMluBumpersBtn);
+            this.Controls.Add(this.rbtMluFairingsBtn);
+            this.Controls.Add(this.rbtHzBumFenBtn);
+            this.Controls.Add(this.clearCartBtn);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.robotLbl);
+            this.Controls.Add(this.rbtHzSkirtBtn);
+            this.Controls.Add(this.rbtHzBumperBtn);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.hzSkirtBtn);
+            this.Controls.Add(this.hzBumberBtn);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.custTf);
             this.Controls.Add(this.deptTf);
             this.Controls.Add(this.machineTf);
-            this.Controls.Add(this.hrTf12);
-            this.Controls.Add(this.hrTf11);
-            this.Controls.Add(this.hrTf10);
-            this.Controls.Add(this.hrTf9);
-            this.Controls.Add(this.hrTf8);
-            this.Controls.Add(this.hrTf7);
-            this.Controls.Add(this.hrTf6);
-            this.Controls.Add(this.hrTf5);
-            this.Controls.Add(this.hrTf4);
-            this.Controls.Add(this.hrTf3);
-            this.Controls.Add(this.hrTf2);
-            this.Controls.Add(this.hrTf1);
             this.Controls.Add(this.downTf12);
             this.Controls.Add(this.scrapTf12);
             this.Controls.Add(this.downTf11);
@@ -4034,172 +2486,22 @@ namespace PBET_Mainline
             this.Controls.Add(this.totalGoalLbl);
             this.Controls.Add(this.label162);
             this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.checkBox67);
-            this.Controls.Add(this.label156);
-            this.Controls.Add(this.checkBox68);
-            this.Controls.Add(this.label157);
-            this.Controls.Add(this.checkBox69);
-            this.Controls.Add(this.label158);
-            this.Controls.Add(this.checkBox70);
-            this.Controls.Add(this.label159);
-            this.Controls.Add(this.checkBox71);
-            this.Controls.Add(this.label160);
-            this.Controls.Add(this.checkBox72);
-            this.Controls.Add(this.label161);
-            this.Controls.Add(this.checkBox61);
-            this.Controls.Add(this.label150);
-            this.Controls.Add(this.checkBox62);
-            this.Controls.Add(this.label151);
-            this.Controls.Add(this.checkBox63);
-            this.Controls.Add(this.label152);
-            this.Controls.Add(this.checkBox64);
-            this.Controls.Add(this.label153);
-            this.Controls.Add(this.checkBox65);
-            this.Controls.Add(this.label154);
-            this.Controls.Add(this.checkBox66);
-            this.Controls.Add(this.label155);
-            this.Controls.Add(this.checkBox55);
-            this.Controls.Add(this.label144);
-            this.Controls.Add(this.checkBox56);
-            this.Controls.Add(this.label145);
-            this.Controls.Add(this.checkBox57);
-            this.Controls.Add(this.label146);
-            this.Controls.Add(this.checkBox58);
-            this.Controls.Add(this.label147);
-            this.Controls.Add(this.checkBox59);
-            this.Controls.Add(this.label148);
-            this.Controls.Add(this.checkBox60);
-            this.Controls.Add(this.label149);
-            this.Controls.Add(this.checkBox49);
-            this.Controls.Add(this.label138);
-            this.Controls.Add(this.checkBox50);
-            this.Controls.Add(this.label139);
-            this.Controls.Add(this.checkBox51);
-            this.Controls.Add(this.label140);
-            this.Controls.Add(this.checkBox52);
-            this.Controls.Add(this.label141);
-            this.Controls.Add(this.checkBox53);
-            this.Controls.Add(this.label142);
-            this.Controls.Add(this.checkBox54);
-            this.Controls.Add(this.label143);
-            this.Controls.Add(this.checkBox43);
-            this.Controls.Add(this.label132);
-            this.Controls.Add(this.checkBox44);
-            this.Controls.Add(this.label133);
-            this.Controls.Add(this.checkBox45);
-            this.Controls.Add(this.label134);
-            this.Controls.Add(this.checkBox46);
-            this.Controls.Add(this.label135);
-            this.Controls.Add(this.checkBox47);
-            this.Controls.Add(this.label136);
-            this.Controls.Add(this.checkBox48);
-            this.Controls.Add(this.label137);
-            this.Controls.Add(this.checkBox37);
-            this.Controls.Add(this.label126);
-            this.Controls.Add(this.checkBox38);
-            this.Controls.Add(this.label127);
-            this.Controls.Add(this.checkBox39);
-            this.Controls.Add(this.label128);
-            this.Controls.Add(this.checkBox40);
-            this.Controls.Add(this.label129);
-            this.Controls.Add(this.checkBox41);
-            this.Controls.Add(this.label130);
-            this.Controls.Add(this.checkBox42);
-            this.Controls.Add(this.label131);
-            this.Controls.Add(this.checkBox31);
-            this.Controls.Add(this.label120);
-            this.Controls.Add(this.checkBox32);
-            this.Controls.Add(this.label121);
-            this.Controls.Add(this.checkBox33);
-            this.Controls.Add(this.label122);
-            this.Controls.Add(this.checkBox34);
-            this.Controls.Add(this.label123);
-            this.Controls.Add(this.checkBox35);
-            this.Controls.Add(this.label124);
-            this.Controls.Add(this.checkBox36);
-            this.Controls.Add(this.label125);
-            this.Controls.Add(this.checkBox25);
-            this.Controls.Add(this.label114);
-            this.Controls.Add(this.checkBox26);
-            this.Controls.Add(this.label115);
-            this.Controls.Add(this.checkBox27);
-            this.Controls.Add(this.label116);
-            this.Controls.Add(this.checkBox28);
-            this.Controls.Add(this.label117);
-            this.Controls.Add(this.checkBox29);
-            this.Controls.Add(this.label118);
-            this.Controls.Add(this.checkBox30);
-            this.Controls.Add(this.label119);
-            this.Controls.Add(this.checkBox19);
-            this.Controls.Add(this.label108);
-            this.Controls.Add(this.checkBox20);
-            this.Controls.Add(this.label109);
-            this.Controls.Add(this.checkBox21);
-            this.Controls.Add(this.label110);
-            this.Controls.Add(this.checkBox22);
-            this.Controls.Add(this.label111);
-            this.Controls.Add(this.checkBox23);
-            this.Controls.Add(this.label112);
-            this.Controls.Add(this.checkBox24);
-            this.Controls.Add(this.label113);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.label102);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.label103);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.label104);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.label105);
-            this.Controls.Add(this.checkBox17);
-            this.Controls.Add(this.label106);
-            this.Controls.Add(this.checkBox18);
-            this.Controls.Add(this.label107);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.label96);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.label97);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.label98);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.label99);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.label100);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.label101);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.label94);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.label95);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.label93);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.label92);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.label91);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label90);
-            this.Controls.Add(this.label89);
             this.Controls.Add(this.label88);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.shiftTf);
             this.Controls.Add(this.varLbl12_1);
-            this.Controls.Add(this.hrLbl12);
             this.Controls.Add(this.comTf12);
             this.Controls.Add(this.seqTf12);
             this.Controls.Add(this.label87);
             this.Controls.Add(this.varLbl11_1);
-            this.Controls.Add(this.hrLbl11);
             this.Controls.Add(this.comTf11);
             this.Controls.Add(this.seqTf11);
             this.Controls.Add(this.label78);
             this.Controls.Add(this.varLbl10_1);
-            this.Controls.Add(this.hrLbl10);
             this.Controls.Add(this.comTf10);
             this.Controls.Add(this.seqTf10);
             this.Controls.Add(this.label69);
             this.Controls.Add(this.varLbl9_1);
-            this.Controls.Add(this.hrLbl9);
             this.Controls.Add(this.comTf9);
             this.Controls.Add(this.seqTf9);
             this.Controls.Add(this.label48);
@@ -4212,14 +2514,6 @@ namespace PBET_Mainline
             this.Controls.Add(this.varLbl3_1);
             this.Controls.Add(this.varLbl2_1);
             this.Controls.Add(this.varLbl1_1);
-            this.Controls.Add(this.hrLbl8);
-            this.Controls.Add(this.hrLbl7);
-            this.Controls.Add(this.hrLbl6);
-            this.Controls.Add(this.hrLbl5);
-            this.Controls.Add(this.hrLbl4);
-            this.Controls.Add(this.hrLbl3);
-            this.Controls.Add(this.hrLbl2);
-            this.Controls.Add(this.hrLbl1);
             this.Controls.Add(this.comTf8);
             this.Controls.Add(this.seqTf8);
             this.Controls.Add(this.comTf7);
@@ -4291,8 +2585,8 @@ namespace PBET_Mainline
             this.Controls.Add(this.perfLbl);
             this.Controls.Add(this.avaiLbl);
             this.Controls.Add(this.oeeLbl);
+            this.Controls.Add(this.pictureBox17);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
@@ -4319,8 +2613,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf2)).EndInit();
@@ -4369,19 +2661,11 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hrTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4461,14 +2745,6 @@ namespace PBET_Mainline
         private System.Windows.Forms.TextBox seqTf7;
         private System.Windows.Forms.TextBox comTf8;
         private System.Windows.Forms.TextBox seqTf8;
-        private System.Windows.Forms.Label hrLbl1;
-        private System.Windows.Forms.Label hrLbl2;
-        private System.Windows.Forms.Label hrLbl3;
-        private System.Windows.Forms.Label hrLbl4;
-        private System.Windows.Forms.Label hrLbl5;
-        private System.Windows.Forms.Label hrLbl6;
-        private System.Windows.Forms.Label hrLbl7;
-        private System.Windows.Forms.Label hrLbl8;
         private System.Windows.Forms.Label varLbl1_1;
         private System.Windows.Forms.Label varLbl2_1;
         private System.Windows.Forms.Label varLbl3_1;
@@ -4479,175 +2755,24 @@ namespace PBET_Mainline
         private System.Windows.Forms.Label varLbl8_1;
         private System.Windows.Forms.Button subButton;
         private System.Windows.Forms.Label varLbl9_1;
-        private System.Windows.Forms.Label hrLbl9;
         private System.Windows.Forms.TextBox comTf9;
         private System.Windows.Forms.TextBox seqTf9;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label varLbl10_1;
-        private System.Windows.Forms.Label hrLbl10;
         private System.Windows.Forms.TextBox comTf10;
         private System.Windows.Forms.TextBox seqTf10;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label varLbl11_1;
-        private System.Windows.Forms.Label hrLbl11;
         private System.Windows.Forms.TextBox comTf11;
         private System.Windows.Forms.TextBox seqTf11;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label varLbl12_1;
-        private System.Windows.Forms.Label hrLbl12;
         private System.Windows.Forms.TextBox comTf12;
         private System.Windows.Forms.TextBox seqTf12;
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.NumericUpDown shiftTf;
-        private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label88;
-        private System.Windows.Forms.Label label89;
-        private System.Windows.Forms.Label label90;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label92;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.Label label98;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.Label label99;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.Label label100;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.Label label101;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.Label label102;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.Label label103;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.Label label104;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.Label label106;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.Label label107;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.Label label108;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.Label label109;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.Label label110;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.Label label111;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.Label label112;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.Label label114;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.Label label115;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.Label label116;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.Label label117;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.Label label118;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.CheckBox checkBox31;
-        private System.Windows.Forms.Label label120;
-        private System.Windows.Forms.CheckBox checkBox32;
-        private System.Windows.Forms.Label label121;
-        private System.Windows.Forms.CheckBox checkBox33;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.CheckBox checkBox34;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.CheckBox checkBox35;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.CheckBox checkBox36;
-        private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.CheckBox checkBox37;
-        private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.CheckBox checkBox38;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.CheckBox checkBox39;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.CheckBox checkBox40;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.CheckBox checkBox41;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.CheckBox checkBox42;
-        private System.Windows.Forms.Label label131;
-        private System.Windows.Forms.CheckBox checkBox43;
-        private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.CheckBox checkBox44;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.CheckBox checkBox45;
-        private System.Windows.Forms.Label label134;
-        private System.Windows.Forms.CheckBox checkBox46;
-        private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.CheckBox checkBox47;
-        private System.Windows.Forms.Label label136;
-        private System.Windows.Forms.CheckBox checkBox48;
-        private System.Windows.Forms.Label label137;
-        private System.Windows.Forms.CheckBox checkBox49;
-        private System.Windows.Forms.Label label138;
-        private System.Windows.Forms.CheckBox checkBox50;
-        private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.CheckBox checkBox51;
-        private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.CheckBox checkBox52;
-        private System.Windows.Forms.Label label141;
-        private System.Windows.Forms.CheckBox checkBox53;
-        private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.CheckBox checkBox54;
-        private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.CheckBox checkBox55;
-        private System.Windows.Forms.Label label144;
-        private System.Windows.Forms.CheckBox checkBox56;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.CheckBox checkBox57;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.CheckBox checkBox58;
-        private System.Windows.Forms.Label label147;
-        private System.Windows.Forms.CheckBox checkBox59;
-        private System.Windows.Forms.Label label148;
-        private System.Windows.Forms.CheckBox checkBox60;
-        private System.Windows.Forms.Label label149;
-        private System.Windows.Forms.CheckBox checkBox61;
-        private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.CheckBox checkBox62;
-        private System.Windows.Forms.Label label151;
-        private System.Windows.Forms.CheckBox checkBox63;
-        private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.CheckBox checkBox64;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.CheckBox checkBox65;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.CheckBox checkBox66;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.CheckBox checkBox67;
-        private System.Windows.Forms.Label label156;
-        private System.Windows.Forms.CheckBox checkBox68;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.CheckBox checkBox69;
-        private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.CheckBox checkBox70;
-        private System.Windows.Forms.Label label159;
-        private System.Windows.Forms.CheckBox checkBox71;
-        private System.Windows.Forms.Label label160;
-        private System.Windows.Forms.CheckBox checkBox72;
-        private System.Windows.Forms.Label label161;
-        private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.Label label162;
         private System.Windows.Forms.Label totalGoalLbl;
         private System.Windows.Forms.NumericUpDown goalTf1;
@@ -4703,21 +2828,29 @@ namespace PBET_Mainline
         private System.Windows.Forms.NumericUpDown scrapTf12;
         private System.Windows.Forms.NumericUpDown downTf11;
         private System.Windows.Forms.NumericUpDown scrapTf11;
-        private System.Windows.Forms.NumericUpDown hrTf1;
-        private System.Windows.Forms.NumericUpDown hrTf2;
-        private System.Windows.Forms.NumericUpDown hrTf4;
-        private System.Windows.Forms.NumericUpDown hrTf3;
-        private System.Windows.Forms.NumericUpDown hrTf6;
-        private System.Windows.Forms.NumericUpDown hrTf5;
-        private System.Windows.Forms.NumericUpDown hrTf8;
-        private System.Windows.Forms.NumericUpDown hrTf7;
-        private System.Windows.Forms.NumericUpDown hrTf10;
-        private System.Windows.Forms.NumericUpDown hrTf9;
-        private System.Windows.Forms.NumericUpDown hrTf12;
-        private System.Windows.Forms.NumericUpDown hrTf11;
         private System.Windows.Forms.TextBox machineTf;
         private System.Windows.Forms.TextBox deptTf;
         private System.Windows.Forms.TextBox custTf;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button clearCartBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TimeIn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PartDescription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PartNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LotNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Qty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PartColor;
+        private System.Windows.Forms.Button hzBumberBtn;
+        private System.Windows.Forms.Button hzSkirtBtn;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Button rbtHzSkirtBtn;
+        private System.Windows.Forms.Button rbtHzBumperBtn;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Label robotLbl;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button rbtHzBumFenBtn;
+        private System.Windows.Forms.Button rbtMluFairingsBtn;
+        private System.Windows.Forms.Button rbtMluBumpersBtn;
     }
 }
 

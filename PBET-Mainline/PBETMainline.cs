@@ -36,17 +36,23 @@ namespace PBET_Mainline
         string[] departments = { "Paintline", "Bonding", "Fronts", "Bumpers", "Rears", };
         string[] customers = { "PACCAR", "NAVISTAR", "PETERBILT","OTHER" };
 
+
+
         public mainForm()
         {
             InitializeComponent();
         }
 
+       
+
         private void PBETMainline_Load(object sender, EventArgs e)
         {
+       
             //ON LOAD
             AutoCompleteStringCollection sugMachine = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugDept = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugCust = new AutoCompleteStringCollection();
+
 
             foreach (string machine in machines)
             {
@@ -116,22 +122,6 @@ namespace PBET_Mainline
             if (mainDowntime > 0)
             {
                 totalDtLbl.BackColor = Color.Red;
-            }
-        }
-
-        private void sumHours()
-        {
-            mainHour = 0;
-            foreach (Control x in this.Controls)
-            {
-                if (x is NumericUpDown)
-                {
-                    if ((x as NumericUpDown).Value != 0 || (x as NumericUpDown).Text != "")
-                    {
-                        mainHour += 1;
-                        reCalcTotals();
-                    }
-                }
             }
         }
 
@@ -454,38 +444,64 @@ namespace PBET_Mainline
 
         private void saveDataToExcel()
         {
-            var date = DateTime.Now;
-            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+            DataTable dt = new DataTable();
+            
+            
+            foreach (DataGridViewColumn col in dataGridView1.Columns)
+            {
+                dt.Columns.Add(col.HeaderText, col.ValueType);
+            }
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    dt.Rows.Add();
+                    foreach (DataGridViewCell cell in row.Cells)
+                    {
+                        dt.Rows[dt.Rows.Count - 1][cell.ColumnIndex] = cell.Value.ToString();
+                    }
+                }
 
-            //SUBMIT TO EXCEL
-            var workbook = new XLWorkbook();
-            var worksheet = workbook.Worksheets.Add("Summary Report");
-            //Title
-            worksheet.Cell("A1").Value = "Paceboard Data";
-            //Headings
-            worksheet.Cell("A2").Value = "Operator";
-            worksheet.Cell("B2").Value = "Shift";
-            worksheet.Cell("C2").Value = "Machine";
-            worksheet.Cell("D2").Value = "Department";
-            worksheet.Cell("E2").Value = "Customer";
-            worksheet.Cell("F2").Value = "Date";
-            //Headings Data
-            worksheet.Cell("A3").Value = opTf.Text;
-            worksheet.Cell("B3").Value = shiftTf.Value;
-            worksheet.Cell("C3").Value = machineTf.Text;
-            worksheet.Cell("D3").Value = deptTf.Text;
-            worksheet.Cell("E3").Value = custTf.Text;
-            worksheet.Cell("F3").Value = dtPicker.Value;
+                string folderPath = "C:\\test\\";
 
-            worksheet.Cell("A5").Value = mainHour;
-            worksheet.Cell("B5").Value = mainGoal;
-            worksheet.Cell("C5").Value = mainActual;
-            worksheet.Cell("D5").Value = mainVariance;
-            worksheet.Cell("E5").Value = mainScrap;
-            worksheet.Cell("F5").Value = mainDowntime;
+                using (XLWorkbook xlfile = new XLWorkbook())
+                {
+                    xlfile.Worksheets.Add(dt, "parts");
+                    xlfile.SaveAs(folderPath + "data.xlsx");
+                }
 
-            workbook.SaveAs(path);
-        }
+                
+                var date = DateTime.Now;
+                string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+
+                //SUBMIT TO EXCEL
+                var workbook = new XLWorkbook();
+                var worksheet = workbook.Worksheets.Add("Summary Report");
+                //Title
+                worksheet.Cell("A1").Value = "Paceboard Data";
+                //Headings
+                worksheet.Cell("A2").Value = "Operator";
+                worksheet.Cell("B2").Value = "Shift";
+                worksheet.Cell("C2").Value = "Machine";
+                worksheet.Cell("D2").Value = "Department";
+                worksheet.Cell("E2").Value = "Customer";
+                worksheet.Cell("F2").Value = "Date";
+                //Headings Data
+                worksheet.Cell("A3").Value = opTf.Text;
+                worksheet.Cell("B3").Value = shiftTf.Value;
+                worksheet.Cell("C3").Value = machineTf.Text;
+                worksheet.Cell("D3").Value = deptTf.Text;
+                worksheet.Cell("E3").Value = custTf.Text;
+                worksheet.Cell("F3").Value = dtPicker.Value;
+
+                worksheet.Cell("A5").Value = mainHour;
+                worksheet.Cell("B5").Value = mainGoal;
+                worksheet.Cell("C5").Value = mainActual;
+                worksheet.Cell("D5").Value = mainVariance;
+                worksheet.Cell("E5").Value = mainScrap;
+                worksheet.Cell("F5").Value = mainDowntime;
+
+                workbook.SaveAs(path);
+                
+            }
 
         private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -495,6 +511,53 @@ namespace PBET_Mainline
 
             }
             e.Cancel = (window == DialogResult.No);
+        }
+
+        /// <summary>
+        /// CART AREA
+        /// </summary>
+
+        private void addBlankBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear", "Clear");
+        }
+
+        private void hzBumberBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper");
+        }
+
+        private void hzSkirtBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Skirt");
+        }
+
+        /// <summary>
+        /// ROBOT CARTS
+        /// </summary>
+        private void rbtHzBumFenBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender", "", "", "10", "");
+        }
+
+        private void rbtHzBumperBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper", "", "", "6","");
+        }
+
+        private void rbtHzSkirtBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Skirt", "", "", "5", "");
+        }
+        
+        private void rbtMluFairingsBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fairings", "", "", "4", "");
+        }
+
+        private void rbtMluBumpersBtn_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers", "", "", "2", "");
         }
     }
 }

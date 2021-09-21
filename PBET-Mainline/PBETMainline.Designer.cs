@@ -220,6 +220,14 @@ namespace PBET_Mainline
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.label34 = new System.Windows.Forms.Label();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.mluFwdFairBtn = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -301,6 +309,7 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.SuspendLayout();
             // 
             // dtPicker
@@ -662,7 +671,7 @@ namespace PBET_Mainline
             // pictureBox16
             // 
             this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox16.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox16.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox16.Location = new System.Drawing.Point(1455, 138);
             this.pictureBox16.Name = "pictureBox16";
@@ -2177,6 +2186,7 @@ namespace PBET_Mainline
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.TimeIn,
@@ -2194,31 +2204,26 @@ namespace PBET_Mainline
             // 
             this.TimeIn.HeaderText = "TimeIn";
             this.TimeIn.Name = "TimeIn";
-            this.TimeIn.Width = 90;
             // 
             // PartDescription
             // 
             this.PartDescription.HeaderText = "Part Description";
             this.PartDescription.Name = "PartDescription";
-            this.PartDescription.Width = 113;
             // 
             // PartNumber
             // 
             this.PartNumber.HeaderText = "Part Number";
             this.PartNumber.Name = "PartNumber";
-            this.PartNumber.Width = 94;
             // 
             // LotNumber
             // 
             this.LotNumber.HeaderText = "Lot Number";
             this.LotNumber.Name = "LotNumber";
-            this.LotNumber.Width = 89;
             // 
             // Qty
             // 
             this.Qty.HeaderText = "Qty";
             this.Qty.Name = "Qty";
-            this.Qty.Width = 51;
             // 
             // PartColor
             // 
@@ -2229,7 +2234,7 @@ namespace PBET_Mainline
             // 
             this.clearCartBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.clearCartBtn.AutoSize = true;
-            this.clearCartBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.clearCartBtn.BackColor = System.Drawing.Color.BlueViolet;
             this.clearCartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearCartBtn.ForeColor = System.Drawing.Color.White;
             this.clearCartBtn.Location = new System.Drawing.Point(1366, 173);
@@ -2247,11 +2252,11 @@ namespace PBET_Mainline
             this.hzBumberBtn.BackColor = System.Drawing.SystemColors.Highlight;
             this.hzBumberBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hzBumberBtn.ForeColor = System.Drawing.Color.White;
-            this.hzBumberBtn.Location = new System.Drawing.Point(1455, 227);
+            this.hzBumberBtn.Location = new System.Drawing.Point(1455, 301);
             this.hzBumberBtn.Name = "hzBumberBtn";
             this.hzBumberBtn.Size = new System.Drawing.Size(83, 48);
             this.hzBumberBtn.TabIndex = 1006;
-            this.hzBumberBtn.Text = "HZ \r\nBumper\r\n";
+            this.hzBumberBtn.Text = "HZ \r\nFronts";
             this.hzBumberBtn.UseVisualStyleBackColor = false;
             this.hzBumberBtn.Click += new System.EventHandler(this.hzBumberBtn_Click);
             // 
@@ -2262,11 +2267,11 @@ namespace PBET_Mainline
             this.hzSkirtBtn.BackColor = System.Drawing.SystemColors.Highlight;
             this.hzSkirtBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hzSkirtBtn.ForeColor = System.Drawing.Color.White;
-            this.hzSkirtBtn.Location = new System.Drawing.Point(1455, 282);
+            this.hzSkirtBtn.Location = new System.Drawing.Point(1455, 365);
             this.hzSkirtBtn.Name = "hzSkirtBtn";
             this.hzSkirtBtn.Size = new System.Drawing.Size(83, 48);
             this.hzSkirtBtn.TabIndex = 1007;
-            this.hzSkirtBtn.Text = "HZ \r\nSkirt";
+            this.hzSkirtBtn.Text = "HZ \r\nRears";
             this.hzSkirtBtn.UseVisualStyleBackColor = false;
             this.hzSkirtBtn.Click += new System.EventHandler(this.hzSkirtBtn_Click);
             // 
@@ -2288,7 +2293,7 @@ namespace PBET_Mainline
             this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox24.Location = new System.Drawing.Point(8, 567);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(1530, 39);
+            this.pictureBox24.Size = new System.Drawing.Size(943, 39);
             this.pictureBox24.TabIndex = 485;
             this.pictureBox24.TabStop = false;
             // 
@@ -2296,7 +2301,7 @@ namespace PBET_Mainline
             // 
             this.rbtHzSkirtBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbtHzSkirtBtn.AutoSize = true;
-            this.rbtHzSkirtBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzSkirtBtn.BackColor = System.Drawing.Color.Tomato;
             this.rbtHzSkirtBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtHzSkirtBtn.ForeColor = System.Drawing.Color.White;
             this.rbtHzSkirtBtn.Location = new System.Drawing.Point(1367, 365);
@@ -2311,7 +2316,7 @@ namespace PBET_Mainline
             // 
             this.rbtHzBumperBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbtHzBumperBtn.AutoSize = true;
-            this.rbtHzBumperBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzBumperBtn.BackColor = System.Drawing.Color.Tomato;
             this.rbtHzBumperBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtHzBumperBtn.ForeColor = System.Drawing.Color.White;
             this.rbtHzBumperBtn.Location = new System.Drawing.Point(1366, 301);
@@ -2353,19 +2358,20 @@ namespace PBET_Mainline
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1456, 138);
+            this.label1.Location = new System.Drawing.Point(1455, 138);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 24);
+            this.label1.Padding = new System.Windows.Forms.Padding(1, 1, 9, 1);
+            this.label1.Size = new System.Drawing.Size(83, 34);
             this.label1.TabIndex = 1014;
-            this.label1.Text = "MANUA";
+            this.label1.Text = "MANUAL  \r\nHORIZON";
             // 
             // rbtHzBumFenBtn
             // 
             this.rbtHzBumFenBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbtHzBumFenBtn.AutoSize = true;
-            this.rbtHzBumFenBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtHzBumFenBtn.BackColor = System.Drawing.Color.Tomato;
             this.rbtHzBumFenBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtHzBumFenBtn.ForeColor = System.Drawing.Color.White;
             this.rbtHzBumFenBtn.Location = new System.Drawing.Point(1366, 232);
@@ -2380,7 +2386,7 @@ namespace PBET_Mainline
             // 
             this.rbtMluFairingsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbtMluFairingsBtn.AutoSize = true;
-            this.rbtMluFairingsBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtMluFairingsBtn.BackColor = System.Drawing.Color.Tomato;
             this.rbtMluFairingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtMluFairingsBtn.ForeColor = System.Drawing.Color.White;
             this.rbtMluFairingsBtn.Location = new System.Drawing.Point(1366, 429);
@@ -2395,7 +2401,7 @@ namespace PBET_Mainline
             // 
             this.rbtMluBumpersBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbtMluBumpersBtn.AutoSize = true;
-            this.rbtMluBumpersBtn.BackColor = System.Drawing.SystemColors.Highlight;
+            this.rbtMluBumpersBtn.BackColor = System.Drawing.Color.Tomato;
             this.rbtMluBumpersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtMluBumpersBtn.ForeColor = System.Drawing.Color.White;
             this.rbtMluBumpersBtn.Location = new System.Drawing.Point(1366, 493);
@@ -2565,6 +2571,123 @@ namespace PBET_Mainline
             this.pictureBox30.TabIndex = 1034;
             this.pictureBox30.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.AutoSize = true;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1455, 232);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 58);
+            this.button1.TabIndex = 1035;
+            this.button1.Text = "HZ \r\nBumper\r\nFender";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.AutoSize = true;
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1455, 429);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(83, 48);
+            this.button2.TabIndex = 1036;
+            this.button2.Text = "HZ \r\nBumper";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.AutoSize = true;
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(1453, 493);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(85, 48);
+            this.button3.TabIndex = 1037;
+            this.button3.Text = "HZ \rFenders";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.label35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(948, 567);
+            this.label35.Name = "label35";
+            this.label35.Padding = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.label35.Size = new System.Drawing.Size(89, 39);
+            this.label35.TabIndex = 1038;
+            this.label35.Text = "MANUAL  \r\nMLU";
+            // 
+            // mluFwdFairBtn
+            // 
+            this.mluFwdFairBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.mluFwdFairBtn.AutoSize = true;
+            this.mluFwdFairBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.mluFwdFairBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mluFwdFairBtn.ForeColor = System.Drawing.Color.White;
+            this.mluFwdFairBtn.Location = new System.Drawing.Point(1043, 567);
+            this.mluFwdFairBtn.Name = "mluFwdFairBtn";
+            this.mluFwdFairBtn.Size = new System.Drawing.Size(161, 39);
+            this.mluFwdFairBtn.TabIndex = 1039;
+            this.mluFwdFairBtn.Text = "MLU FWD Fairings";
+            this.mluFwdFairBtn.UseVisualStyleBackColor = false;
+            this.mluFwdFairBtn.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.AutoSize = true;
+            this.button5.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(1210, 567);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(161, 39);
+            this.button5.TabIndex = 1040;
+            this.button5.Text = "MLU CTR Fairings";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.AutoSize = true;
+            this.button6.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(1377, 567);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(161, 39);
+            this.button6.TabIndex = 1041;
+            this.button6.Text = "MLU Bumpers";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox31.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox31.Location = new System.Drawing.Point(948, 567);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(590, 39);
+            this.pictureBox31.TabIndex = 1042;
+            this.pictureBox31.TabStop = false;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2573,6 +2696,13 @@ namespace PBET_Mainline
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1550, 729);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.mluFwdFairBtn);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.pictureBox30);
             this.Controls.Add(this.label30);
@@ -2756,6 +2886,7 @@ namespace PBET_Mainline
             this.Controls.Add(this.oeeLbl);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.pictureBox31);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainForm";
@@ -2842,6 +2973,7 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3039,6 +3171,14 @@ namespace PBET_Mainline
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Button mluFwdFairBtn;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox31;
     }
 }
 

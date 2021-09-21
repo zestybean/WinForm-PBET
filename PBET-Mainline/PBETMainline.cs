@@ -514,23 +514,42 @@ namespace PBET_Mainline
         }
 
         /// <summary>
-        /// CART AREA
+        /// CLEAR CARTS
         /// </summary>
-
         private void addBlankBtn_Click(object sender, EventArgs e)
         {
             this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear", "Clear");
         }
 
+
+        /// <summary>
+        /// CART AREA
+        /// </summary>
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender");
+        }
+
         private void hzBumberBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fronts");
         }
 
         private void hzSkirtBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Skirt");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Rears");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fenders");
+        }
+
 
         /// <summary>
         /// ROBOT CARTS
@@ -558,6 +577,25 @@ namespace PBET_Mainline
         private void rbtMluBumpersBtn_Click(object sender, EventArgs e)
         {
             this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers", "", "", "2", "");
+        }
+
+        /// <summary>
+        /// MLU MANUAL
+        /// </summary>
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fwd Fairings");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Ctr Fairings");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers");
         }
     }
 }

@@ -86,7 +86,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Part.cs" />
+    <Compile Include="CartPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CartPopup.Designer.cs">
+      <DependentUpon>CartPopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="PBETDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -106,6 +111,12 @@
     <Compile Include="SubmitPopup.Designer.cs">
       <DependentUpon>SubmitPopup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CartPopup.resx">
+      <DependentUpon>CartPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CartPopup.yo-NG.resx">
+      <DependentUpon>CartPopup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PBETMainline.resx">
       <DependentUpon>PBETMainline.cs</DependentUpon>
     </EmbeddedResource>

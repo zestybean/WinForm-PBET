@@ -423,7 +423,7 @@ namespace PBET_Mainline
             perfLbl.Text = "-";
             avaiLbl.Text = "-";
             quaLbl.Text = "-";
-            //NEEDS WORK!!!!
+            //NEEDS WORK!!!! THIS CLEARS ALL BOXES
             func = (controls) =>
             {
                 foreach (Control control in controls)
@@ -527,27 +527,78 @@ namespace PBET_Mainline
         /// </summary>
         private void button1_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
+            
         }
 
         private void hzBumberBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fronts");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fronts", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void hzSkirtBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Rears");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Rears", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fenders");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fenders", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
 
@@ -556,27 +607,47 @@ namespace PBET_Mainline
         /// </summary>
         private void rbtHzBumFenBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender", "", "", "10", "");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender ROBOT", cartDataEntry.partNum, cartDataEntry.partLotNum, "10", cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void rbtHzBumperBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper", "", "", "6","");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper ROBOT", cartDataEntry.partNum, cartDataEntry.partLotNum, "6", cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void rbtHzSkirtBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Skirt", "", "", "5", "");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Skirt ROBOT", "", "", "5", "");
         }
         
         private void rbtMluFairingsBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fairings", "", "", "4", "");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fairings ROBOT", "", "", "4", "");
         }
 
         private void rbtMluBumpersBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers", "", "", "2", "");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers ROBOT", "", "", "2", "");
         }
 
         /// <summary>
@@ -585,17 +656,47 @@ namespace PBET_Mainline
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fwd Fairings");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fwd Fairings", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Ctr Fairings");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Ctr Fairings", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumpers");
+            CartPopup cartDataEntry = new CartPopup();
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumper", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
         }
     }
 }

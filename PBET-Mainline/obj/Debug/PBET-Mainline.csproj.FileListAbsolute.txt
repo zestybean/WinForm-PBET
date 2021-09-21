@@ -20,3 +20,7 @@ C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mai
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.csproj.CopyComplete
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.exe
 C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET-Mainline.pdb
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\bin\Debug\yo-NG\PBET-Mainline.resources.dll
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.CartPopup.resources
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\PBET_Mainline.CartPopup.yo-NG.resources
+C:\Users\brando.lugo\source\repos\PBET-Mainline\PBET-Mainline\obj\Debug\yo-NG\PBET-Mainline.resources.dll

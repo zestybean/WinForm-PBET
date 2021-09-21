@@ -31,40 +31,23 @@ namespace PBET_Mainline
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.dtPicker = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbTitle = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pbSubtitle = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.opTf = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -74,13 +57,9 @@ namespace PBET_Mainline
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.oeeLbl = new System.Windows.Forms.Label();
             this.avaiLbl = new System.Windows.Forms.Label();
             this.perfLbl = new System.Windows.Forms.Label();
@@ -196,11 +175,8 @@ namespace PBET_Mainline
             this.clearCartBtn = new System.Windows.Forms.Button();
             this.hzBumberBtn = new System.Windows.Forms.Button();
             this.hzSkirtBtn = new System.Windows.Forms.Button();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.rbtHzSkirtBtn = new System.Windows.Forms.Button();
             this.rbtHzBumperBtn = new System.Windows.Forms.Button();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.robotLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.rbtHzBumFenBtn = new System.Windows.Forms.Button();
@@ -210,16 +186,10 @@ namespace PBET_Mainline
             this.totalHoursLbl = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -227,28 +197,37 @@ namespace PBET_Mainline
             this.mluFwdFairBtn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
@@ -300,15 +279,36 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.SuspendLayout();
             // 
@@ -320,18 +320,6 @@ namespace PBET_Mainline
             this.dtPicker.Name = "dtPicker";
             this.dtPicker.Size = new System.Drawing.Size(130, 26);
             this.dtPicker.TabIndex = 1000;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(204, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1334, 51);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // pbTitle
             // 
@@ -346,18 +334,6 @@ namespace PBET_Mainline
             this.pbTitle.Text = "CK TECHNOLOGIES";
             this.pbTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(-15, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1553, 42);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            // 
             // pbSubtitle
             // 
             this.pbSubtitle.AutoSize = true;
@@ -369,27 +345,6 @@ namespace PBET_Mainline
             this.pbSubtitle.Size = new System.Drawing.Size(149, 29);
             this.pbSubtitle.TabIndex = 6;
             this.pbSubtitle.Text = "Pace Board";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Image = global::PBET_Mainline.Properties.Resources.logo;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(233, 79);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Location = new System.Drawing.Point(14, 85);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(323, 47);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
             // 
             // opTf
             // 
@@ -425,16 +380,6 @@ namespace PBET_Mainline
             this.label3.TabIndex = 12;
             this.label3.Text = "Shift";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Location = new System.Drawing.Point(344, 85);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(141, 47);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -446,16 +391,6 @@ namespace PBET_Mainline
             this.label4.Size = new System.Drawing.Size(98, 17);
             this.label4.TabIndex = 15;
             this.label4.Text = "Machine No.";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Location = new System.Drawing.Point(492, 85);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(224, 47);
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
             // 
             // label5
             // 
@@ -469,16 +404,6 @@ namespace PBET_Mainline
             this.label5.TabIndex = 18;
             this.label5.Text = "Date";
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox7.Location = new System.Drawing.Point(1331, 85);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(130, 47);
-            this.pictureBox7.TabIndex = 17;
-            this.pictureBox7.TabStop = false;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -491,16 +416,6 @@ namespace PBET_Mainline
             this.label6.TabIndex = 21;
             this.label6.Text = "Department";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox8.Location = new System.Drawing.Point(723, 85);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(325, 47);
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -512,26 +427,6 @@ namespace PBET_Mainline
             this.label7.Size = new System.Drawing.Size(76, 17);
             this.label7.TabIndex = 24;
             this.label7.Text = "Customer";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox9.Location = new System.Drawing.Point(1056, 85);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(269, 47);
-            this.pictureBox9.TabIndex = 23;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Location = new System.Drawing.Point(14, 138);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(26, 39);
-            this.pictureBox10.TabIndex = 26;
-            this.pictureBox10.TabStop = false;
             // 
             // label8
             // 
@@ -557,16 +452,6 @@ namespace PBET_Mainline
             this.label9.TabIndex = 29;
             this.label9.Text = "Goal";
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Location = new System.Drawing.Point(48, 138);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(58, 39);
-            this.pictureBox11.TabIndex = 28;
-            this.pictureBox11.TabStop = false;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -578,17 +463,6 @@ namespace PBET_Mainline
             this.label10.Size = new System.Drawing.Size(72, 17);
             this.label10.TabIndex = 31;
             this.label10.Text = "Variance";
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Location = new System.Drawing.Point(179, 138);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(82, 39);
-            this.pictureBox12.TabIndex = 30;
-            this.pictureBox12.TabStop = false;
             // 
             // label11
             // 
@@ -602,16 +476,6 @@ namespace PBET_Mainline
             this.label11.TabIndex = 33;
             this.label11.Text = "Sequence/Part Number";
             // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Location = new System.Drawing.Point(267, 138);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(197, 39);
-            this.pictureBox13.TabIndex = 32;
-            this.pictureBox13.TabStop = false;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -623,16 +487,6 @@ namespace PBET_Mainline
             this.label12.Size = new System.Drawing.Size(50, 17);
             this.label12.TabIndex = 35;
             this.label12.Text = "Scrap";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Location = new System.Drawing.Point(480, 138);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(51, 39);
-            this.pictureBox14.TabIndex = 34;
-            this.pictureBox14.TabStop = false;
             // 
             // label13
             // 
@@ -646,16 +500,6 @@ namespace PBET_Mainline
             this.label13.TabIndex = 37;
             this.label13.Text = "DT";
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Location = new System.Drawing.Point(536, 138);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(51, 39);
-            this.pictureBox15.TabIndex = 36;
-            this.pictureBox15.TabStop = false;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -668,17 +512,6 @@ namespace PBET_Mainline
             this.label14.TabIndex = 39;
             this.label14.Text = "Comments";
             // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox16.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox16.Location = new System.Drawing.Point(1455, 138);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(83, 423);
-            this.pictureBox16.TabIndex = 38;
-            this.pictureBox16.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -690,16 +523,6 @@ namespace PBET_Mainline
             this.label16.Size = new System.Drawing.Size(53, 17);
             this.label16.TabIndex = 51;
             this.label16.Text = "Actual";
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox18.Location = new System.Drawing.Point(112, 138);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(61, 39);
-            this.pictureBox18.TabIndex = 50;
-            this.pictureBox18.TabStop = false;
             // 
             // label17
             // 
@@ -793,16 +616,6 @@ namespace PBET_Mainline
             this.label25.TabIndex = 118;
             this.label25.Text = "OEE";
             // 
-            // pictureBox19
-            // 
-            this.pictureBox19.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox19.Location = new System.Drawing.Point(592, 612);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(113, 32);
-            this.pictureBox19.TabIndex = 117;
-            this.pictureBox19.TabStop = false;
-            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -814,16 +627,6 @@ namespace PBET_Mainline
             this.label26.Size = new System.Drawing.Size(86, 17);
             this.label26.TabIndex = 121;
             this.label26.Text = "Availability";
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox20.Location = new System.Drawing.Point(716, 612);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(113, 32);
-            this.pictureBox20.TabIndex = 120;
-            this.pictureBox20.TabStop = false;
             // 
             // label27
             // 
@@ -837,16 +640,6 @@ namespace PBET_Mainline
             this.label27.TabIndex = 124;
             this.label27.Text = "Performance";
             // 
-            // pictureBox21
-            // 
-            this.pictureBox21.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox21.Location = new System.Drawing.Point(836, 612);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(115, 32);
-            this.pictureBox21.TabIndex = 123;
-            this.pictureBox21.TabStop = false;
-            // 
             // label28
             // 
             this.label28.AutoSize = true;
@@ -858,16 +651,6 @@ namespace PBET_Mainline
             this.label28.Size = new System.Drawing.Size(59, 17);
             this.label28.TabIndex = 127;
             this.label28.Text = "Quality";
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox22.Location = new System.Drawing.Point(957, 612);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(115, 32);
-            this.pictureBox22.TabIndex = 126;
-            this.pictureBox22.TabStop = false;
             // 
             // oeeLbl
             // 
@@ -2275,28 +2058,6 @@ namespace PBET_Mainline
             this.hzSkirtBtn.UseVisualStyleBackColor = false;
             this.hzSkirtBtn.Click += new System.EventHandler(this.hzSkirtBtn_Click);
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox17.Location = new System.Drawing.Point(593, 138);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(175, 39);
-            this.pictureBox17.TabIndex = 1008;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox24.Location = new System.Drawing.Point(8, 567);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(943, 39);
-            this.pictureBox24.TabIndex = 485;
-            this.pictureBox24.TabStop = false;
-            // 
             // rbtHzSkirtBtn
             // 
             this.rbtHzSkirtBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2326,17 +2087,6 @@ namespace PBET_Mainline
             this.rbtHzBumperBtn.Text = "HZ \r\nBumper\r\n";
             this.rbtHzBumperBtn.UseVisualStyleBackColor = false;
             this.rbtHzBumperBtn.Click += new System.EventHandler(this.rbtHzBumperBtn_Click);
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox23.BackColor = System.Drawing.Color.LightSalmon;
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox23.Location = new System.Drawing.Point(1366, 138);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(83, 423);
-            this.pictureBox23.TabIndex = 1009;
-            this.pictureBox23.TabStop = false;
             // 
             // robotLbl
             // 
@@ -2463,26 +2213,6 @@ namespace PBET_Mainline
             this.label32.TabIndex = 1019;
             this.label32.Text = "Hours";
             // 
-            // pictureBox28
-            // 
-            this.pictureBox28.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox28.Location = new System.Drawing.Point(8, 612);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox28.TabIndex = 1018;
-            this.pictureBox28.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox27.Location = new System.Drawing.Point(83, 612);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox27.TabIndex = 1026;
-            this.pictureBox27.TabStop = false;
-            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -2494,16 +2224,6 @@ namespace PBET_Mainline
             this.label33.Size = new System.Drawing.Size(53, 17);
             this.label33.TabIndex = 1027;
             this.label33.Text = "Actual";
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox29.Location = new System.Drawing.Point(158, 612);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox29.TabIndex = 1028;
-            this.pictureBox29.TabStop = false;
             // 
             // label29
             // 
@@ -2517,16 +2237,6 @@ namespace PBET_Mainline
             this.label29.TabIndex = 1029;
             this.label29.Text = "Var";
             // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox25.Location = new System.Drawing.Point(233, 612);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox25.TabIndex = 1030;
-            this.pictureBox25.TabStop = false;
-            // 
             // label30
             // 
             this.label30.AutoSize = true;
@@ -2539,16 +2249,6 @@ namespace PBET_Mainline
             this.label30.TabIndex = 1031;
             this.label30.Text = "Scrap";
             // 
-            // pictureBox26
-            // 
-            this.pictureBox26.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox26.Location = new System.Drawing.Point(308, 612);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox26.TabIndex = 1032;
-            this.pictureBox26.TabStop = false;
-            // 
             // label34
             // 
             this.label34.AutoSize = true;
@@ -2560,16 +2260,6 @@ namespace PBET_Mainline
             this.label34.Size = new System.Drawing.Size(29, 17);
             this.label34.TabIndex = 1033;
             this.label34.Text = "DT";
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox30.Location = new System.Drawing.Point(383, 612);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(69, 32);
-            this.pictureBox30.TabIndex = 1034;
-            this.pictureBox30.TabStop = false;
             // 
             // button1
             // 
@@ -2672,9 +2362,319 @@ namespace PBET_Mainline
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(161, 39);
             this.button6.TabIndex = 1041;
-            this.button6.Text = "MLU Bumpers";
+            this.button6.Text = "MLU Bumper";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox30.Location = new System.Drawing.Point(383, 612);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox30.TabIndex = 1034;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox26.Location = new System.Drawing.Point(308, 612);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox26.TabIndex = 1032;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox25.Location = new System.Drawing.Point(233, 612);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox25.TabIndex = 1030;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox29.Location = new System.Drawing.Point(158, 612);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox29.TabIndex = 1028;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox28.Location = new System.Drawing.Point(8, 612);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox28.TabIndex = 1018;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox23.BackColor = System.Drawing.Color.LightSalmon;
+            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox23.Location = new System.Drawing.Point(1366, 138);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(83, 423);
+            this.pictureBox23.TabIndex = 1009;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox24.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox24.Location = new System.Drawing.Point(8, 567);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(943, 39);
+            this.pictureBox24.TabIndex = 485;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox22.Location = new System.Drawing.Point(957, 612);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(115, 32);
+            this.pictureBox22.TabIndex = 126;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox21.Location = new System.Drawing.Point(836, 612);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(115, 32);
+            this.pictureBox21.TabIndex = 123;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox20.Location = new System.Drawing.Point(716, 612);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(113, 32);
+            this.pictureBox20.TabIndex = 120;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox19.Location = new System.Drawing.Point(592, 612);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(113, 32);
+            this.pictureBox19.TabIndex = 117;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox18.Location = new System.Drawing.Point(112, 138);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(61, 39);
+            this.pictureBox18.TabIndex = 50;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox16.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox16.Location = new System.Drawing.Point(1455, 138);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(83, 423);
+            this.pictureBox16.TabIndex = 38;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox15.Location = new System.Drawing.Point(536, 138);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(51, 39);
+            this.pictureBox15.TabIndex = 36;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox14.Location = new System.Drawing.Point(480, 138);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(51, 39);
+            this.pictureBox14.TabIndex = 34;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox13.Location = new System.Drawing.Point(267, 138);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(197, 39);
+            this.pictureBox13.TabIndex = 32;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox12.Location = new System.Drawing.Point(179, 138);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(82, 39);
+            this.pictureBox12.TabIndex = 30;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox11.Location = new System.Drawing.Point(48, 138);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(58, 39);
+            this.pictureBox11.TabIndex = 28;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox10.Location = new System.Drawing.Point(14, 138);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(26, 39);
+            this.pictureBox10.TabIndex = 26;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox9.Location = new System.Drawing.Point(1056, 85);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(269, 47);
+            this.pictureBox9.TabIndex = 23;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox8.Location = new System.Drawing.Point(723, 85);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(325, 47);
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox7.Location = new System.Drawing.Point(1331, 85);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(130, 47);
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox6.Location = new System.Drawing.Point(492, 85);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(224, 47);
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.Location = new System.Drawing.Point(344, 85);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(141, 47);
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Location = new System.Drawing.Point(14, 85);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(323, 47);
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Image = global::PBET_Mainline.Properties.Resources.logo;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(233, 79);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Location = new System.Drawing.Point(-15, 37);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1553, 42);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(204, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1334, 51);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox17.Location = new System.Drawing.Point(593, 138);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(175, 39);
+            this.pictureBox17.TabIndex = 1008;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox27.Location = new System.Drawing.Point(83, 612);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(69, 32);
+            this.pictureBox27.TabIndex = 1026;
+            this.pictureBox27.TabStop = false;
             // 
             // pictureBox31
             // 
@@ -2892,27 +2892,6 @@ namespace PBET_Mainline
             this.Name = "mainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.Load += new System.EventHandler(this.PBETMainline_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).EndInit();
@@ -2964,15 +2943,36 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

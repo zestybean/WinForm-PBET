@@ -29,18 +29,16 @@ namespace PBET_Mainline
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CartPopup));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.confBtn = new System.Windows.Forms.Button();
             this.txtPartNum = new System.Windows.Forms.TextBox();
             this.subLbl1 = new System.Windows.Forms.Label();
-            this.txtLotNum = new System.Windows.Forms.TextBox();
             this.txtColor = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.reworkChk = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,100 +46,130 @@ namespace PBET_Mainline
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::PBET_Mainline.Properties.Resources.logo;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Location = new System.Drawing.Point(194, 22);
             this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(225, 87);
+            this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.UseWaitCursor = true;
             // 
             // cancelBtn
             // 
             this.cancelBtn.BackColor = System.Drawing.SystemColors.Highlight;
-            resources.ApplyResources(this.cancelBtn, "cancelBtn");
+            this.cancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.cancelBtn.ForeColor = System.Drawing.Color.White;
+            this.cancelBtn.Location = new System.Drawing.Point(322, 314);
             this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(97, 42);
+            this.cancelBtn.TabIndex = 89;
+            this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = false;
-            this.cancelBtn.UseWaitCursor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // confBtn
             // 
             this.confBtn.BackColor = System.Drawing.SystemColors.Highlight;
-            resources.ApplyResources(this.confBtn, "confBtn");
+            this.confBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.confBtn.ForeColor = System.Drawing.Color.White;
+            this.confBtn.Location = new System.Drawing.Point(194, 314);
             this.confBtn.Name = "confBtn";
+            this.confBtn.Size = new System.Drawing.Size(97, 42);
+            this.confBtn.TabIndex = 88;
+            this.confBtn.Text = "Confirm";
             this.confBtn.UseVisualStyleBackColor = false;
-            this.confBtn.UseWaitCursor = true;
             this.confBtn.Click += new System.EventHandler(this.confBtn_Click);
             // 
             // txtPartNum
             // 
-            resources.ApplyResources(this.txtPartNum, "txtPartNum");
+            this.txtPartNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.txtPartNum.Location = new System.Drawing.Point(247, 149);
             this.txtPartNum.Name = "txtPartNum";
-            this.txtPartNum.UseWaitCursor = true;
+            this.txtPartNum.Size = new System.Drawing.Size(202, 29);
+            this.txtPartNum.TabIndex = 1;
             this.txtPartNum.TextChanged += new System.EventHandler(this.txtPartNum_TextChanged);
             // 
             // subLbl1
             // 
-            resources.ApplyResources(this.subLbl1, "subLbl1");
+            this.subLbl1.AutoSize = true;
+            this.subLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.subLbl1.Location = new System.Drawing.Point(118, 149);
             this.subLbl1.Name = "subLbl1";
-            this.subLbl1.UseWaitCursor = true;
-            // 
-            // txtLotNum
-            // 
-            resources.ApplyResources(this.txtLotNum, "txtLotNum");
-            this.txtLotNum.Name = "txtLotNum";
-            this.txtLotNum.UseWaitCursor = true;
-            this.txtLotNum.TextChanged += new System.EventHandler(this.txtLotNum_TextChanged);
+            this.subLbl1.Size = new System.Drawing.Size(139, 24);
+            this.subLbl1.TabIndex = 9;
+            this.subLbl1.Text = "Part Number: ";
             // 
             // txtColor
             // 
-            resources.ApplyResources(this.txtColor, "txtColor");
+            this.txtColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.txtColor.Location = new System.Drawing.Point(247, 219);
             this.txtColor.Name = "txtColor";
-            this.txtColor.UseWaitCursor = true;
+            this.txtColor.Size = new System.Drawing.Size(202, 29);
+            this.txtColor.TabIndex = 3;
             this.txtColor.TextChanged += new System.EventHandler(this.txtColor_TextChanged);
             // 
             // label2
             // 
-            resources.ApplyResources(this.label2, "label2");
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(185, 219);
             this.label2.Name = "label2";
-            this.label2.UseWaitCursor = true;
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            this.label1.UseWaitCursor = true;
+            this.label2.Size = new System.Drawing.Size(72, 24);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Color: ";
             // 
             // txtQuantity
             // 
-            resources.ApplyResources(this.txtQuantity, "txtQuantity");
+            this.txtQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.txtQuantity.Location = new System.Drawing.Point(247, 184);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.UseWaitCursor = true;
+            this.txtQuantity.Size = new System.Drawing.Size(202, 29);
+            this.txtQuantity.TabIndex = 2;
             this.txtQuantity.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
-            resources.ApplyResources(this.label3, "label3");
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label3.Location = new System.Drawing.Point(159, 184);
             this.label3.Name = "label3";
-            this.label3.UseWaitCursor = true;
+            this.label3.Size = new System.Drawing.Size(98, 24);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Quantity: ";
+            // 
+            // reworkChk
+            // 
+            this.reworkChk.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.reworkChk.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.reworkChk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reworkChk.Location = new System.Drawing.Point(247, 268);
+            this.reworkChk.Margin = new System.Windows.Forms.Padding(1);
+            this.reworkChk.Name = "reworkChk";
+            this.reworkChk.Padding = new System.Windows.Forms.Padding(5, 2, 5, 0);
+            this.reworkChk.Size = new System.Drawing.Size(113, 27);
+            this.reworkChk.TabIndex = 4;
+            this.reworkChk.Text = "Rework:";
+            this.reworkChk.UseVisualStyleBackColor = false;
+            this.reworkChk.CheckedChanged += new System.EventHandler(this.reworkChk_CheckedChanged);
             // 
             // CartPopup
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(624, 381);
+            this.Controls.Add(this.reworkChk);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtColor);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtLotNum);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.confBtn);
             this.Controls.Add(this.txtPartNum);
             this.Controls.Add(this.subLbl1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "CartPopup";
-            this.UseWaitCursor = true;
+            this.Text = "Cart Data Entry";
             this.Load += new System.EventHandler(this.CartPopup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -156,11 +184,10 @@ namespace PBET_Mainline
         private System.Windows.Forms.Button confBtn;
         private System.Windows.Forms.TextBox txtPartNum;
         private System.Windows.Forms.Label subLbl1;
-        private System.Windows.Forms.TextBox txtLotNum;
         private System.Windows.Forms.TextBox txtColor;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox reworkChk;
     }
 }

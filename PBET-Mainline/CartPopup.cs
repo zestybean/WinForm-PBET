@@ -13,13 +13,15 @@ namespace PBET_Mainline
     public partial class CartPopup : Form
     {
         public string partNum = "";
-        public string partLotNum = "";
         public string partQuantity = "";
         public string partColor = "";
+        public bool partRework = false;
 
         public CartPopup()
         {
             InitializeComponent();
+
+            partRework = reworkChk.Checked;
         }
 
         private void CartPopup_Load(object sender, EventArgs e)
@@ -43,12 +45,6 @@ namespace PBET_Mainline
             
         }
 
-        private void txtLotNum_TextChanged(object sender, EventArgs e)
-        {
-            partLotNum = txtLotNum.Text;
-           
-        }
-
         private void txtColor_TextChanged(object sender, EventArgs e)
         {
             partColor = txtColor.Text;
@@ -57,6 +53,11 @@ namespace PBET_Mainline
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             partQuantity = txtQuantity.Text;
+        }
+
+        private void reworkChk_CheckedChanged(object sender, EventArgs e)
+        {
+            partRework = reworkChk.Checked;
         }
     }
 }

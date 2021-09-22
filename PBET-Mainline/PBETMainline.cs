@@ -518,7 +518,7 @@ namespace PBET_Mainline
         /// </summary>
         private void addBlankBtn_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear", "Clear");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear");
         }
 
 
@@ -531,7 +531,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -547,7 +547,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fronts", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fronts", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -562,7 +562,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Rears", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Rears", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -577,7 +577,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -592,7 +592,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fenders", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Fenders", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -611,7 +611,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender ROBOT", cartDataEntry.partNum, cartDataEntry.partLotNum, "10", cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper/Fender ROBOT", cartDataEntry.partNum, "10", cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -626,7 +626,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper ROBOT", cartDataEntry.partNum, cartDataEntry.partLotNum, "6", cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "HZ Bumper ROBOT", cartDataEntry.partNum, "6", cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -660,7 +660,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fwd Fairings", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Fwd Fairings", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -675,7 +675,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Ctr Fairings", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Ctr Fairings", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {
@@ -690,7 +690,7 @@ namespace PBET_Mainline
 
             if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
             {
-                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumper", cartDataEntry.partNum, cartDataEntry.partLotNum, cartDataEntry.partQuantity, cartDataEntry.partColor);
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Bumper", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
             }
             else
             {

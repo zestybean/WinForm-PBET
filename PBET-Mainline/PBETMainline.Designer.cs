@@ -29,6 +29,7 @@ namespace PBET_Mainline
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.dtPicker = new System.Windows.Forms.DateTimePicker();
             this.pbTitle = new System.Windows.Forms.Label();
@@ -164,7 +165,6 @@ namespace PBET_Mainline
             this.machineTf = new System.Windows.Forms.TextBox();
             this.deptTf = new System.Windows.Forms.TextBox();
             this.custTf = new System.Windows.Forms.TextBox();
-            this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.TimeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PartDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -228,6 +228,8 @@ namespace PBET_Mainline
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
@@ -277,7 +279,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
@@ -310,6 +311,7 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dtPicker
@@ -1958,11 +1960,6 @@ namespace PBET_Mainline
             this.custTf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.custTf.TextChanged += new System.EventHandler(this.opTf_TextChanged);
             // 
-            // pBETDBDataSet
-            // 
-            this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
-            this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToResizeColumns = false;
@@ -2688,6 +2685,17 @@ namespace PBET_Mainline
             this.pictureBox31.TabIndex = 1042;
             this.pictureBox31.TabStop = false;
             // 
+            // pBETDBDataSet
+            // 
+            this.pBETDBDataSet.DataSetName = "PBETDBDataSet";
+            this.pBETDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 1800000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2941,7 +2949,6 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.downTf11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scrapTf11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
@@ -2974,6 +2981,7 @@ namespace PBET_Mainline
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBETDBDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3179,6 +3187,8 @@ namespace PBET_Mainline
         private System.Windows.Forms.DataGridViewTextBoxColumn Qty;
         private System.Windows.Forms.DataGridViewTextBoxColumn PartColor;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Rework;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

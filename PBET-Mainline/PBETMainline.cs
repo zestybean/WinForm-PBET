@@ -38,16 +38,18 @@ namespace PBET_Mainline
 
         string prevColor = "";
 
+
+
         public mainForm()
         {
+            
             InitializeComponent();
+            timer2.Start();
         }
-
-       
 
         private void PBETMainline_Load(object sender, EventArgs e)
         {
-       
+
             //ON LOAD
             AutoCompleteStringCollection sugMachine = new AutoCompleteStringCollection();
             AutoCompleteStringCollection sugDept = new AutoCompleteStringCollection();
@@ -383,7 +385,7 @@ namespace PBET_Mainline
                 // Show testDialog as a modal dialog and determine if DialogResult = OK.
                 if (popSubmitForm.ShowDialog(this) == DialogResult.OK)
                 {
-                    saveDataToExcel();
+                    saveDataToExcel(temp: false);
                     ClearTextBoxes();
                 }
                 else
@@ -442,13 +444,22 @@ namespace PBET_Mainline
             func(Controls);
         }
 
-        private void saveDataToExcel()
+        private void saveDataToExcel(bool temp)
         {
             //EXPORT TO EXCEL STARTS HERE
             DataTable dt = new DataTable();
 
+            string path = "";
+
             var date = DateTime.Now;
-            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+            if (!temp)
+            {
+                path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+            } else
+            {
+                path = $@"C:\test\paceTemp.xlsx";
+            }
+            
 
             var workbook = new XLWorkbook();
 
@@ -741,6 +752,11 @@ namespace PBET_Mainline
                 //Cancel
             }
             cartDataEntry.Dispose();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            saveDataToExcel(temp: true);
         }
     }
 }

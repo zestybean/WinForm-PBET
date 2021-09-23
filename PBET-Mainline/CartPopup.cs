@@ -17,11 +17,11 @@ namespace PBET_Mainline
         public string partColor = "";
         public bool partRework = false;
 
-        public CartPopup()
+        public CartPopup(string prevColor)
         {
             InitializeComponent();
-
             partRework = reworkChk.Checked;
+            txtColor.Text = prevColor;
         }
 
         private void CartPopup_Load(object sender, EventArgs e)

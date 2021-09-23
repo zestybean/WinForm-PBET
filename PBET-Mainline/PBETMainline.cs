@@ -444,37 +444,36 @@ namespace PBET_Mainline
 
         private void saveDataToExcel()
         {
+            //EXPORT TO EXCEL STARTS HERE
             DataTable dt = new DataTable();
-            
-            
+
+            var date = DateTime.Now;
+            string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+
+            var workbook = new XLWorkbook();
+
+            //HRxHR
             foreach (DataGridViewColumn col in dataGridView1.Columns)
             {
-                dt.Columns.Add(col.HeaderText, col.ValueType);
+                dt.Columns.Add(col.HeaderText);
             }
-                foreach (DataGridViewRow row in dataGridView1.Rows)
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                dt.Rows.Add();
+                foreach (DataGridViewCell cell in row.Cells)
                 {
-                    dt.Rows.Add();
-                    foreach (DataGridViewCell cell in row.Cells)
-                    {
-                        dt.Rows[dt.Rows.Count - 1][cell.ColumnIndex] = cell.Value.ToString();
-                    }
+                    dt.Rows[dt.Rows.Count - 1][cell.ColumnIndex] = cell.Value;
                 }
+            }
 
-                string folderPath = "C:\\test\\";
-
-                using (XLWorkbook xlfile = new XLWorkbook())
-                {
-                    xlfile.Worksheets.Add(dt, "parts");
-                    xlfile.SaveAs(folderPath + "data.xlsx");
-                }
-
-                /*
-                var date = DateTime.Now;
-                string path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+         
+                workbook.Worksheets.Add(dt, "HRxHR Parts");
+                workbook.SaveAs(path);
+        
 
                 //SUBMIT TO EXCEL
-                var workbook = new XLWorkbook();
-                var worksheet = workbook.Worksheets.Add("Summary Report");
+                //PACEBOARD
+                var worksheet = workbook.Worksheets.Add("Paceboard Summary");
                 //Title
                 worksheet.Cell("A1").Value = "Paceboard Data";
                 //Headings
@@ -500,7 +499,7 @@ namespace PBET_Mainline
                 worksheet.Cell("F5").Value = mainDowntime;
 
                 workbook.SaveAs(path);
-                */
+                
             }
 
         private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -520,7 +519,7 @@ namespace PBET_Mainline
         {
             //Clear the color
             prevColor = "";
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear");
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear", false);
         }
 
 

@@ -166,6 +166,12 @@ namespace PBET_Mainline
             this.custTf = new System.Windows.Forms.TextBox();
             this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TimeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Rework = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.clearCartBtn = new System.Windows.Forms.Button();
             this.hzBumberBtn = new System.Windows.Forms.Button();
             this.hzSkirtBtn = new System.Windows.Forms.Button();
@@ -222,12 +228,6 @@ namespace PBET_Mainline
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.TimeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PartDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PartNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PartColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Rework = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
@@ -1983,6 +1983,36 @@ namespace PBET_Mainline
             this.dataGridView1.Size = new System.Drawing.Size(580, 422);
             this.dataGridView1.TabIndex = 1004;
             // 
+            // TimeIn
+            // 
+            this.TimeIn.HeaderText = "TimeIn";
+            this.TimeIn.Name = "TimeIn";
+            // 
+            // PartDescription
+            // 
+            this.PartDescription.HeaderText = "Part Description";
+            this.PartDescription.Name = "PartDescription";
+            // 
+            // PartNumber
+            // 
+            this.PartNumber.HeaderText = "Part Number";
+            this.PartNumber.Name = "PartNumber";
+            // 
+            // Qty
+            // 
+            this.Qty.HeaderText = "Qty";
+            this.Qty.Name = "Qty";
+            // 
+            // PartColor
+            // 
+            this.PartColor.HeaderText = "Color";
+            this.PartColor.Name = "PartColor";
+            // 
+            // Rework
+            // 
+            this.Rework.HeaderText = "Rework";
+            this.Rework.Name = "Rework";
+            // 
             // clearCartBtn
             // 
             this.clearCartBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2657,36 +2687,6 @@ namespace PBET_Mainline
             this.pictureBox31.Size = new System.Drawing.Size(590, 39);
             this.pictureBox31.TabIndex = 1042;
             this.pictureBox31.TabStop = false;
-            // 
-            // TimeIn
-            // 
-            this.TimeIn.HeaderText = "TimeIn";
-            this.TimeIn.Name = "TimeIn";
-            // 
-            // PartDescription
-            // 
-            this.PartDescription.HeaderText = "Part Description";
-            this.PartDescription.Name = "PartDescription";
-            // 
-            // PartNumber
-            // 
-            this.PartNumber.HeaderText = "Part Number";
-            this.PartNumber.Name = "PartNumber";
-            // 
-            // Qty
-            // 
-            this.Qty.HeaderText = "Qty";
-            this.Qty.Name = "Qty";
-            // 
-            // PartColor
-            // 
-            this.PartColor.HeaderText = "Color";
-            this.PartColor.Name = "PartColor";
-            // 
-            // Rework
-            // 
-            this.Rework.HeaderText = "Rework";
-            this.Rework.Name = "Rework";
             // 
             // mainForm
             // 

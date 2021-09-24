@@ -38,8 +38,6 @@ namespace PBET_Mainline
 
         string prevColor = "";
 
-
-
         public mainForm()
         {
             
@@ -400,6 +398,12 @@ namespace PBET_Mainline
         {
             Action<Control.ControlCollection> func = null;
 
+            //Reset color
+            prevColor = "";
+
+            //Clear data grid
+            dataGridView1.Rows.Clear();
+
             mainGoal = 0;
             mainActual = 0;
             mainVariance = 0;
@@ -757,6 +761,11 @@ namespace PBET_Mainline
         private void timer2_Tick(object sender, EventArgs e)
         {
             saveDataToExcel(temp: true);
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+           
         }
     }
 }

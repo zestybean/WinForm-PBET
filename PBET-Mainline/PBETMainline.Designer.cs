@@ -230,6 +230,7 @@ namespace PBET_Mainline
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
@@ -2696,6 +2697,16 @@ namespace PBET_Mainline
             this.timer2.Interval = 1800000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(1210, 685);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 1043;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2704,6 +2715,7 @@ namespace PBET_Mainline
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1550, 729);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.mluFwdFairBtn);
@@ -3189,6 +3201,7 @@ namespace PBET_Mainline
         private System.Windows.Forms.DataGridViewCheckBoxColumn Rework;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button button4;
     }
 }
 

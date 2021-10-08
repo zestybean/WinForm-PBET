@@ -59,5 +59,10 @@ namespace PBET_Mainline
         {
             partRework = reworkChk.Checked;
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

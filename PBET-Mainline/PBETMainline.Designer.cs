@@ -230,7 +230,8 @@ namespace PBET_Mainline
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pBETDBDataSet = new PBET_Mainline.PBETDBDataSet();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.button4 = new System.Windows.Forms.Button();
+            this.mluRoofBtn = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.shiftTf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goalTf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.actTf1)).BeginInit();
@@ -613,7 +614,7 @@ namespace PBET_Mainline
             this.label25.BackColor = System.Drawing.SystemColors.Highlight;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(665, 627);
+            this.label25.Location = new System.Drawing.Point(571, 627);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(40, 17);
             this.label25.TabIndex = 118;
@@ -625,7 +626,7 @@ namespace PBET_Mainline
             this.label26.BackColor = System.Drawing.SystemColors.Highlight;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(743, 627);
+            this.label26.Location = new System.Drawing.Point(649, 627);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(86, 17);
             this.label26.TabIndex = 121;
@@ -637,7 +638,7 @@ namespace PBET_Mainline
             this.label27.BackColor = System.Drawing.SystemColors.Highlight;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(851, 627);
+            this.label27.Location = new System.Drawing.Point(757, 627);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(100, 17);
             this.label27.TabIndex = 124;
@@ -649,7 +650,7 @@ namespace PBET_Mainline
             this.label28.BackColor = System.Drawing.SystemColors.Highlight;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1013, 627);
+            this.label28.Location = new System.Drawing.Point(919, 627);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 17);
             this.label28.TabIndex = 127;
@@ -659,7 +660,7 @@ namespace PBET_Mainline
             // 
             this.oeeLbl.AutoSize = true;
             this.oeeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oeeLbl.Location = new System.Drawing.Point(587, 644);
+            this.oeeLbl.Location = new System.Drawing.Point(493, 644);
             this.oeeLbl.Name = "oeeLbl";
             this.oeeLbl.Size = new System.Drawing.Size(22, 29);
             this.oeeLbl.TabIndex = 130;
@@ -670,7 +671,7 @@ namespace PBET_Mainline
             // 
             this.avaiLbl.AutoSize = true;
             this.avaiLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avaiLbl.Location = new System.Drawing.Point(711, 644);
+            this.avaiLbl.Location = new System.Drawing.Point(617, 644);
             this.avaiLbl.Name = "avaiLbl";
             this.avaiLbl.Size = new System.Drawing.Size(78, 29);
             this.avaiLbl.TabIndex = 131;
@@ -681,7 +682,7 @@ namespace PBET_Mainline
             // 
             this.perfLbl.AutoSize = true;
             this.perfLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perfLbl.Location = new System.Drawing.Point(831, 644);
+            this.perfLbl.Location = new System.Drawing.Point(737, 644);
             this.perfLbl.Name = "perfLbl";
             this.perfLbl.Size = new System.Drawing.Size(78, 29);
             this.perfLbl.TabIndex = 132;
@@ -692,7 +693,7 @@ namespace PBET_Mainline
             // 
             this.quaLbl.AutoSize = true;
             this.quaLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quaLbl.Location = new System.Drawing.Point(952, 644);
+            this.quaLbl.Location = new System.Drawing.Point(858, 644);
             this.quaLbl.Name = "quaLbl";
             this.quaLbl.Size = new System.Drawing.Size(22, 29);
             this.quaLbl.TabIndex = 133;
@@ -2312,7 +2313,7 @@ namespace PBET_Mainline
             this.label35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(948, 567);
+            this.label35.Location = new System.Drawing.Point(959, 567);
             this.label35.Name = "label35";
             this.label35.Padding = new System.Windows.Forms.Padding(1, 0, 1, 1);
             this.label35.Size = new System.Drawing.Size(89, 39);
@@ -2441,7 +2442,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox22.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox22.Location = new System.Drawing.Point(957, 612);
+            this.pictureBox22.Location = new System.Drawing.Point(863, 612);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(115, 32);
             this.pictureBox22.TabIndex = 126;
@@ -2451,7 +2452,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox21.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox21.Location = new System.Drawing.Point(836, 612);
+            this.pictureBox21.Location = new System.Drawing.Point(742, 612);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(115, 32);
             this.pictureBox21.TabIndex = 123;
@@ -2461,7 +2462,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox20.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox20.Location = new System.Drawing.Point(716, 612);
+            this.pictureBox20.Location = new System.Drawing.Point(622, 612);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(113, 32);
             this.pictureBox20.TabIndex = 120;
@@ -2471,7 +2472,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox19.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox19.Location = new System.Drawing.Point(592, 612);
+            this.pictureBox19.Location = new System.Drawing.Point(498, 612);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(113, 32);
             this.pictureBox19.TabIndex = 117;
@@ -2676,13 +2677,12 @@ namespace PBET_Mainline
             // 
             // pictureBox31
             // 
-            this.pictureBox31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox31.BackColor = System.Drawing.Color.MediumAquamarine;
             this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox31.Location = new System.Drawing.Point(948, 567);
+            this.pictureBox31.Location = new System.Drawing.Point(1043, 567);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(590, 39);
+            this.pictureBox31.Size = new System.Drawing.Size(495, 84);
             this.pictureBox31.TabIndex = 1042;
             this.pictureBox31.TabStop = false;
             // 
@@ -2697,15 +2697,35 @@ namespace PBET_Mainline
             this.timer2.Interval = 1800000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // button4
+            // mluRoofBtn
             // 
-            this.button4.Location = new System.Drawing.Point(1210, 685);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 1043;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.mluRoofBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.mluRoofBtn.AutoSize = true;
+            this.mluRoofBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.mluRoofBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mluRoofBtn.ForeColor = System.Drawing.Color.White;
+            this.mluRoofBtn.Location = new System.Drawing.Point(1043, 612);
+            this.mluRoofBtn.Name = "mluRoofBtn";
+            this.mluRoofBtn.Size = new System.Drawing.Size(161, 39);
+            this.mluRoofBtn.TabIndex = 1043;
+            this.mluRoofBtn.Text = "MLU Roof";
+            this.mluRoofBtn.UseVisualStyleBackColor = false;
+            this.mluRoofBtn.Click += new System.EventHandler(this.mluRoofBtn_Click);
+            // 
+            // button7
+            // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button7.AutoSize = true;
+            this.button7.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(1210, 612);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(161, 39);
+            this.button7.TabIndex = 1044;
+            this.button7.Text = "MLU Components";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // mainForm
             // 
@@ -2715,7 +2735,8 @@ namespace PBET_Mainline
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1550, 729);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.mluRoofBtn);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.mluFwdFairBtn);
@@ -3201,7 +3222,8 @@ namespace PBET_Mainline
         private System.Windows.Forms.DataGridViewCheckBoxColumn Rework;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button mluRoofBtn;
+        private System.Windows.Forms.Button button7;
     }
 }
 

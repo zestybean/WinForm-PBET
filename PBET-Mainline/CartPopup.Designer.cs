@@ -46,7 +46,7 @@ namespace PBET_Mainline
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::PBET_Mainline.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(194, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(194, 38);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(225, 87);
             this.pictureBox1.TabIndex = 8;

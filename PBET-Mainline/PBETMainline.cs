@@ -458,10 +458,10 @@ namespace PBET_Mainline
             var date = DateTime.Now;
             if (!temp)
             {
-                path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\{machineTf.Text}-{date.ToString(@"MM-dd-yy")}.xlsx";
+                path = $@"\\hail\Shared\Pace Board\PaceboardData\Week-{weekOfYearNum() - 1}\{date.DayOfWeek}\Shift-{shiftTf.Value}\SHIFT{shiftTf.Value}-{machineTf.Text.ToUpper()}-{date.ToString(@"MM-dd-yy")}.xlsx";
             } else
             {
-                path = $@"C:\test\paceTemp.xlsx";
+                path = $@"C:\PaceboardBackup\Shift{shiftTf.Value}-{machineTf.Text.ToUpper()}-Temp.xlsx";
             }
             
 
@@ -534,7 +534,7 @@ namespace PBET_Mainline
         {
             //Clear the color
             prevColor = "";
-            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "Clear", "Clear", false);
+            this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "Clear", "Clear", "0", "Clear", false);
         }
 
 
@@ -758,14 +758,43 @@ namespace PBET_Mainline
             cartDataEntry.Dispose();
         }
 
+        private void mluRoofBtn_Click(object sender, EventArgs e)
+        {
+            CartPopup cartDataEntry = new CartPopup(prevColor: prevColor);
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                prevColor = cartDataEntry.partColor;
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Roof", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            CartPopup cartDataEntry = new CartPopup(prevColor: prevColor);
+
+            if (cartDataEntry.ShowDialog(this) == DialogResult.OK)
+            {
+                prevColor = cartDataEntry.partColor;
+                this.dataGridView1.Rows.Add(DateTime.Now.ToString("HH:mm:ss tt"), "MLU Component", cartDataEntry.partNum, cartDataEntry.partQuantity, cartDataEntry.partColor, cartDataEntry.partRework);
+            }
+            else
+            {
+                //Cancel
+            }
+            cartDataEntry.Dispose();
+        }
+
         private void timer2_Tick(object sender, EventArgs e)
         {
             saveDataToExcel(temp: true);
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-           
-        }
+       
     }
 }
